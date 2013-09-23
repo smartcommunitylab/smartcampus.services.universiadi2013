@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service-definition xmlns="http://www.example.org/interface-schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/interface-schema ../interface-schema.xsd ">
+
+	<interface serviceURI="it.sayservice.ext.universiadi2013">
+		<operation name="GetPoiFromCsv" storable="true">
+			<parameter name="csv" type="java.lang.String"/>
+			<output type="it.sayservice.services.universiadi2013.data.message.Data.Poi"
+				repeated="true" />
+		</operation>
+		<operation name="GetNews" storable="true">
+			<output type="it.sayservice.services.universiadi2013.data.message.Data.News"
+				repeated="true" />
+		</operation>
+		<operation name="GetVenues" storable="true">
+			<output type="it.sayservice.services.universiadi2013.data.message.Data.Venue"
+				repeated="true" />
+		</operation>
+		<operation name="GetEvents" storable="true">
+			<output type="it.sayservice.services.universiadi2013.data.message.Data.Event"
+				repeated="true" />
+		</operation>
+	</interface>
+
+	<implementation package="it.sayservice.services.universiadi2013">
+	   <operationImpl name="GetPoiFromCsv" />
+	   <operationImpl name="GetNews" />
+	   <operationImpl name="GetVenues" />
+	</implementation>
+		
+</service-definition>

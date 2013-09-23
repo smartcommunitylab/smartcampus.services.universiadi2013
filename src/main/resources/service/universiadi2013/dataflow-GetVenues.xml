@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataflow xmlns="http://www.example.org/mml-schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.example.org/mml-schema mml-schema.xsd ">
+
+	<output/>
+
+	<variable name="datiJson" type="java.lang.String" />
+	
+	<loadresource outputVar="datiJson" resourceType="string">
+		<resource>"service/universiadi2013/venue.json"</resource>
+	</loadresource>
+	
+	<script outputVar="output" writeAction="update">
+	  <className>it.sayservice.services.universiadi2013.script.ScriptBody</className>
+	  <method>getVenues</method>
+	  <variables>
+	    <value>datiJson</value>
+	  </variables>
+	</script>
+	
+</dataflow>

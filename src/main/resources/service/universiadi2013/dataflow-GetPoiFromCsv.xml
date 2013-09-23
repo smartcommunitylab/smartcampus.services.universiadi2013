@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataflow xmlns="http://www.example.org/mml-schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.example.org/mml-schema mml-schema.xsd ">
+
+	<input name="csv" type="java.lang.String" />
+	<output/>
+
+	<variable name="datiCsv" type="java.lang.String" />
+	
+	<loadresource outputVar="datiCsv" resourceType="string">
+		<resource>"service/universiadi2013/" + csv</resource>
+	</loadresource>
+	
+	<script outputVar="output" writeAction="update">
+	  <className>it.sayservice.services.universiadi2013.script.ScriptBody</className>
+	  <method>getPoiFromCsv</method>
+	  <variables>
+	    <value>datiCsv</value>
+	  </variables>
+	</script>
+	
+</dataflow>

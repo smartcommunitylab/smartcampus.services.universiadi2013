@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataflow xmlns="http://www.example.org/mml-schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.example.org/mml-schema mml-schema.xsd ">
+
+	<output/>
+
+	<variable name="datiJsonIt" type="java.lang.String" />
+	<variable name="datiJsonEn" type="java.lang.String" />
+	
+	<httpConnector name="newsJSON" method="GET" encoding="UTF-8" />
+	
+	<connect name="c1" connector="newsJSON" transformer="string" outputVar="datiJsonIt">
+		<properties>
+			<property name="url">
+				<value>"http://v4m-vps5.juniper-xs.it/v4web/uni2013?RefOwner=6A02F0E4B7EA457E90F11E341D60E444&amp;lang=IT"</value>
+			</property>
+		</properties>
+	</connect>
+	
+	<connect name="c2" connector="newsJSON" transformer="string" outputVar="datiJsonEn">
+		<properties>
+			<property name="url">
+				<value>"http://v4m-vps5.juniper-xs.it/v4web/uni2013?RefOwner=6A02F0E4B7EA457E90F11E341D60E444&amp;lang=EN"</value>
+			</property>
+		</properties>
+	</connect>
+	
+	<script outputVar="output" writeAction="update">
+	  <className>it.sayservice.services.universiadi2013.script.ScriptBody</className>
+	  <method>getNews</method>
+	  <variables>
+	    <value>datiJsonIt</value>
+	    <value>datiJsonEn</value>
+	  </variables>
+	</script>
+	
+</dataflow>

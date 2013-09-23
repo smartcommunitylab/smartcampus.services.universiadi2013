@@ -1,0 +1,91 @@
+package it.sayservice.services.universiadi2013.data.message;
+
+import "core.proto";
+
+message KeyValue {
+	required string key = 1;
+	optional string value = 2;
+}
+
+message Image {
+	required string imageUrl = 1;
+	repeated KeyValue caption = 2;
+}
+
+message Coordinate {
+  required double latitude = 1;
+  required double longitude = 2;
+}
+
+message Contact {
+	repeated KeyValue name = 1;
+	optional string phone = 2;
+	optional string fax = 3;
+	optional string email = 4;
+	optional string url = 5;
+}
+
+message Address {
+	required string lang = 1;
+	optional string street = 2;
+	optional string postalCode = 3;
+	optional string city = 4;
+}
+
+message Location {
+	required Coordinate coordinate = 1;
+	repeated Address address = 2;
+}
+
+message Poi {
+	required string id = 1;
+	required string category = 2;
+	repeated KeyValue name = 3;
+	repeated KeyValue description = 4;
+	repeated KeyValue longDescription = 5;
+	repeated KeyValue serviceDescription = 6;
+	repeated string topic = 7;
+	required Location location = 8;
+	repeated Image image = 9;
+	optional Contact contact = 10;
+	repeated KeyValue timetable = 11;
+	repeated KeyValue price = 12;
+	repeated KeyValue seatingCapacity = 13;
+	repeated KeyValue accessibility = 14; 
+}
+
+message News {
+	required string id = 1;
+	repeated KeyValue title = 2;
+	repeated KeyValue shortDesc = 3;
+	required string category = 4;
+	required string published = 5;
+	optional Contact contact = 6;
+	repeated KeyValue longDesc = 7;
+	optional string url = 8;
+	optional string imageUrl = 9;
+	optional string poiId = 10;
+	optional string eventId = 11;
+}
+
+message Event {
+	required string id = 1;
+	repeated KeyValue title = 2;
+	repeated KeyValue shortDesc = 3;
+	repeated KeyValue longDesc = 4;
+	required string category = 5;
+	required string startDate = 6;
+	required string endDate = 7;
+	optional Contact contact = 8;
+	optional string url = 9;
+	optional string imageUrl = 10;
+	optional string poiId = 11;
+}
+
+message Venue {
+	required string id = 1;
+	required string category = 2;
+	repeated KeyValue name = 3;
+	required Location location = 4;
+	repeated string tag = 5;
+}
