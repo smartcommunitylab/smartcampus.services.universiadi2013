@@ -4,6 +4,7 @@ import it.sayservice.platform.core.bus.common.exception.PersistenceException;
 import it.sayservice.platform.core.common.exception.EntityNotFoundException;
 import it.sayservice.platform.core.common.exception.ServiceException;
 import it.sayservice.platform.servicebus.test.DataFlowTestHelper;
+import it.sayservice.services.universiadi2013.impl.GetCompetitionScheduleDataFlow;
 import it.sayservice.services.universiadi2013.impl.GetEventsDataFlow;
 import it.sayservice.services.universiadi2013.impl.GetNewsDataFlow;
 import it.sayservice.services.universiadi2013.impl.GetPoiFromCsvDataFlow;
@@ -44,4 +45,11 @@ public class TestPoiServiceDataFlow extends TestCase {
 		Map<String, Object> out = helper.executeDataFlow("it.sayservice.ext.universiadi2013", "GetEvents", new GetEventsDataFlow(), params);
 		System.out.println(out);
 	}
+	public void testScheduleFlow() throws ServiceException, EntityNotFoundException, PersistenceException {
+		Map<String, Object> params = new HashMap<String, Object>();
+		DataFlowTestHelper helper = new DataFlowTestHelper();
+		Map<String, Object> out = helper.executeDataFlow("it.sayservice.ext.universiadi2013", "GetCompetitionSchedule", new GetCompetitionScheduleDataFlow(), params);
+		System.out.println(out);
+	}
+
 }
