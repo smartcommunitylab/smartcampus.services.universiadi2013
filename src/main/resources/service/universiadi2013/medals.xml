@@ -1,0 +1,79 @@
+<xss:definition 
+  main="medals" name="medals" namespace="http://tempuri.org" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:xss="http://www.sayservice.it/xss" 
+  xmlns="http://www.sayservice.it/html"
+  xsi:noNamespaceSchemaLocation="../../main/resources/html.xsd"
+  xsi:schemaLocation="http://www.sayservice.it/xss ../../main/resources/xsstar-in.xsd ">
+
+	<xss:template name="medals">
+		<html xss:anyAttrs="true">
+		<xss:path path=".//*[@id='content']/div[4]/div[3]">
+			<div class="contentitem histMedals">
+				<table xss:anyAttrs="true">
+					<thead xss:anyAttrs="true" xss:anyContent="true" />
+					<tbody>
+						<xss:repeat>
+							<tr xss:anyAttrs="true" xss:label="nation">
+								<td xss:anyAttrs="true">
+									<xss:anyText label="rank" />
+									<span xss:anyAttrs="true" xss:anyContent="true" />
+								</td>
+								<td>
+									<a xss:anyAttrs="true">
+										<span xss:anyAttrs="true">
+											<a xss:anyAttrs="true">
+												<img xss:anyAttrs="true" xss:anyContent="true" />
+												<xss:structured-text>
+													<xss:text pattern="^." />
+													<xss:anyText label="nationCode" />
+												</xss:structured-text>
+											</a>
+											<xss:structured-text>
+												<xss:text pattern="^(- )" />
+												<xss:anyText label="nationName" />
+											</xss:structured-text>
+										</span>
+									</a>
+								</td>
+								<td xss:anyAttrs="true">
+									<a xss:anyAttrs="true">
+										<xss:optional>
+											<xss:anyText label="gold" />
+										</xss:optional>
+									</a>
+								</td>
+								<td xss:anyAttrs="true">
+									<a xss:anyAttrs="true">
+										<xss:optional>
+											<xss:anyText label="silver" />
+										</xss:optional>
+									</a>
+								</td>
+								<td xss:anyAttrs="true">
+									<a xss:anyAttrs="true">
+										<xss:optional>
+											<xss:anyText label="bronze" />
+										</xss:optional>
+									</a>
+								</td>
+								<td xss:anyAttrs="true">
+									<a xss:anyAttrs="true">
+										<xss:anyText label="total" />
+									</a>
+								</td>
+								<td xss:anyAttrs="true">
+									<xss:anyText label="rankByTotal" />
+									<span xss:anyAttrs="true" xss:anyContent="true" />
+								</td>
+							</tr>
+						</xss:repeat>
+					</tbody>
+					<tfoot xss:anyAttrs="true" xss:anyContent="true" />
+				</table>
+			</div>
+		</xss:path>
+		</html>
+	</xss:template>
+	
+</xss:definition>

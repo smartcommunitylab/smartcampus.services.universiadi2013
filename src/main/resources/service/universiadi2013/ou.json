@@ -1,0 +1,2017 @@
+[{
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=719&s=39",
+    "name" : "Appartamenti via Dos Trento",
+    "localId" : "719",
+    "address" : "via Dos Trento, 35 e 37 ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=719&s=39",
+    "description" : "Gli appartamenti, completamente arredati, si trovano non lontani dalle Facoltà dislocate in città.",
+    "lat" : 46.075061574414,
+    "lng" : 11.113733053207398,
+    "label" : "-",
+    "imgUrl" : "../../Upload/cms/211_x/Doss_Trento_(5).jpg",
+    "poi" : {
+      "poiId" : "719@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Lodging"],
+      "coordinate" : {
+        "latitude" : 46.075061574414,
+        "longitude" : 11.1137330532074,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Dos Trento, 35 e 37"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=2577&s=39",
+    "name" : "Sala Lettura",
+    "localId" : "2577",
+    "address" : "via Prepositura, 48 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=2577&s=39",
+    "description" : "L&#146;orario di apertura della Salla Lettura è il seguente:",
+    "lat" : 46.06221387774562,
+    "lng" : 11.113100051879883,
+    "label" : "-",
+    "imgUrl" : "../../Upload/cms/211_x/AgFB270906_022.jpg",
+    "poi" : {
+      "poiId" : "2577@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Libraries"],
+      "coordinate" : {
+        "latitude" : 46.0622138777456,
+        "longitude" : 11.1131000518799,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Prepositura, 48 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=6569&s=39",
+    "name" : "s.bartolameo blocco A",
+    "localId" : "6569",
+    "address" : "blocco A int 0 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=6569&s=39",
+    "description" : "",
+    "lat" : 46.04595271483069,
+    "lng" : 11.133613586425781,
+    "label" : "-",
+    "imgUrl" : "../../Upload/cms/211_x/Stitched_002.JPG",
+    "poi" : {
+      "poiId" : "6569@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Lodging"],
+      "coordinate" : {
+        "latitude" : 46.0459527148307,
+        "longitude" : 11.1336135864258,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "blocco A int 0 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=10903&s=39",
+    "name" : "Mensa Povo1 e Bar caffetteria",
+    "localId" : "10903",
+    "address" : "via Sommarive c/o Polo scientifico-tecnologico F. Ferrari Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=10903&s=39",
+    "description" : "via Sommarive c/o Polo scientifico-tecnologico F. Ferrari\ndal lunedì al venerdì",
+    "lat" : 46.068139374757308,
+    "lng" : 11.150393486022949,
+    "label" : "-",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "10903@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Food"],
+      "coordinate" : {
+        "latitude" : 46.0681393747573,
+        "longitude" : 11.150393486023,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Sommarive c/o Polo scientifico-tecnologico F. Ferrari Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=11691&s=39",
+    "name" : "Residenza San Bartolameo",
+    "localId" : "11691",
+    "address" : "via della Malpensada, 140 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=11691&s=39",
+    "description" : "via della Malpensada, 140\nTel: (+39) 0461. 217490",
+    "lat" : 46.045625059780704,
+    "lng" : 11.132047176361084,
+    "label" : "-",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "11691@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Lodging"],
+      "coordinate" : {
+        "latitude" : 46.0456250597807,
+        "longitude" : 11.1320471763611,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via della Malpensada, 140 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=12105&s=39",
+    "name" : "Appartamenti via Rovereti",
+    "localId" : "12105",
+    "address" : "via O. Rovereti, 2 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=12105&s=39",
+    "description" : "Gli appartamenti, completamente arredati, si trovano non lontani dalle facoltà dislocate in città.",
+    "lat" : 46.060233607562544,
+    "lng" : 11.122777462005615,
+    "label" : "-",
+    "imgUrl" : "../../Upload/cms/211_x/Via_Rovereti_(3).jpg",
+    "poi" : {
+      "poiId" : "12105@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Lodging"],
+      "coordinate" : {
+        "latitude" : 46.0602336075625,
+        "longitude" : 11.1227774620056,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via O. Rovereti, 2 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=12112&s=39",
+    "name" : "Appartamenti via Garibaldi, 16 Rovereto",
+    "localId" : "12112",
+    "address" : "via Garibaldi, 16 - Rovereto Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=12112&s=39",
+    "description" : "Gli appartamenti, di recente ristrutturazione e completamente arredati, si trovano a non molta distanza dalla facoltà universitaria.",
+    "lat" : 45.890329267879544,
+    "lng" : 11.041860580444336,
+    "label" : "-",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "12112@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Lodging"],
+      "coordinate" : {
+        "latitude" : 45.8903292678795,
+        "longitude" : 11.0418605804443,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Garibaldi, 16 - Rovereto Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=12870&s=39",
+    "name" : "Mensa via Zanella",
+    "localId" : "12870",
+    "address" : "via Zanella, 1/a Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=12870&s=39",
+    "description" : "via Zanella, 1/a\n: dal lunedì al venerdì",
+    "lat" : 46.067417331890852,
+    "lng" : 11.11741304397583,
+    "label" : "-",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "12870@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Food"],
+      "coordinate" : {
+        "latitude" : 46.0674173318908,
+        "longitude" : 11.1174130439758,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Zanella, 1/a Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=349&s=39",
+    "name" : "Servizio disabili",
+    "localId" : "349",
+    "address" : "Via Prepositura, 48 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=349&s=39",
+    "description" : "Via Prepositura, 48\nTel: (+39) 0461 217407\nE-Mail:",
+    "lat" : 46.069028888808688,
+    "lng" : 11.118292808532715,
+    "label" : "10",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "349@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Offices"],
+      "coordinate" : {
+        "latitude" : 46.0690288888087,
+        "longitude" : 11.1182928085327,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via Prepositura, 48 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=351&s=39",
+    "name" : "Prestabici",
+    "localId" : "351",
+    "address" : "via della Malpensada,140 - uffico Alloggi Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=351&s=39",
+    "description" : "via della Malpensada,140 - uffico Alloggi\nTel: (+39) 0461 217450\nFax: (+39) 0461.217482\norario apertura:",
+    "lat" : 46.045684633570708,
+    "lng" : 11.132090091705322,
+    "label" : "11",
+    "imgUrl" : "../../Upload/cms/211_x/13692_018.JPG",
+    "poi" : {
+      "poiId" : "351@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Offices"],
+      "coordinate" : {
+        "latitude" : 46.0456846335707,
+        "longitude" : 11.1320900917053,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via della Malpensada,140 - uffico Alloggi Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=353&s=39",
+    "name" : "Facoltà di Economia",
+    "localId" : "353",
+    "address" : "via Inama, 5 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=353&s=39",
+    "description" : "via Inama, 5\nTel: (+39) 0461 882100\nURL:",
+    "lat" : 46.066144429197159,
+    "lng" : 11.11767053604126,
+    "label" : "12",
+    "imgUrl" : "../../Upload/cms/211_x/economia.jpg",
+    "poi" : {
+      "poiId" : "353@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["University"],
+      "coordinate" : {
+        "latitude" : 46.0661444291972,
+        "longitude" : 11.1176705360413,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Inama, 5 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=357&s=39",
+    "name" : "Facoltà di Giurisprudenza",
+    "localId" : "357",
+    "address" : "via Verdi, 53 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=357&s=39",
+    "description" : "via Verdi, 53\nTel: 0461 881818\nURL:",
+    "lat" : 46.066829269381955,
+    "lng" : 11.119279861450195,
+    "label" : "13b",
+    "imgUrl" : "../../Upload/cms/211_x/GI_gi.jpg",
+    "poi" : {
+      "poiId" : "357@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["University"],
+      "coordinate" : {
+        "latitude" : 46.066829269382,
+        "longitude" : 11.1192798614502,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Verdi, 53 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=359&s=39",
+    "name" : "Facoltà di Sociologia",
+    "localId" : "359",
+    "address" : "via Verdi, 26 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=359&s=39",
+    "description" : "via Verdi, 26\nTel: (+39) 0461 881300",
+    "lat" : 46.066665504023753,
+    "lng" : 11.119526624679565,
+    "label" : "14",
+    "imgUrl" : "../../Upload/cms/211_x/sociologia.jpg",
+    "poi" : {
+      "poiId" : "359@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["University"],
+      "coordinate" : {
+        "latitude" : 46.0666655040237,
+        "longitude" : 11.1195266246796,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Verdi, 26 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=361&s=39",
+    "name" : "Facoltà di Lettere e Filosofia",
+    "localId" : "361",
+    "address" : "via S. Croce, 65 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=361&s=39",
+    "description" : "via S. Croce, 65\nTel: (+39) 0461 881717",
+    "lat" : 46.063643201561561,
+    "lng" : 11.124107837677002,
+    "label" : "15",
+    "imgUrl" : "../../Upload/cms/211_x/lettere.jpg",
+    "poi" : {
+      "poiId" : "361@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Libraries"],
+      "coordinate" : {
+        "latitude" : 46.0636432015616,
+        "longitude" : 11.124107837677,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via S. Croce, 65 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=363&s=39",
+    "name" : "Facoltà di Ingegneria",
+    "localId" : "363",
+    "address" : "via Mesiano, 77 (bus 5) Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=363&s=39",
+    "description" : "via Mesiano, 77 (bus 5)\nTel: (+39) 0461 881919\nURL:",
+    "lat" : 46.064402514787567,
+    "lng" : 11.138784885406494,
+    "label" : "16",
+    "imgUrl" : "../../Upload/cms/211_x/mesiano.jpg",
+    "poi" : {
+      "poiId" : "363@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["University"],
+      "coordinate" : {
+        "latitude" : 46.0644025147876,
+        "longitude" : 11.1387848854065,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Mesiano, 77 (bus 5) Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=365&s=39",
+    "name" : "Facoltà di Scienze matematiche, fisiche e naturali",
+    "localId" : "365",
+    "address" : "via Sommariva, 14 - Povo Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=365&s=39",
+    "description" : "via Sommariva, 14 - Povo\nTel: (+39) 0461 881500",
+    "lat" : 46.0656159054199,
+    "lng" : 11.15037202835083,
+    "label" : "17",
+    "imgUrl" : "../../Upload/cms/211_x/fisica.jpg",
+    "poi" : {
+      "poiId" : "365@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["University"],
+      "coordinate" : {
+        "latitude" : 46.0656159054199,
+        "longitude" : 11.1503720283508,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Sommarive, 14 - Povo Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=308&s=39",
+    "name" : "Opera Universitaria di Trento",
+    "localId" : "308",
+    "address" : "Via Santa Margherita, 13 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=308&s=39",
+    "description" : "Via Santa Margherita, 13\nTel: (+39) 0461 217411\nFax: (+39) 0461 217444\nE-Mail: \nURL:",
+    "lat" : 46.068585994482845,
+    "lng" : 11.117777824401856,
+    "label" : "1a",
+    "imgUrl" : "../../Upload/cms/211_x/562.jpg",
+    "poi" : {
+      "poiId" : "308@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Offices"],
+      "coordinate" : {
+        "latitude" : 46.0685859944828,
+        "longitude" : 11.1177778244019,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via Santa Margherita, 13 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=310&s=39",
+    "name" : "Rettorato Università degli Studi di Trento",
+    "localId" : "310",
+    "address" : "via Belenzani, 12 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=310&s=39",
+    "description" : "via Belenzani, 12\nURL:",
+    "lat" : 46.069099602699779,
+    "lng" : 11.121050119400024,
+    "label" : "2",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "310@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["University"],
+      "coordinate" : {
+        "latitude" : 46.0690996026998,
+        "longitude" : 11.1210501194,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Belenzani, 12 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=371&s=39",
+    "name" : "Mensa universitaria e pizzeria T. Gar",
+    "localId" : "371",
+    "address" : "via Tomaso Gar, 18 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=371&s=39",
+    "description" : "via Tomaso Gar, 18\n: dal lunedì al venerdì, dalle 11.45 alle 14.30",
+    "lat" : 46.06693720537514,
+    "lng" : 11.117257475852966,
+    "label" : "20",
+    "imgUrl" : "../../Upload/cms/211_x/Immagine 020.jpg",
+    "poi" : {
+      "poiId" : "371@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Food"],
+      "coordinate" : {
+        "latitude" : 46.0669372053751,
+        "longitude" : 11.117257475853,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Tomaso Gar, 18 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=373&s=39",
+    "name" : "Mensa Povo 0",
+    "localId" : "373",
+    "address" : "località Povo Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=373&s=39",
+    "description" : "località Povo\ndal lunedì al venerdì",
+    "lat" : 46.065422360235651,
+    "lng" : 11.150736808776856,
+    "label" : "21",
+    "imgUrl" : "../../Upload/cms/211_x/AgFB131006_063(2).jpg",
+    "poi" : {
+      "poiId" : "373@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Food"],
+      "coordinate" : {
+        "latitude" : 46.0654223602357,
+        "longitude" : 11.1507368087769,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "località Povo Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=375&s=39",
+    "name" : "Mensa e Bar Mesiano",
+    "localId" : "375",
+    "address" : "località Mesiano Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=375&s=39",
+    "description" : "località Mesiano\ndal lunedì al venerdì",
+    "lat" : 46.064246186447733,
+    "lng" : 11.138752698898315,
+    "label" : "22",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "375@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Food"],
+      "coordinate" : {
+        "latitude" : 46.0642461864477,
+        "longitude" : 11.1387526988983,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "località Mesiano Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=377&s=39",
+    "name" : "Centro Congressi Panorama",
+    "localId" : "377",
+    "address" : "Via alla Funivia 38040 Sardagna (Trento) ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=377&s=39",
+    "description" : "Via alla Funivia 38040 Sardagna (Trento)\nTel: (+39) 0461.261671\nFax: (+39) 0461.261686\nE-Mail:",
+    "lat" : 46.064659338956304,
+    "lng" : 11.101330518722534,
+    "label" : "23",
+    "imgUrl" : "../../Upload/cms/211_x/14408_07.jpg",
+    "poi" : {
+      "poiId" : "377@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["sala"],
+      "coordinate" : {
+        "latitude" : 46.0646593389563,
+        "longitude" : 11.1013305187225,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via alla Funivia 38040 Sardagna (Trento)"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=2445&s=39",
+    "name" : "Mensa XXIV Maggio",
+    "localId" : "2445",
+    "address" : "via XXIV Maggio, 13 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=2445&s=39",
+    "description" : "via XXIV Maggio, 13\n: dal lunedì al giovedì, dalle 11.45 alle 14.30",
+    "lat" : 46.064279685414959,
+    "lng" : 11.121549010276794,
+    "label" : "23",
+    "imgUrl" : "../../Upload/cms/211_x/Immagine 020.jpg",
+    "poi" : {
+      "poiId" : "2445@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Food"],
+      "coordinate" : {
+        "latitude" : 46.064279685415,
+        "longitude" : 11.1215490102768,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via XXIV Maggio, 13 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=379&s=39",
+    "name" : "Residenze San Bartolameo",
+    "localId" : "379",
+    "address" : "Loc. San Bartolameo - via della Malpensada, 90 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=379&s=39",
+    "description" : "Loc. San Bartolameo - via della Malpensada, 90\nTel: (+39) 0461.217490",
+    "lat" : 46.044939956577977,
+    "lng" : 11.132411956787109,
+    "label" : "24",
+    "imgUrl" : "../../Upload/cms/211_x/Panoramica_bassa(2).jpg",
+    "poi" : {
+      "poiId" : "379@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Lodging"],
+      "coordinate" : {
+        "latitude" : 46.044939956578,
+        "longitude" : 11.1324119567871,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Loc. San Bartolameo - via della Malpensada, 90 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=128&s=39",
+    "name" : "Appartamenti Valentina - Roncafort",
+    "localId" : "128",
+    "address" : "Via Caproni, 19 - località Roncafort Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=128&s=39",
+    "description" : "Gli appartamenti, completamente arredati, si trovano nell’immediata periferia della città, poco distanti dalle facoltà del centro città.",
+    "lat" : 46.095607205094446,
+    "lng" : 11.103985905647278,
+    "label" : "26",
+    "imgUrl" : "../../Upload/cms/211_x/valentina_img.jpg",
+    "poi" : {
+      "poiId" : "128@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Lodging"],
+      "coordinate" : {
+        "latitude" : 46.0956072050944,
+        "longitude" : 11.1039859056473,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via Caproni, 19 - località Roncafort Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=138&s=39",
+    "name" : "Appartamenti Maso Furlani - Vela",
+    "localId" : "138",
+    "address" : "Via SS. Cosma e Damiano, 103 - Loc. Vela Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=138&s=39",
+    "description" : "E’ un Maso di recente ristrutturazione, circondato da un grande prato, alle porte della città, in località Vela sulla destra del fiume Adige.",
+    "lat" : 46.076527778393675,
+    "lng" : 11.104216575622559,
+    "label" : "27",
+    "imgUrl" : "../../Upload/cms/211_x/maso_furlani.jpg",
+    "poi" : {
+      "poiId" : "138@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Lodging"],
+      "coordinate" : {
+        "latitude" : 46.0765277783937,
+        "longitude" : 11.1042165756226,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via SS. Cosma e Damiano, 103 - Loc. Vela Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=123&s=39",
+    "name" : "Appartamenti Sprè di Povo",
+    "localId" : "123",
+    "address" : "Via della Resistenza, 64 - Sprè di Povo (Trento) ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=123&s=39",
+    "description" : "",
+    "lat" : 46.069121933383407,
+    "lng" : 11.16060733795166,
+    "label" : "32",
+    "imgUrl" : "../../Upload/cms/211_x/AgFB101006_200.jpg",
+    "poi" : {
+      "poiId" : "123@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Lodging"],
+      "coordinate" : {
+        "latitude" : 46.0691219333834,
+        "longitude" : 11.1606073379517,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via della Resistenza, 64 - Sprè di Povo (Trento)"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=7139&s=39",
+    "name" : "Residenza A. Barelli",
+    "localId" : "7139",
+    "address" : "via della Gora, 11 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=7139&s=39",
+    "description" : "Camere singole e doppie, con bagno.",
+    "lat" : 45.88745415413274,
+    "lng" : 11.035616397857666,
+    "label" : "33",
+    "imgUrl" : "../../Upload/cms/211_x/barelli.jpg",
+    "poi" : {
+      "poiId" : "7139@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Lodging"],
+      "coordinate" : {
+        "latitude" : 45.8874541541327,
+        "longitude" : 11.0356163978577,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via della Gora, 11 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=314&s=39",
+    "name" : "Presidio didattico Facoltà di Economia, Giurisprudenza e Sociologia",
+    "localId" : "314",
+    "address" : "via Inama, 5 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=314&s=39",
+    "description" : "via Inama, 5\nTel: (+39) 0461 881111 - n. verde 800 944086\nURL:",
+    "lat" : 46.065958329852791,
+    "lng" : 11.117557883262634,
+    "label" : "3a",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "314@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["University"],
+      "coordinate" : {
+        "latitude" : 46.0659583298528,
+        "longitude" : 11.1175578832626,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Inama, 5 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=316&s=39",
+    "name" : "Presidio didattico Facoltà di Ingegneria",
+    "localId" : "316",
+    "address" : "Via Mesiano, 77 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=316&s=39",
+    "description" : "Via Mesiano, 77\nTel: (+39) 0461 881111 - n. verde 800 944086\nURL:",
+    "lat" : 46.064372737995065,
+    "lng" : 11.138817071914673,
+    "label" : "3b",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "316@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["University"],
+      "coordinate" : {
+        "latitude" : 46.0643727379951,
+        "longitude" : 11.1388170719147,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via Mesiano, 77 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=318&s=39",
+    "name" : "Presidio didattico Facoltà di Scienze",
+    "localId" : "318",
+    "address" : "via Sommarive, 14 - Povo Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=318&s=39",
+    "description" : "via Sommarive, 14 - Povo\nTel: (+39) 0461 881111 - n. verde 800 944086\nURL:",
+    "lat" : 46.065511688866565,
+    "lng" : 11.150404214859009,
+    "label" : "3c",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "318@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["University"],
+      "coordinate" : {
+        "latitude" : 46.0655116888666,
+        "longitude" : 11.150404214859,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Sommarive, 14 - Povo Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=325&s=39",
+    "name" : "Divisione Cooperazione e Mobilità Internazionale",
+    "localId" : "325",
+    "address" : "Ufficio Socrates/Erasmus Welcome Office - Via Verdi, 6 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=325&s=39",
+    "description" : "Ufficio Socrates/Erasmus Welcome Office - Via Verdi, 6\nTel: (+39) 0461 883300",
+    "lat" : 46.066345415784404,
+    "lng" : 11.116484999656677,
+    "label" : "4",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "325@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["University"],
+      "coordinate" : {
+        "latitude" : 46.0663454157844,
+        "longitude" : 11.1164849996567,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Ufficio Socrates/Erasmus Welcome Office - Via Verdi, 6 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=230&s=39",
+    "name" : "Appartamenti via Centochiavi",
+    "localId" : "230",
+    "address" : "via Centochiavi, 18 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=230&s=39",
+    "description" : "Gli appartamenti, completamente arredati, si trovano non lontani dalle facoltà dislocate in città.",
+    "lat" : 46.093829019481056,
+    "lng" : 11.120889186859131,
+    "label" : "49",
+    "imgUrl" : "../../Upload/cms/211_x/Centochiavi_3.jpg",
+    "poi" : {
+      "poiId" : "230@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Lodging"],
+      "coordinate" : {
+        "latitude" : 46.0938290194811,
+        "longitude" : 11.1208891868591,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Centochiavi, 18 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=331&s=39",
+    "name" : "Centro Didattico Interfacoltà per l?apprendimento linguistico (CIAL)",
+    "localId" : "331",
+    "address" : "Via Verdi, 8 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=331&s=39",
+    "description" : "Via Verdi, 8\nTel: (+39) 0461 883460",
+    "lat" : 46.06630819610124,
+    "lng" : 11.11642599105835,
+    "label" : "5",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "331@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["University"],
+      "coordinate" : {
+        "latitude" : 46.0663081961012,
+        "longitude" : 11.1164259910584,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via Verdi, 8 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=333&s=39",
+    "name" : "Sistema Bibliotecario di Ateneo - centrale",
+    "localId" : "333",
+    "address" : "via Verdi, 8 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=333&s=39",
+    "description" : "via Verdi, 8",
+    "lat" : 46.066323083977508,
+    "lng" : 11.11592173576355,
+    "label" : "6a",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "333@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Libraries"],
+      "coordinate" : {
+        "latitude" : 46.0663230839775,
+        "longitude" : 11.1159217357636,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Verdi, 8 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=335&s=39",
+    "name" : "Sistema Bibliotecario di Ateneo - Lettere",
+    "localId" : "335",
+    "address" : "via S. Croce, 65 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=335&s=39",
+    "description" : "via S. Croce, 65",
+    "lat" : 46.063877696466562,
+    "lng" : 11.123549938201904,
+    "label" : "6b",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "335@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["University"],
+      "coordinate" : {
+        "latitude" : 46.0638776964666,
+        "longitude" : 11.1235499382019,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via S. Croce, 65 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=337&s=39",
+    "name" : "Sistema Bibliotecario di Ateneo - Ingegneria",
+    "localId" : "337",
+    "address" : "Mesiano Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=337&s=39",
+    "description" : "Mesiano",
+    "lat" : 46.064741224671941,
+    "lng" : 11.13863468170166,
+    "label" : "6c",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "337@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Libraries"],
+      "coordinate" : {
+        "latitude" : 46.0647412246719,
+        "longitude" : 11.1386346817017,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Mesiano Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=339&s=39",
+    "name" : "Sistema Bibliotecario di Ateneo - Scienze",
+    "localId" : "339",
+    "address" : "Povo Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=339&s=39",
+    "description" : "Povo",
+    "lat" : 46.06570523373761,
+    "lng" : 11.150468587875366,
+    "label" : "6d",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "339@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Libraries"],
+      "coordinate" : {
+        "latitude" : 46.0657052337376,
+        "longitude" : 11.1504685878754,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Povo Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=341&s=39",
+    "name" : "Sportello InfoMensa",
+    "localId" : "341",
+    "address" : "Via Santa Margherita, 13 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=341&s=39",
+    "description" : "Via Santa Margherita, 13\nTel: (+39) 0461 217462\norario apertura:",
+    "lat" : 46.068414790681842,
+    "lng" : 11.11741304397583,
+    "label" : "7",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "341@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Offices"],
+      "coordinate" : {
+        "latitude" : 46.0684147906818,
+        "longitude" : 11.1174130439758,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via Santa Margherita, 13 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=347&s=39",
+    "name" : "Sala lettura",
+    "localId" : "347",
+    "address" : "via Prepositura, 48 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=347&s=39",
+    "description" : "via Prepositura, 48\nTel: (+39) 0461.217407\nL’orario di apertura della Salla Lettura è il seguente:",
+    "lat" : 46.068995392723394,
+    "lng" : 11.118228435516357,
+    "label" : "9b",
+    "imgUrl" : "../../Upload/cms/211_x/sala_lettura.jpg",
+    "poi" : {
+      "poiId" : "347@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Libraries"],
+      "coordinate" : {
+        "latitude" : 46.0689953927234,
+        "longitude" : 11.1182284355164,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Prepositura, 48 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=296&s=39",
+    "name" : "Palazzo delle Albere (MART)",
+    "localId" : "296",
+    "address" : "Via R. da S. Severino, 45 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=296&s=39",
+    "description" : "Via R. da S. Severino, 45",
+    "lat" : 46.061752317359378,
+    "lng" : 11.113250255584717,
+    "label" : "A",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "296@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Museums"],
+      "coordinate" : {
+        "latitude" : 46.0617523173594,
+        "longitude" : 11.1132502555847,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via R. da S. Severino, 45 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=280&s=39",
+    "name" : "Biblioteca Comunale",
+    "localId" : "280",
+    "address" : "Via Roma, 55 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=280&s=39",
+    "description" : "Via Roma, 55\nTel: (+39) 275521\nFax: (+39) 275552",
+    "lat" : 46.069657867080245,
+    "lng" : 11.120358109474182,
+    "label" : "B",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "280@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Libraries"],
+      "coordinate" : {
+        "latitude" : 46.0696578670802,
+        "longitude" : 11.1203581094742,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via Roma, 55 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=300&s=39",
+    "name" : "Multisala Astra",
+    "localId" : "300",
+    "address" : "corso Buonarroti, 16 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=300&s=39",
+    "description" : "corso Buonarroti, 16",
+    "lat" : 46.075426268383744,
+    "lng" : 11.118743419647217,
+    "label" : "C1",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "300@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Cinemas"],
+      "coordinate" : {
+        "latitude" : 46.0754262683838,
+        "longitude" : 11.1187434196472,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "corso Buonarroti, 16 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=302&s=39",
+    "name" : "Multisala Modena",
+    "localId" : "302",
+    "address" : "Viale S. F. d?Assisi, 6 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=302&s=39",
+    "description" : "Viale S. F. d&#146;Assisi, 6",
+    "lat" : 46.066981868483005,
+    "lng" : 11.125797629356384,
+    "label" : "C2",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "302@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Cinemas"],
+      "coordinate" : {
+        "latitude" : 46.066981868483,
+        "longitude" : 11.1257976293564,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Viale S. F. d'Assisi, 6 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=304&s=39",
+    "name" : "Cinema Nuovo Roma",
+    "localId" : "304",
+    "address" : "corso 3 Novembre, 35 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=304&s=39",
+    "description" : "corso 3 Novembre, 35",
+    "lat" : 46.061432200631806,
+    "lng" : 11.12441897392273,
+    "label" : "C3",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "304@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Cinemas"],
+      "coordinate" : {
+        "latitude" : 46.0614322006318,
+        "longitude" : 11.1244189739227,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "corso 3 Novembre, 35 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=306&s=39",
+    "name" : "Cinema Vittoria",
+    "localId" : "306",
+    "address" : "Via Manci, 72 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=306&s=39",
+    "description" : "Via Manci, 72",
+    "lat" : 46.069877449522657,
+    "lng" : 11.12390398979187,
+    "label" : "C4",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "306@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Cinemas"],
+      "coordinate" : {
+        "latitude" : 46.0698774495227,
+        "longitude" : 11.1239039897919,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via Manci, 72 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=282&s=39",
+    "name" : "Castello del Buonconsiglio",
+    "localId" : "282",
+    "address" : "Via Bernardo Clesio, 5 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=282&s=39",
+    "description" : "Via Bernardo Clesio, 5\nURL:",
+    "lat" : 46.071131657914783,
+    "lng" : 11.126693487167358,
+    "label" : "CB",
+    "imgUrl" : "../../Upload/cms/211_x/castello.jpg",
+    "poi" : {
+      "poiId" : "282@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Museums"],
+      "coordinate" : {
+        "latitude" : 46.0711316579148,
+        "longitude" : 11.1266934871674,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via Bernardo Clesio, 5 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=274&s=39",
+    "name" : "Funivia Trento Sardagna",
+    "localId" : "274",
+    "address" : "Lung?Adige Monte Grappa Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=274&s=39",
+    "description" : "Lung&#146;Adige Monte Grappa",
+    "lat" : 46.06977696275063,
+    "lng" : 11.115610599517822,
+    "label" : "F",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "274@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Mobility"],
+      "coordinate" : {
+        "latitude" : 46.0697769627506,
+        "longitude" : 11.1156105995178,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Lung'Adige Monte Grappa Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=298&s=39",
+    "name" : "Galleria Civica di Arte Contemporanea",
+    "localId" : "298",
+    "address" : "Via Belenzani, 46 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=298&s=39",
+    "description" : "Via Belenzani, 46\nURL:",
+    "lat" : 46.068210089787982,
+    "lng" : 11.121060848236084,
+    "label" : "G",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "298@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Museum"],
+      "coordinate" : {
+        "latitude" : 46.068210089788,
+        "longitude" : 11.1210608482361,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via Belenzani, 46 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=266&s=39",
+    "name" : "Ospedale di Trento - Santa Chiara",
+    "localId" : "266",
+    "address" : "Largo Medaglie d?Oro, 9 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=266&s=39",
+    "description" : "Largo Medaglie d&#146;Oro, 9\nTel: (+39) 0461 903111\nURL:",
+    "lat" : 46.057679996431489,
+    "lng" : 11.132749915122986,
+    "label" : "H",
+    "imgUrl" : "../../Upload/cms/211_x/ospedale_santa_chiara.jpg",
+    "poi" : {
+      "poiId" : "266@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Offices"],
+      "coordinate" : {
+        "latitude" : 46.0576799964315,
+        "longitude" : 11.132749915123,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Largo Medaglie d'Oro, 9 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=262&s=39",
+    "name" : "U R P e APT di Trento",
+    "localId" : "262",
+    "address" : "Via Manci, 2 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=262&s=39",
+    "description" : "Via Manci, 2",
+    "lat" : 46.069672754053087,
+    "lng" : 11.121270060539246,
+    "label" : "I",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "262@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Offices"],
+      "coordinate" : {
+        "latitude" : 46.0696727540531,
+        "longitude" : 11.1212700605392,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via Manci, 2 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=284&s=39",
+    "name" : "Istituto Trentino di Cultura",
+    "localId" : "284",
+    "address" : "via Santa Croce, 77 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=284&s=39",
+    "description" : "via Santa Croce, 77",
+    "lat" : 46.062928544279174,
+    "lng" : 11.123871803283691,
+    "label" : "ITC",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "284@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Offices"],
+      "coordinate" : {
+        "latitude" : 46.0629285442792,
+        "longitude" : 11.1238718032837,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Santa Croce, 77 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=292&s=39",
+    "name" : "Museo Tridentino di scienze naturali",
+    "localId" : "292",
+    "address" : "via Calepina, 14 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=292&s=39",
+    "description" : "via Calepina, 14",
+    "lat" : 46.066862766781753,
+    "lng" : 11.122943758964539,
+    "label" : "M",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "292@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Museums"],
+      "coordinate" : {
+        "latitude" : 46.0668627667817,
+        "longitude" : 11.1229437589645,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Calepina, 14 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=270&s=39",
+    "name" : "Ostello della Gioventù",
+    "localId" : "270",
+    "address" : "Via Torre Vanga, 9 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=270&s=39",
+    "description" : "Via Torre Vanga, 9\nTel: (+39) 0461 263484",
+    "lat" : 46.070130526508244,
+    "lng" : 11.119124293327332,
+    "label" : "OG",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "270@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Lodging"],
+      "coordinate" : {
+        "latitude" : 46.0701305265082,
+        "longitude" : 11.1191242933273,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via Torre Vanga, 9 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=276&s=39",
+    "name" : "Parcheggio gratuito M. Baldo",
+    "localId" : "276",
+    "address" : "Via Monte Baldo Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=276&s=39",
+    "description" : "Via Monte Baldo",
+    "lat" : 46.057679996431489,
+    "lng" : 11.1141836643219,
+    "label" : "P",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "276@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Mobility"],
+      "coordinate" : {
+        "latitude" : 46.0576799964315,
+        "longitude" : 11.1141836643219,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via Monte Baldo Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=278&s=39",
+    "name" : "Parcheggio gratuito Zuffo",
+    "localId" : "278",
+    "address" : "Piazzale Area ex Zuffo (bus navetta gratuito) Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=278&s=39",
+    "description" : "Piazzale Area ex Zuffo (bus navetta gratuito)",
+    "lat" : 46.0756569918954,
+    "lng" : 11.109623908996582,
+    "label" : "P",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "278@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Mobility"],
+      "coordinate" : {
+        "latitude" : 46.0756569918954,
+        "longitude" : 11.1096239089966,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Piazzale Area ex Zuffo (bus navetta gratuito) Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=294&s=39",
+    "name" : "Palazzo Trentini",
+    "localId" : "294",
+    "address" : "Via Manci, 27 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=294&s=39",
+    "description" : "Via Manci, 27",
+    "lat" : 46.070052370504172,
+    "lng" : 11.123689413070679,
+    "label" : "PAL",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "294@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Museum"],
+      "coordinate" : {
+        "latitude" : 46.0700523705042,
+        "longitude" : 11.1236894130707,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via Manci, 27 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=272&s=39",
+    "name" : "Ufficio postale",
+    "localId" : "272",
+    "address" : "Piazza Vittoria Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=272&s=39",
+    "description" : "Piazza Vittoria",
+    "lat" : 46.066888820300875,
+    "lng" : 11.123732328414917,
+    "label" : "PT",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "272@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Offices"],
+      "coordinate" : {
+        "latitude" : 46.0668888203009,
+        "longitude" : 11.1237323284149,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Piazza Vittoria Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=264&s=39",
+    "name" : "Questura - ufficio immigrazione",
+    "localId" : "264",
+    "address" : "Viale Verona, 187 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=264&s=39",
+    "description" : "Viale Verona, 187\nTel: (+39) 0461 899949\nFax: (+39) 0461 899951\nE-Mail:",
+    "lat" : 46.044493145563926,
+    "lng" : 11.131854057312012,
+    "label" : "Q",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "264@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Offices"],
+      "coordinate" : {
+        "latitude" : 46.0444931455639,
+        "longitude" : 11.131854057312,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Viale Verona, 187 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=286&s=39",
+    "name" : "Centro Servizi Culturali S. Chiara - Auditorium e Teatro Cuminetti",
+    "localId" : "286",
+    "address" : "via Santa Croce, 67 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=286&s=39",
+    "description" : "via Santa Croce, 67",
+    "lat" : 46.062984377212487,
+    "lng" : 11.123968362808228,
+    "label" : "T1",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "286@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Theater"],
+      "coordinate" : {
+        "latitude" : 46.0629843772125,
+        "longitude" : 11.1239683628082,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Santa Croce, 67 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=288&s=39",
+    "name" : "Teatro Sociale",
+    "localId" : "288",
+    "address" : "via Oss Mazzurana, 19 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=288&s=39",
+    "description" : "via Oss Mazzurana, 19",
+    "lat" : 46.069497831868482,
+    "lng" : 11.122525334358215,
+    "label" : "T2",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "288@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Theater"],
+      "coordinate" : {
+        "latitude" : 46.0694978318685,
+        "longitude" : 11.1225253343582,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via Oss Mazzurana, 19 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=290&s=39",
+    "name" : "Teatro San Marco",
+    "localId" : "290",
+    "address" : "via San Bernardino, 8 Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=290&s=39",
+    "description" : "via San Bernardino, 8",
+    "lat" : 46.064194076902737,
+    "lng" : 11.12816333770752,
+    "label" : "T3",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "290@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Theater"],
+      "coordinate" : {
+        "latitude" : 46.0641940769027,
+        "longitude" : 11.1281633377075,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "via San Bernardino, 8 Trento"
+      },
+      "referToPoi" : ""
+    }
+  }, {
+    "id" : "http://www.operauni.tn.it/cms-01.00/articolo.asp?idcms=268&s=39",
+    "name" : "Ufficio Igiene",
+    "localId" : "268",
+    "address" : "Via Malta 4/a Trento ITALIA",
+    "detailUrl" : "/cms-01.00/articolo.asp?idcms=268&s=39",
+    "description" : "Via Malta 4/a",
+    "lat" : 46.061804429209104,
+    "lng" : 11.126934885978699,
+    "label" : "UI",
+    "imgUrl" : "",
+    "poi" : {
+      "poiId" : "268@eu.trentorise.smartcampus.services.ou.OperaUniService",
+      "datasetId" : "smart",
+      "tags" : ["Offices"],
+      "coordinate" : {
+        "latitude" : 46.0618044292091,
+        "longitude" : 11.1269348859787,
+        "altitude" : 0.0,
+        "srsName" : "WGS84"
+      },
+      "address" : {
+        "country" : "ITA",
+        "lang" : "en",
+        "state" : "Italy",
+        "region" : "TN",
+        "city" : "Trento",
+        "postalCode" : "38100",
+        "street" : "Via Malta 4/a Trento"
+      },
+      "referToPoi" : ""
+    }
+  }]

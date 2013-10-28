@@ -40,8 +40,17 @@ public class GetNewsDataFlow implements ServiceDataFlow {
 	Logger log = Logger.getLogger(this.getClass());
 
 
-	private java.lang.String datiJsonIt;
-	private java.lang.String datiJsonEn;
+	private java.util.Date startingTime;
+	private java.util.Date currentTime;
+	private java.lang.String baseNewsUrl;
+	private java.lang.String baseComunicatiUrl;
+	private java.lang.String baseResultsUrl;
+	private java.lang.String datiNewsJsonIt;
+	private java.lang.String datiNewsJsonEn;
+	private java.lang.String datiComunicatiJsonIt;
+	private java.lang.String datiComunicatiJsonEn;
+	private java.lang.String datiResultsJsonIt;
+	private java.lang.String datiResultsJsonEn;
 
 	private ServiceMethod serviceMethod;
 
@@ -55,8 +64,17 @@ public class GetNewsDataFlow implements ServiceDataFlow {
 
 	public List<Message> invoke(String serviceExecutionId, Map<String, Object> parameters) throws DataFlowException {
 		Map<String, Object> contextVariables = new java.util.HashMap<String,Object>();
-	contextVariables.put("datiJsonIt", datiJsonIt);
-	contextVariables.put("datiJsonEn", datiJsonEn);
+	contextVariables.put("startingTime", startingTime);
+	contextVariables.put("currentTime", currentTime);
+	contextVariables.put("baseNewsUrl", baseNewsUrl);
+	contextVariables.put("baseComunicatiUrl", baseComunicatiUrl);
+	contextVariables.put("baseResultsUrl", baseResultsUrl);
+	contextVariables.put("datiNewsJsonIt", datiNewsJsonIt);
+	contextVariables.put("datiNewsJsonEn", datiNewsJsonEn);
+	contextVariables.put("datiComunicatiJsonIt", datiComunicatiJsonIt);
+	contextVariables.put("datiComunicatiJsonEn", datiComunicatiJsonEn);
+	contextVariables.put("datiResultsJsonIt", datiResultsJsonIt);
+	contextVariables.put("datiResultsJsonEn", datiResultsJsonEn);
 
 
 		List<Message> output = new java.util.ArrayList<Message>();
@@ -67,17 +85,38 @@ public class GetNewsDataFlow implements ServiceDataFlow {
 		it.sayservice.platform.core.bus.service.connector.HTTPConnector newsJSON = new it.sayservice.platform.core.bus.service.connector.HTTPConnector();
 		newsJSON.setSessionSupport("REQUIRED", null);
 		newsJSON.setPost(false);
-		newsJSON.setEncoding("UTF-8");
+		newsJSON.setEncoding("iso-8859-1");
+
+		//Set
+		currentTime = (java.util.Date)InvokeScript.invoke("new Date()", contextVariables);
+		contextVariables.put("currentTime", currentTime);
+
+		//Set
+		startingTime = (java.util.Date)InvokeScript.invoke("new Date(1381183200000L)", contextVariables);
+		contextVariables.put("startingTime", startingTime);
+
+		//Script
+		{
+		try {
+			java.lang.String scriptResult1 = (java.lang.String)InvokeDataFlowScriptNode.invoke(it.sayservice.services.universiadi2013.script.ScriptBody.class, "getNewsUrl", "startingTime", contextVariables, serviceExecutionId, serviceMethod);
+			baseNewsUrl = (java.lang.String)scriptResult1;
+			contextVariables.put("baseNewsUrl", baseNewsUrl);
+			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "baseNewsUrl", baseNewsUrl);
+			} catch (Exception e0) {
+				log.error("DataFlow Error: " + e0.getClass().getName());
+				throw new DataFlowException(ExceptionMessage.TRANSFORMER_ERROR, e0);
+			}
+		}
 
 		//Connect
-		newsJSON.setUrl((String)InvokeScript.invoke("\"http://v4m-vps5.juniper-xs.it/v4web/uni2013?RefOwner=6A02F0E4B7EA457E90F11E341D60E444&lang=IT\"", contextVariables));
+		newsJSON.setUrl((String)InvokeScript.invoke("baseNewsUrl + \"lang=IT\"", contextVariables));
 		try {
 			InvokeConnector<java.io.Reader> newsJSONInvoker = new InvokeConnector<java.io.Reader>();
-			java.io.Reader connectResult1 = newsJSONInvoker.invoke(newsJSON, "newsJSON", "datiJsonIt", serviceExecutionId, serviceMethod);
+			java.io.Reader connectResult1 = newsJSONInvoker.invoke(newsJSON, "newsJSON", "datiNewsJsonIt", serviceExecutionId, serviceMethod);
 			it.sayservice.platform.core.bus.service.transformer.ReaderToStringTransformer connectTransformer1 = new it.sayservice.platform.core.bus.service.transformer.ReaderToStringTransformer();
-			datiJsonIt = (java.lang.String)connectTransformer1.transform(connectResult1);
-			contextVariables.put("datiJsonIt", datiJsonIt);
-			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "datiJsonIt", datiJsonIt);
+			datiNewsJsonIt = (java.lang.String)connectTransformer1.transform(connectResult1);
+			contextVariables.put("datiNewsJsonIt", datiNewsJsonIt);
+			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "datiNewsJsonIt", datiNewsJsonIt);
 			} catch (ConnectorException e0) {
 				log.error("DataFlow Error: " + e0.getClass().getName());
 				throw new DataFlowException(ExceptionMessage.CONNECTION_ERROR, e0);
@@ -87,14 +126,14 @@ public class GetNewsDataFlow implements ServiceDataFlow {
 			}
 
 		//Connect
-		newsJSON.setUrl((String)InvokeScript.invoke("\"http://v4m-vps5.juniper-xs.it/v4web/uni2013?RefOwner=6A02F0E4B7EA457E90F11E341D60E444&lang=EN\"", contextVariables));
+		newsJSON.setUrl((String)InvokeScript.invoke("baseNewsUrl + \"lang=EN\"", contextVariables));
 		try {
 			InvokeConnector<java.io.Reader> newsJSONInvoker = new InvokeConnector<java.io.Reader>();
-			java.io.Reader connectResult2 = newsJSONInvoker.invoke(newsJSON, "newsJSON", "datiJsonEn", serviceExecutionId, serviceMethod);
+			java.io.Reader connectResult2 = newsJSONInvoker.invoke(newsJSON, "newsJSON", "datiNewsJsonEn", serviceExecutionId, serviceMethod);
 			it.sayservice.platform.core.bus.service.transformer.ReaderToStringTransformer connectTransformer2 = new it.sayservice.platform.core.bus.service.transformer.ReaderToStringTransformer();
-			datiJsonEn = (java.lang.String)connectTransformer2.transform(connectResult2);
-			contextVariables.put("datiJsonEn", datiJsonEn);
-			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "datiJsonEn", datiJsonEn);
+			datiNewsJsonEn = (java.lang.String)connectTransformer2.transform(connectResult2);
+			contextVariables.put("datiNewsJsonEn", datiNewsJsonEn);
+			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "datiNewsJsonEn", datiNewsJsonEn);
 			} catch (ConnectorException e0) {
 				log.error("DataFlow Error: " + e0.getClass().getName());
 				throw new DataFlowException(ExceptionMessage.CONNECTION_ERROR, e0);
@@ -106,8 +145,128 @@ public class GetNewsDataFlow implements ServiceDataFlow {
 		//Script
 		{
 		try {
-			java.util.List<com.google.protobuf.Message> scriptResult1 = (java.util.List<com.google.protobuf.Message>)InvokeDataFlowScriptNode.invoke(it.sayservice.services.universiadi2013.script.ScriptBody.class, "getNews", "datiJsonIt,datiJsonEn", contextVariables, serviceExecutionId, serviceMethod);
-			output = (List<Message>)scriptResult1;
+			java.util.List<com.google.protobuf.Message> scriptResult2 = (java.util.List<com.google.protobuf.Message>)InvokeDataFlowScriptNode.invoke(it.sayservice.services.universiadi2013.script.ScriptBody.class, "getNews", "datiNewsJsonIt,datiNewsJsonEn", contextVariables, serviceExecutionId, serviceMethod);
+			output.addAll(scriptResult2);
+			contextVariables.put("output", output);
+			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "output", output);
+			} catch (Exception e0) {
+				log.error("DataFlow Error: " + e0.getClass().getName());
+				throw new DataFlowException(ExceptionMessage.TRANSFORMER_ERROR, e0);
+			}
+		}
+
+		//Script
+		{
+		try {
+			java.lang.String scriptResult3 = (java.lang.String)InvokeDataFlowScriptNode.invoke(it.sayservice.services.universiadi2013.script.ScriptBody.class, "getComunicatiUrl", "startingTime", contextVariables, serviceExecutionId, serviceMethod);
+			baseComunicatiUrl = (java.lang.String)scriptResult3;
+			contextVariables.put("baseComunicatiUrl", baseComunicatiUrl);
+			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "baseComunicatiUrl", baseComunicatiUrl);
+			} catch (Exception e0) {
+				log.error("DataFlow Error: " + e0.getClass().getName());
+				throw new DataFlowException(ExceptionMessage.TRANSFORMER_ERROR, e0);
+			}
+		}
+
+		//Connect
+		newsJSON.setUrl((String)InvokeScript.invoke("baseComunicatiUrl + \"lang=IT\"", contextVariables));
+		try {
+			InvokeConnector<java.io.Reader> newsJSONInvoker = new InvokeConnector<java.io.Reader>();
+			java.io.Reader connectResult3 = newsJSONInvoker.invoke(newsJSON, "newsJSON", "datiComunicatiJsonIt", serviceExecutionId, serviceMethod);
+			it.sayservice.platform.core.bus.service.transformer.ReaderToStringTransformer connectTransformer3 = new it.sayservice.platform.core.bus.service.transformer.ReaderToStringTransformer();
+			datiComunicatiJsonIt = (java.lang.String)connectTransformer3.transform(connectResult3);
+			contextVariables.put("datiComunicatiJsonIt", datiComunicatiJsonIt);
+			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "datiComunicatiJsonIt", datiComunicatiJsonIt);
+			} catch (ConnectorException e0) {
+				log.error("DataFlow Error: " + e0.getClass().getName());
+				throw new DataFlowException(ExceptionMessage.CONNECTION_ERROR, e0);
+			} catch (TransformerException e1) {
+				log.error("DataFlow Error: " + e1.getClass().getName());
+				throw new DataFlowException(ExceptionMessage.CONNECTION_ERROR, e1);
+			}
+
+		//Connect
+		newsJSON.setUrl((String)InvokeScript.invoke("baseComunicatiUrl + \"lang=EN\"", contextVariables));
+		try {
+			InvokeConnector<java.io.Reader> newsJSONInvoker = new InvokeConnector<java.io.Reader>();
+			java.io.Reader connectResult4 = newsJSONInvoker.invoke(newsJSON, "newsJSON", "datiComunicatiJsonEn", serviceExecutionId, serviceMethod);
+			it.sayservice.platform.core.bus.service.transformer.ReaderToStringTransformer connectTransformer4 = new it.sayservice.platform.core.bus.service.transformer.ReaderToStringTransformer();
+			datiComunicatiJsonEn = (java.lang.String)connectTransformer4.transform(connectResult4);
+			contextVariables.put("datiComunicatiJsonEn", datiComunicatiJsonEn);
+			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "datiComunicatiJsonEn", datiComunicatiJsonEn);
+			} catch (ConnectorException e0) {
+				log.error("DataFlow Error: " + e0.getClass().getName());
+				throw new DataFlowException(ExceptionMessage.CONNECTION_ERROR, e0);
+			} catch (TransformerException e1) {
+				log.error("DataFlow Error: " + e1.getClass().getName());
+				throw new DataFlowException(ExceptionMessage.CONNECTION_ERROR, e1);
+			}
+
+		//Script
+		{
+		try {
+			java.util.List<com.google.protobuf.Message> scriptResult4 = (java.util.List<com.google.protobuf.Message>)InvokeDataFlowScriptNode.invoke(it.sayservice.services.universiadi2013.script.ScriptBody.class, "getComunicati", "datiComunicatiJsonIt,datiComunicatiJsonEn", contextVariables, serviceExecutionId, serviceMethod);
+			output.addAll(scriptResult4);
+			contextVariables.put("output", output);
+			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "output", output);
+			} catch (Exception e0) {
+				log.error("DataFlow Error: " + e0.getClass().getName());
+				throw new DataFlowException(ExceptionMessage.TRANSFORMER_ERROR, e0);
+			}
+		}
+
+		//Script
+		{
+		try {
+			java.lang.String scriptResult5 = (java.lang.String)InvokeDataFlowScriptNode.invoke(it.sayservice.services.universiadi2013.script.ScriptBody.class, "getResultsUrl", "lastNewsUpdate", contextVariables, serviceExecutionId, serviceMethod);
+			baseResultsUrl = (java.lang.String)scriptResult5;
+			contextVariables.put("baseResultsUrl", baseResultsUrl);
+			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "baseResultsUrl", baseResultsUrl);
+			} catch (Exception e0) {
+				log.error("DataFlow Error: " + e0.getClass().getName());
+				throw new DataFlowException(ExceptionMessage.TRANSFORMER_ERROR, e0);
+			}
+		}
+
+		//Connect
+		newsJSON.setUrl((String)InvokeScript.invoke("baseResultsUrl + \"lang=IT\"", contextVariables));
+		try {
+			InvokeConnector<java.io.Reader> newsJSONInvoker = new InvokeConnector<java.io.Reader>();
+			java.io.Reader connectResult5 = newsJSONInvoker.invoke(newsJSON, "newsJSON", "datiResultsJsonIt", serviceExecutionId, serviceMethod);
+			it.sayservice.platform.core.bus.service.transformer.ReaderToStringTransformer connectTransformer5 = new it.sayservice.platform.core.bus.service.transformer.ReaderToStringTransformer();
+			datiResultsJsonIt = (java.lang.String)connectTransformer5.transform(connectResult5);
+			contextVariables.put("datiResultsJsonIt", datiResultsJsonIt);
+			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "datiResultsJsonIt", datiResultsJsonIt);
+			} catch (ConnectorException e0) {
+				log.error("DataFlow Error: " + e0.getClass().getName());
+				throw new DataFlowException(ExceptionMessage.CONNECTION_ERROR, e0);
+			} catch (TransformerException e1) {
+				log.error("DataFlow Error: " + e1.getClass().getName());
+				throw new DataFlowException(ExceptionMessage.CONNECTION_ERROR, e1);
+			}
+
+		//Connect
+		newsJSON.setUrl((String)InvokeScript.invoke("baseResultsUrl + \"lang=EN\"", contextVariables));
+		try {
+			InvokeConnector<java.io.Reader> newsJSONInvoker = new InvokeConnector<java.io.Reader>();
+			java.io.Reader connectResult6 = newsJSONInvoker.invoke(newsJSON, "newsJSON", "datiResultsJsonEn", serviceExecutionId, serviceMethod);
+			it.sayservice.platform.core.bus.service.transformer.ReaderToStringTransformer connectTransformer6 = new it.sayservice.platform.core.bus.service.transformer.ReaderToStringTransformer();
+			datiResultsJsonEn = (java.lang.String)connectTransformer6.transform(connectResult6);
+			contextVariables.put("datiResultsJsonEn", datiResultsJsonEn);
+			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "datiResultsJsonEn", datiResultsJsonEn);
+			} catch (ConnectorException e0) {
+				log.error("DataFlow Error: " + e0.getClass().getName());
+				throw new DataFlowException(ExceptionMessage.CONNECTION_ERROR, e0);
+			} catch (TransformerException e1) {
+				log.error("DataFlow Error: " + e1.getClass().getName());
+				throw new DataFlowException(ExceptionMessage.CONNECTION_ERROR, e1);
+			}
+
+		//Script
+		{
+		try {
+			java.util.List<com.google.protobuf.Message> scriptResult6 = (java.util.List<com.google.protobuf.Message>)InvokeDataFlowScriptNode.invoke(it.sayservice.services.universiadi2013.script.ScriptBody.class, "getResults", "datiResultsJsonIt,datiResultsJsonEn", contextVariables, serviceExecutionId, serviceMethod);
+			output.addAll(scriptResult6);
 			contextVariables.put("output", output);
 			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "output", output);
 			} catch (Exception e0) {

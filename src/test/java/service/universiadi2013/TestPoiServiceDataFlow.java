@@ -16,7 +16,7 @@ import junit.framework.TestCase;
 
 public class TestPoiServiceDataFlow extends TestCase {
 	
-	public void _testRistorazioneFlow() throws ServiceException, EntityNotFoundException, PersistenceException {
+	public void testRistorazioneFlow() throws ServiceException, EntityNotFoundException, PersistenceException {
 		Map<String, Object> params = new HashMap<String, Object>();
 		params.put("csv", "ristoranti_APT_Trento.csv");
 		DataFlowTestHelper helper = new DataFlowTestHelper();

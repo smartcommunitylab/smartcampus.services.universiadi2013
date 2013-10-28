@@ -107,7 +107,55 @@
 									<methodName>GetNews</methodName>
 									<statusParameters>
 										<storable>true</storable>
-										<automaticRefresh>true</automaticRefresh>
+										<automaticRefresh>false</automaticRefresh>
+										<delay>#{1000L*15}</delay>
+										<period>#{1000L*60*60*24}</period>
+										<periodOnDefault>#{1000L*60*60*24}</periodOnDefault>
+										<periodOnFailure>#{1000L*60*60*48}</periodOnFailure>
+										<cacheValidityPeriod>#{1000L*60*60*24*15}</cacheValidityPeriod>
+										<validityPeriod>#{1000L*60*60*24*30}</validityPeriod>
+										<serviceBlocked>false</serviceBlocked>
+										<dataFlowInvokable>true</dataFlowInvokable>
+										<runnableAfterDelay>false</runnableAfterDelay>
+									</statusParameters>
+								</method>
+								<method>
+									<methodName>GetVenues</methodName>
+									<statusParameters>
+										<storable>true</storable>
+										<automaticRefresh>false</automaticRefresh>
+										<delay>#{1000L*15}</delay>
+										<period>#{1000L*60*60*24}</period>
+										<periodOnDefault>#{1000L*60*60*24}</periodOnDefault>
+										<periodOnFailure>#{1000L*60*60*48}</periodOnFailure>
+										<cacheValidityPeriod>#{1000L*60*60*24*15}</cacheValidityPeriod>
+										<validityPeriod>#{1000L*60*60*24*30}</validityPeriod>
+										<serviceBlocked>false</serviceBlocked>
+										<dataFlowInvokable>true</dataFlowInvokable>
+										<runnableAfterDelay>false</runnableAfterDelay>
+									</statusParameters>
+								</method>
+								<method>
+									<methodName>GetEvents</methodName>
+									<statusParameters>
+										<storable>true</storable>
+										<automaticRefresh>false</automaticRefresh>
+										<delay>#{1000L*15}</delay>
+										<period>#{1000L*60*60*24}</period>
+										<periodOnDefault>#{1000L*60*60*24}</periodOnDefault>
+										<periodOnFailure>#{1000L*60*60*48}</periodOnFailure>
+										<cacheValidityPeriod>#{1000L*60*60*24*15}</cacheValidityPeriod>
+										<validityPeriod>#{1000L*60*60*24*30}</validityPeriod>
+										<serviceBlocked>false</serviceBlocked>
+										<dataFlowInvokable>true</dataFlowInvokable>
+										<runnableAfterDelay>false</runnableAfterDelay>
+									</statusParameters>
+								</method>
+								<method>
+									<methodName>GetCompetitionSchedule</methodName>
+									<statusParameters>
+										<storable>true</storable>
+										<automaticRefresh>false</automaticRefresh>
 										<delay>#{1000L*15}</delay>
 										<period>#{1000L*60*60*24}</period>
 										<periodOnDefault>#{1000L*60*60*24}</periodOnDefault>

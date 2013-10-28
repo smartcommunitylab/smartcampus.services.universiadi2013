@@ -1,7 +1,7 @@
 package it.sayservice.services.universiadi2013.impl;
 
+import it.sayservice.platform.core.bus.service.compiler.InvokeConnector;
 import it.sayservice.platform.core.bus.service.compiler.InvokeDataFlowScriptNode;
-import it.sayservice.platform.core.bus.service.compiler.InvokeLoadResource;
 import it.sayservice.platform.core.bus.service.dataflow.ServiceDataFlow;
 import java.util.ArrayList;
 import java.io.Reader;
@@ -61,13 +61,27 @@ public class GetVenuesDataFlow implements ServiceDataFlow {
 		try {
 
 		
-		//Load Resource
+		//Connector (HTTP)
+		it.sayservice.platform.core.bus.service.connector.HTTPConnector venueJSON = new it.sayservice.platform.core.bus.service.connector.HTTPConnector();
+		venueJSON.setSessionSupport("REQUIRED", null);
+		venueJSON.setPost(false);
+		venueJSON.setEncoding("utf-8");
+
+		//Connect
+		venueJSON.setUrl((String)InvokeScript.invoke("\"http://v4m-cdn.juniper.it/x00001/public/6A02F0E4B7EA457E90F11E341D60E444/WebElements/venue.json\"", contextVariables));
 		try {
-					datiJson = InvokeLoadResource.loadString(serviceExecutionId, serviceMethod, (String)InvokeScript.invoke("\"service/universiadi2013/venue.json\"", contextVariables));
-		contextVariables.put("datiJson", datiJson);
-			} catch (DataFlowVariableException e0) {
+			InvokeConnector<java.io.Reader> venueJSONInvoker = new InvokeConnector<java.io.Reader>();
+			java.io.Reader connectResult1 = venueJSONInvoker.invoke(venueJSON, "venueJSON", "datiJson", serviceExecutionId, serviceMethod);
+			it.sayservice.platform.core.bus.service.transformer.ReaderToStringTransformer connectTransformer1 = new it.sayservice.platform.core.bus.service.transformer.ReaderToStringTransformer();
+			datiJson = (java.lang.String)connectTransformer1.transform(connectResult1);
+			contextVariables.put("datiJson", datiJson);
+			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "datiJson", datiJson);
+			} catch (ConnectorException e0) {
 				log.error("DataFlow Error: " + e0.getClass().getName());
-				throw new DataFlowException(ExceptionMessage.SERVICE_DATAFLOW_ERROR, e0);
+				throw new DataFlowException(ExceptionMessage.CONNECTION_ERROR, e0);
+			} catch (TransformerException e1) {
+				log.error("DataFlow Error: " + e1.getClass().getName());
+				throw new DataFlowException(ExceptionMessage.CONNECTION_ERROR, e1);
 			}
 
 		//Script

@@ -27,37 +27,37 @@
                     <entry key="GetEvents">
                         <map>
                             <entry key="storable"><value type="java.lang.Boolean">true</value></entry>
-                            <entry key="automaticRefresh"><value type="java.lang.Boolean">true</value></entry>
+                            <entry key="automaticRefresh"><value type="java.lang.Boolean">false</value></entry>
                             <entry key="dataFlowInvokable"><value type="java.lang.Boolean">true</value></entry>
-                            <entry key="cacheValidityPeriod"><value type="java.lang.Long">86400000</value></entry>
-                            <entry key="periodOnFailure"><value type="java.lang.String">0 30 8 * * ? *</value></entry>
-                            <entry key="validityPeriod"><value type="java.lang.Long">604800000</value></entry>
-                            <entry key="serviceBlocked"><value type="java.lang.Boolean">true</value></entry>
-                            <entry key="runnableAfterDelay"><value type="java.lang.Boolean">true</value></entry>
-                            <entry key="periodOnDefault"><value type="java.lang.String">0 30 8 * * ? *</value></entry>
-                            <entry key="delay"><value type="java.lang.Long">15000</value></entry>
-                            <entry key="period"><value type="java.lang.String">0 30 8 * * ? *</value></entry>
+                            <entry key="cacheValidityPeriod"><value type="java.lang.Long">#{1000L*60*60*24*15}</value></entry>
+                            <entry key="periodOnFailure"><value type="java.lang.String">#{1000L*60*60*48}</value></entry>
+                            <entry key="validityPeriod"><value type="java.lang.Long">#{1000L*60*60*24*30}</value></entry>
+                            <entry key="serviceBlocked"><value type="java.lang.Boolean">false</value></entry>
+                            <entry key="runnableAfterDelay"><value type="java.lang.Boolean">false</value></entry>
+                            <entry key="periodOnDefault"><value type="java.lang.String">#{1000L*60*60*24}</value></entry>
+                            <entry key="delay"><value type="java.lang.Long">#{1000L*15}</value></entry>
+                            <entry key="period"><value type="java.lang.String">#{1000L*60*60*24}</value></entry>
                         </map>
                     </entry>
                     <entry key="GetVenues">
                         <map>
                             <entry key="storable"><value type="java.lang.Boolean">true</value></entry>
-                            <entry key="automaticRefresh"><value type="java.lang.Boolean">true</value></entry>
+                            <entry key="automaticRefresh"><value type="java.lang.Boolean">false</value></entry>
                             <entry key="dataFlowInvokable"><value type="java.lang.Boolean">true</value></entry>
-                            <entry key="cacheValidityPeriod"><value type="java.lang.Long">86400000</value></entry>
-                            <entry key="periodOnFailure"><value type="java.lang.String">0 30 8 * * ? *</value></entry>
-                            <entry key="validityPeriod"><value type="java.lang.Long">604800000</value></entry>
-                            <entry key="serviceBlocked"><value type="java.lang.Boolean">true</value></entry>
-                            <entry key="runnableAfterDelay"><value type="java.lang.Boolean">true</value></entry>
-                            <entry key="periodOnDefault"><value type="java.lang.String">0 30 8 * * ? *</value></entry>
-                            <entry key="delay"><value type="java.lang.Long">15000</value></entry>
-                            <entry key="period"><value type="java.lang.String">0 30 8 * * ? *</value></entry>
+                            <entry key="cacheValidityPeriod"><value type="java.lang.Long">#{1000L*60*60*24*15}</value></entry>
+                            <entry key="periodOnFailure"><value type="java.lang.String">#{1000L*60*60*48}</value></entry>
+                            <entry key="validityPeriod"><value type="java.lang.Long">#{1000L*60*60*24*30}</value></entry>
+                            <entry key="serviceBlocked"><value type="java.lang.Boolean">false</value></entry>
+                            <entry key="runnableAfterDelay"><value type="java.lang.Boolean">false</value></entry>
+                            <entry key="periodOnDefault"><value type="java.lang.String">#{1000L*60*60*24}</value></entry>
+                            <entry key="delay"><value type="java.lang.Long">#{1000L*15}</value></entry>
+                            <entry key="period"><value type="java.lang.String">#{1000L*60*60*24}</value></entry>
                         </map>
                     </entry>
                     <entry key="GetNews">
                         <map>
                             <entry key="storable"><value type="java.lang.Boolean">true</value></entry>
-                            <entry key="automaticRefresh"><value type="java.lang.Boolean">true</value></entry>
+                            <entry key="automaticRefresh"><value type="java.lang.Boolean">false</value></entry>
                             <entry key="dataFlowInvokable"><value type="java.lang.Boolean">true</value></entry>
                             <entry key="cacheValidityPeriod"><value type="java.lang.Long">#{1000L*60*60*24*15}</value></entry>
                             <entry key="periodOnFailure"><value type="java.lang.String">#{1000L*60*60*48}</value></entry>
@@ -70,6 +70,21 @@
                         </map>
                     </entry>
                     <entry key="GetPoiFromCsv">
+                        <map>
+                            <entry key="storable"><value type="java.lang.Boolean">true</value></entry>
+                            <entry key="automaticRefresh"><value type="java.lang.Boolean">false</value></entry>
+                            <entry key="dataFlowInvokable"><value type="java.lang.Boolean">true</value></entry>
+                            <entry key="cacheValidityPeriod"><value type="java.lang.Long">#{1000L*60*60*24*15}</value></entry>
+                            <entry key="periodOnFailure"><value type="java.lang.String">#{1000L*60*60*48}</value></entry>
+                            <entry key="validityPeriod"><value type="java.lang.Long">#{1000L*60*60*24*30}</value></entry>
+                            <entry key="serviceBlocked"><value type="java.lang.Boolean">false</value></entry>
+                            <entry key="runnableAfterDelay"><value type="java.lang.Boolean">false</value></entry>
+                            <entry key="periodOnDefault"><value type="java.lang.String">#{1000L*60*60*24}</value></entry>
+                            <entry key="delay"><value type="java.lang.Long">#{1000L*15}</value></entry>
+                            <entry key="period"><value type="java.lang.String">#{1000L*60*60*24}</value></entry>
+                        </map>
+                    </entry>
+                    <entry key="GetCompetitionSchedule">
                         <map>
                             <entry key="storable"><value type="java.lang.Boolean">true</value></entry>
                             <entry key="automaticRefresh"><value type="java.lang.Boolean">false</value></entry>
@@ -101,6 +116,10 @@
                         </util:list>
                     </entry>
                     <entry key="GetPoiFromCsv">
+                        <util:list>
+                        </util:list>
+                    </entry>
+                    <entry key="GetCompetitionSchedule">
                         <util:list>
                         </util:list>
                     </entry>

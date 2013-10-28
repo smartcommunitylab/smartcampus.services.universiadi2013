@@ -40,6 +40,9 @@ public class GetEventsDataFlow implements ServiceDataFlow {
 	Logger log = Logger.getLogger(this.getClass());
 
 
+	private java.util.Date startingTime;
+	private java.util.Date currentTime;
+	private java.lang.String baseNewsUrl;
 	private java.lang.String datiJsonIt;
 	private java.lang.String datiJsonEn;
 
@@ -55,6 +58,9 @@ public class GetEventsDataFlow implements ServiceDataFlow {
 
 	public List<Message> invoke(String serviceExecutionId, Map<String, Object> parameters) throws DataFlowException {
 		Map<String, Object> contextVariables = new java.util.HashMap<String,Object>();
+	contextVariables.put("startingTime", startingTime);
+	contextVariables.put("currentTime", currentTime);
+	contextVariables.put("baseNewsUrl", baseNewsUrl);
 	contextVariables.put("datiJsonIt", datiJsonIt);
 	contextVariables.put("datiJsonEn", datiJsonEn);
 
@@ -67,10 +73,31 @@ public class GetEventsDataFlow implements ServiceDataFlow {
 		it.sayservice.platform.core.bus.service.connector.HTTPConnector newsJSON = new it.sayservice.platform.core.bus.service.connector.HTTPConnector();
 		newsJSON.setSessionSupport("REQUIRED", null);
 		newsJSON.setPost(false);
-		newsJSON.setEncoding("UTF-8");
+		newsJSON.setEncoding("iso-8859-1");
+
+		//Set
+		currentTime = (java.util.Date)InvokeScript.invoke("new Date()", contextVariables);
+		contextVariables.put("currentTime", currentTime);
+
+		//Set
+		startingTime = (java.util.Date)InvokeScript.invoke("new Date(1381183200000L)", contextVariables);
+		contextVariables.put("startingTime", startingTime);
+
+		//Script
+		{
+		try {
+			java.lang.String scriptResult1 = (java.lang.String)InvokeDataFlowScriptNode.invoke(it.sayservice.services.universiadi2013.script.ScriptBody.class, "getEventsUrl", "startingTime", contextVariables, serviceExecutionId, serviceMethod);
+			baseNewsUrl = (java.lang.String)scriptResult1;
+			contextVariables.put("baseNewsUrl", baseNewsUrl);
+			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "baseNewsUrl", baseNewsUrl);
+			} catch (Exception e0) {
+				log.error("DataFlow Error: " + e0.getClass().getName());
+				throw new DataFlowException(ExceptionMessage.TRANSFORMER_ERROR, e0);
+			}
+		}
 
 		//Connect
-		newsJSON.setUrl((String)InvokeScript.invoke("\"http://v4m-vps5.juniper-xs.it/v4web/uni2013?RefOwner=6A02F0E4B7EA457E90F11E341D60E444&lang=IT\"", contextVariables));
+		newsJSON.setUrl((String)InvokeScript.invoke("baseNewsUrl + \"lang=IT\"", contextVariables));
 		try {
 			InvokeConnector<java.io.Reader> newsJSONInvoker = new InvokeConnector<java.io.Reader>();
 			java.io.Reader connectResult1 = newsJSONInvoker.invoke(newsJSON, "newsJSON", "datiJsonIt", serviceExecutionId, serviceMethod);
@@ -87,7 +114,7 @@ public class GetEventsDataFlow implements ServiceDataFlow {
 			}
 
 		//Connect
-		newsJSON.setUrl((String)InvokeScript.invoke("\"http://v4m-vps5.juniper-xs.it/v4web/uni2013?RefOwner=6A02F0E4B7EA457E90F11E341D60E444&lang=EN\"", contextVariables));
+		newsJSON.setUrl((String)InvokeScript.invoke("baseNewsUrl + \"lang=EN\"", contextVariables));
 		try {
 			InvokeConnector<java.io.Reader> newsJSONInvoker = new InvokeConnector<java.io.Reader>();
 			java.io.Reader connectResult2 = newsJSONInvoker.invoke(newsJSON, "newsJSON", "datiJsonEn", serviceExecutionId, serviceMethod);
@@ -106,8 +133,8 @@ public class GetEventsDataFlow implements ServiceDataFlow {
 		//Script
 		{
 		try {
-			java.util.List<com.google.protobuf.Message> scriptResult1 = (java.util.List<com.google.protobuf.Message>)InvokeDataFlowScriptNode.invoke(it.sayservice.services.universiadi2013.script.ScriptBody.class, "getEvents", "datiJsonIt,datiJsonEn", contextVariables, serviceExecutionId, serviceMethod);
-			output = (List<Message>)scriptResult1;
+			java.util.List<com.google.protobuf.Message> scriptResult2 = (java.util.List<com.google.protobuf.Message>)InvokeDataFlowScriptNode.invoke(it.sayservice.services.universiadi2013.script.ScriptBody.class, "getEvents", "datiJsonIt,datiJsonEn", contextVariables, serviceExecutionId, serviceMethod);
+			output = (List<Message>)scriptResult2;
 			contextVariables.put("output", output);
 			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "output", output);
 			} catch (Exception e0) {

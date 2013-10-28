@@ -19,12 +19,18 @@
 			<output type="it.sayservice.services.universiadi2013.data.message.Data.Event"
 				repeated="true" />
 		</operation>
+		<operation name="GetCompetitionSchedule" storable="true">
+			<output type="it.sayservice.services.universiadi2013.data.message.Data.Event"
+				repeated="true" />
+		</operation>
 	</interface>
 
 	<implementation package="it.sayservice.services.universiadi2013">
 	   <operationImpl name="GetPoiFromCsv" />
 	   <operationImpl name="GetNews" />
 	   <operationImpl name="GetVenues" />
+	   <operationImpl name="GetEvents" />
+	   <operationImpl name="GetCompetitionSchedule" />
 	</implementation>
 		
 </service-definition>

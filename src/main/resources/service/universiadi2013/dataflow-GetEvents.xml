@@ -4,15 +4,34 @@
 
 	<output/>
 
+	<variable name="startingTime" type="java.util.Date" />
+	<variable name="currentTime" type="java.util.Date" />
+	<variable name="baseNewsUrl" type="java.lang.String" />
 	<variable name="datiJsonIt" type="java.lang.String" />
 	<variable name="datiJsonEn" type="java.lang.String" />
 	
-	<httpConnector name="newsJSON" method="GET" encoding="UTF-8" />
+	<httpConnector name="newsJSON" method="GET" encoding="iso-8859-1" />
+	
+	<set outputVar="currentTime">
+		<body>new Date()</body>
+	</set>
+	
+	<set outputVar="startingTime">
+		<body>new Date(1381183200000L)</body>
+	</set>
+	
+	<script outputVar="baseNewsUrl"  writeAction="update">
+	  <className>it.sayservice.services.universiadi2013.script.ScriptBody</className>
+	  <method>getEventsUrl</method>
+	  <variables>
+	    <value>startingTime</value>
+	  </variables>
+	</script>
 	
 	<connect name="c1" connector="newsJSON" transformer="string" outputVar="datiJsonIt">
 		<properties>
 			<property name="url">
-				<value>"http://v4m-vps5.juniper-xs.it/v4web/uni2013?RefOwner=6A02F0E4B7EA457E90F11E341D60E444&amp;lang=IT"</value>
+				<value>baseNewsUrl + "lang=IT"</value>
 			</property>
 		</properties>
 	</connect>
@@ -20,7 +39,7 @@
 	<connect name="c2" connector="newsJSON" transformer="string" outputVar="datiJsonEn">
 		<properties>
 			<property name="url">
-				<value>"http://v4m-vps5.juniper-xs.it/v4web/uni2013?RefOwner=6A02F0E4B7EA457E90F11E341D60E444&amp;lang=EN"</value>
+				<value>baseNewsUrl + "lang=EN"</value>
 			</property>
 		</properties>
 	</connect>

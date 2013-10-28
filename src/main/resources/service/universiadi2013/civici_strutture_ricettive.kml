@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>civici_strutture_ricettive</name>
+  <Placemark>
+	<name>GRAND HOTEL TRENTO RISTORANTE B. CLESIO BAR IL CAMINETTO - VIA V. ALFIERI, 3</name>
+	<description>GRAND HOTEL TRENTO RISTORANTE B. CLESIO BAR IL CAMINETTO - VIA V. ALFIERI, 3</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2016</SimpleData>
+		<SimpleData name="peinse">GRAND HOTEL TRENTO RISTORANTE B. CLESIO BAR IL CAMINETTO</SimpleData>
+		<SimpleData name="desvia">VIA V. ALFIERI</SimpleData>
+		<SimpleData name="civico_alf">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.121668074700608,46.070987587632487</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOTEL EVEREST - CORSO DEGLI ALPINI, 14</name>
+	<description>HOTEL EVEREST - CORSO DEGLI ALPINI, 14</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">1998</SimpleData>
+		<SimpleData name="peinse">HOTEL EVEREST</SimpleData>
+		<SimpleData name="desvia">CORSO DEGLI ALPINI</SimpleData>
+		<SimpleData name="civico_alf">14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.118390952902462,46.078471689779271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CASA PER FERIE PENSIONATO STUDENTESCO CONVITTO LA COLLINA - VIA A. AVANCINI, 20</name>
+	<description>CASA PER FERIE PENSIONATO STUDENTESCO CONVITTO LA COLLINA - VIA A. AVANCINI, 20</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4129</SimpleData>
+		<SimpleData name="peinse">CASA PER FERIE PENSIONATO STUDENTESCO CONVITTO LA COLLINA</SimpleData>
+		<SimpleData name="desvia">VIA A. AVANCINI</SimpleData>
+		<SimpleData name="civico_alf">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.131265099762899,46.070462806675103</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CASA PER FERIE PIER GIORGIO FRASSATI - VIA F. BARBACOVI, 22</name>
+	<description>CASA PER FERIE PIER GIORGIO FRASSATI - VIA F. BARBACOVI, 22</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2569</SimpleData>
+		<SimpleData name="peinse">CASA PER FERIE PIER GIORGIO FRASSATI</SimpleData>
+		<SimpleData name="desvia">VIA F. BARBACOVI</SimpleData>
+		<SimpleData name="civico_alf">22</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.127330689068073,46.064994897241789</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>VENEZIA - VIA R. BELENZANI, 70</name>
+	<description>VENEZIA - VIA R. BELENZANI, 70</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2003</SimpleData>
+		<SimpleData name="peinse">VENEZIA</SimpleData>
+		<SimpleData name="desvia">VIA R. BELENZANI</SimpleData>
+		<SimpleData name="civico_alf">70</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.121282471180336,46.067977840958243</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>AQUILA D'ORO STREET BAR GOLDEN EAGLE - VIA R. BELENZANI, 76</name>
+	<description>AQUILA D'ORO STREET BAR GOLDEN EAGLE - VIA R. BELENZANI, 76</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2007</SimpleData>
+		<SimpleData name="peinse">AQUILA D'ORO STREET BAR GOLDEN EAGLE</SimpleData>
+		<SimpleData name="desvia">VIA R. BELENZANI</SimpleData>
+		<SimpleData name="civico_alf">76</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.12129871995212,46.067891705946053</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>AFFITTACAMERE LA CANONICA - STRADA STRETTA, 1</name>
+	<description>AFFITTACAMERE LA CANONICA - STRADA STRETTA, 1</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3860</SimpleData>
+		<SimpleData name="peinse">AFFITTACAMERE LA CANONICA</SimpleData>
+		<SimpleData name="desvia">STRADA STRETTA</SimpleData>
+		<SimpleData name="civico_alf">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.145887146547738,46.049318084418474</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>APPARTAMENTI PER VACANZE RESIDENZA PIEDICASTELLO - VIA BRESCIA, 37</name>
+	<description>APPARTAMENTI PER VACANZE RESIDENZA PIEDICASTELLO - VIA BRESCIA, 37</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2529</SimpleData>
+		<SimpleData name="peinse">APPARTAMENTI PER VACANZE RESIDENZA PIEDICASTELLO</SimpleData>
+		<SimpleData name="desvia">VIA BRESCIA</SimpleData>
+		<SimpleData name="civico_alf">37</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.109767491426293,46.070359365779836</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALBERGO GARNI' SAN GIORGIO ALLA SCALA - VIA BRESCIA, 133</name>
+	<description>ALBERGO GARNI' SAN GIORGIO ALLA SCALA - VIA BRESCIA, 133</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2017</SimpleData>
+		<SimpleData name="peinse">ALBERGO GARNI' SAN GIORGIO ALLA SCALA</SimpleData>
+		<SimpleData name="desvia">VIA BRESCIA</SimpleData>
+		<SimpleData name="civico_alf">133</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.104709722657384,46.07357087759685</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CASA PER VACANZE BORGO ROSSI - VIA DELLE CAVE, 45</name>
+	<description>CASA PER VACANZE BORGO ROSSI - VIA DELLE CAVE, 45</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4252</SimpleData>
+		<SimpleData name="peinse">CASA PER VACANZE BORGO ROSSI</SimpleData>
+		<SimpleData name="desvia">VIA DELLE CAVE</SimpleData>
+		<SimpleData name="civico_alf">45</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.132413187366739,46.06670060511658</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ACCADEMIA - VICOLO COLICO, 4</name>
+	<description>ACCADEMIA - VICOLO COLICO, 4</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2005</SimpleData>
+		<SimpleData name="peinse">ACCADEMIA</SimpleData>
+		<SimpleData name="desvia">VICOLO COLICO</SimpleData>
+		<SimpleData name="civico_alf">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.120282620081847,46.068703003591011</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CASA PER FERIE ASSOCIAZIONE LA PANCHINA - VIA DELLA COLLINA, 15</name>
+	<description>CASA PER FERIE ASSOCIAZIONE LA PANCHINA - VIA DELLA COLLINA, 15</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2789</SimpleData>
+		<SimpleData name="peinse">CASA PER FERIE ASSOCIAZIONE LA PANCHINA</SimpleData>
+		<SimpleData name="desvia">VIA DELLA COLLINA</SimpleData>
+		<SimpleData name="civico_alf">15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.130958773500089,46.069629638359679</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad and Breakfast La Rosa Blu - VIA A. DEGASPERI, 108</name>
+	<description>Bad and Breakfast La Rosa Blu - VIA A. DEGASPERI, 108</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4808</SimpleData>
+		<SimpleData name="peinse">Bad and Breakfast La Rosa Blu</SimpleData>
+		<SimpleData name="desvia">VIA A. DEGASPERI</SimpleData>
+		<SimpleData name="civico_alf">108</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.124964213228957,46.048711769021203</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>VILLA FONTANA - VIA FELICE E G. FONTANA, 11</name>
+	<description>VILLA FONTANA - VIA FELICE E G. FONTANA, 11</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2013</SimpleData>
+		<SimpleData name="peinse">VILLA FONTANA</SimpleData>
+		<SimpleData name="desvia">VIA FELICE E G. FONTANA</SimpleData>
+		<SimpleData name="civico_alf">11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.116965097401096,46.077443640567061</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>APPARTAMENTI PER VACANZE RESIDENZA GALILEO - VIA G. GALILEI, 7</name>
+	<description>APPARTAMENTI PER VACANZE RESIDENZA GALILEO - VIA G. GALILEI, 7</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2528</SimpleData>
+		<SimpleData name="peinse">APPARTAMENTI PER VACANZE RESIDENZA GALILEO</SimpleData>
+		<SimpleData name="desvia">VIA G. GALILEI</SimpleData>
+		<SimpleData name="civico_alf">7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.125826641624565,46.067956449433687</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>APPARTAMENTI PER VACANZE RESIDENZA GOCCIADORO - VIA GOCCIADORO, 152</name>
+	<description>APPARTAMENTI PER VACANZE RESIDENZA GOCCIADORO - VIA GOCCIADORO, 152</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2932</SimpleData>
+		<SimpleData name="peinse">APPARTAMENTI PER VACANZE RESIDENZA GOCCIADORO</SimpleData>
+		<SimpleData name="desvia">VIA GOCCIADORO</SimpleData>
+		<SimpleData name="civico_alf">152</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.135107085661238,46.053630339982881</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FORESTERIA VILLA S. IGNAZIO - VIA DELLE LASTE, 22</name>
+	<description>FORESTERIA VILLA S. IGNAZIO - VIA DELLE LASTE, 22</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2595</SimpleData>
+		<SimpleData name="peinse">FORESTERIA VILLA S. IGNAZIO</SimpleData>
+		<SimpleData name="desvia">VIA DELLE LASTE</SimpleData>
+		<SimpleData name="civico_alf">22</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.134025001865577,46.073386560920852</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST AI TRE PORTONI - VICOLO CARD. C. MADRUZZO, 8</name>
+	<description>BED AND BREAKFAST AI TRE PORTONI - VICOLO CARD. C. MADRUZZO, 8</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4420</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST AI TRE PORTONI</SimpleData>
+		<SimpleData name="desvia">VICOLO CARD. C. MADRUZZO</SimpleData>
+		<SimpleData name="civico_alf">8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.122500220361854,46.063562131017882</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST LA PORTA DELLA MALVASIA - VIA DELLA MALVASIA, 77</name>
+	<description>BED AND BREAKFAST LA PORTA DELLA MALVASIA - VIA DELLA MALVASIA, 77</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4588</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST LA PORTA DELLA MALVASIA</SimpleData>
+		<SimpleData name="desvia">VIA DELLA MALVASIA</SimpleData>
+		<SimpleData name="civico_alf">77</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.125053412008453,46.07576914232876</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST LA MALVASIA - VIA DELLA MALVASIA, 77</name>
+	<description>BED AND BREAKFAST LA MALVASIA - VIA DELLA MALVASIA, 77</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4054</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST LA MALVASIA</SimpleData>
+		<SimpleData name="desvia">VIA DELLA MALVASIA</SimpleData>
+		<SimpleData name="civico_alf">77</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.125053412008453,46.07576914232876</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CASA PER VACANZE AMERICA 2 - VIA G. MANCI, 44</name>
+	<description>CASA PER VACANZE AMERICA 2 - VIA G. MANCI, 44</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2534</SimpleData>
+		<SimpleData name="peinse">CASA PER VACANZE AMERICA 2</SimpleData>
+		<SimpleData name="desvia">VIA G. MANCI</SimpleData>
+		<SimpleData name="civico_alf">44</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.123194290861091,46.069837435991516</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST ADA - VIA G. MAZZINI, 4</name>
+	<description>BED AND BREAKFAST ADA - VIA G. MAZZINI, 4</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3892</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST ADA</SimpleData>
+		<SimpleData name="desvia">VIA G. MAZZINI</SimpleData>
+		<SimpleData name="civico_alf">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.122545821376484,46.066287375898177</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED &amp; BREAKFAST &quot;ANNA&quot; - VIA MILANO, 12</name>
+	<description>BED &amp; BREAKFAST &quot;ANNA&quot; - VIA MILANO, 12</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3623</SimpleData>
+		<SimpleData name="peinse">BED &amp; BREAKFAST &quot;ANNA&quot;</SimpleData>
+		<SimpleData name="desvia">VIA MILANO</SimpleData>
+		<SimpleData name="civico_alf">12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.127037191732446,46.059812846741039</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CASA PER FERIE PENSIONAT STUD UNIVERS PIA UNIONE PROVVIDENZA - VIA MILANO, 43</name>
+	<description>CASA PER FERIE PENSIONAT STUD UNIVERS PIA UNIONE PROVVIDENZA - VIA MILANO, 43</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2419</SimpleData>
+		<SimpleData name="peinse">CASA PER FERIE PENSIONAT STUD UNIVERS PIA UNIONE PROVVIDENZA</SimpleData>
+		<SimpleData name="desvia">VIA MILANO</SimpleData>
+		<SimpleData name="civico_alf">43</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.130588204339579,46.062830679401195</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bed and Breakfast &quot;All'Orsetto&quot; - VIA P. ORSI, 5</name>
+	<description>Bed and Breakfast &quot;All'Orsetto&quot; - VIA P. ORSI, 5</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4874</SimpleData>
+		<SimpleData name="peinse">Bed and Breakfast &quot;All'Orsetto&quot;</SimpleData>
+		<SimpleData name="desvia">VIA P. ORSI</SimpleData>
+		<SimpleData name="civico_alf">5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.132206961569663,46.057450063726584</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>APPARTAMENTI PER VACANZE RESIDENZA TORRE VANGA - VIA DELLA PREPOSITURA, 17</name>
+	<description>APPARTAMENTI PER VACANZE RESIDENZA TORRE VANGA - VIA DELLA PREPOSITURA, 17</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2531</SimpleData>
+		<SimpleData name="peinse">APPARTAMENTI PER VACANZE RESIDENZA TORRE VANGA</SimpleData>
+		<SimpleData name="desvia">VIA DELLA PREPOSITURA</SimpleData>
+		<SimpleData name="civico_alf">17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.11867561336225,46.069041756487543</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bed and Breakfast EDEN - VIA ROMA, 27</name>
+	<description>Bed and Breakfast EDEN - VIA ROMA, 27</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4447</SimpleData>
+		<SimpleData name="peinse">Bed and Breakfast EDEN</SimpleData>
+		<SimpleData name="desvia">VIA ROMA</SimpleData>
+		<SimpleData name="civico_alf">27</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.119400224562849,46.069620019210205</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bed and Breakfast &quot;Centro&quot; - VIA ROMA, 27</name>
+	<description>Bed and Breakfast &quot;Centro&quot; - VIA ROMA, 27</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4818</SimpleData>
+		<SimpleData name="peinse">Bed and Breakfast &quot;Centro&quot;</SimpleData>
+		<SimpleData name="desvia">VIA ROMA</SimpleData>
+		<SimpleData name="civico_alf">27</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.119400224562849,46.069620019210205</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOTEL BUONCONSIGLIO - VIA G.D. ROMAGNOSI, 14</name>
+	<description>HOTEL BUONCONSIGLIO - VIA G.D. ROMAGNOSI, 14</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">1323</SimpleData>
+		<SimpleData name="peinse">HOTEL BUONCONSIGLIO</SimpleData>
+		<SimpleData name="desvia">VIA G.D. ROMAGNOSI</SimpleData>
+		<SimpleData name="civico_alf">14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.122471306214919,46.072891011575528</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED &amp; BREAKFAST &quot;NETTUNO&quot; - VIA G.D. ROMAGNOSI, 26</name>
+	<description>BED &amp; BREAKFAST &quot;NETTUNO&quot; - VIA G.D. ROMAGNOSI, 26</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4003</SimpleData>
+		<SimpleData name="peinse">BED &amp; BREAKFAST &quot;NETTUNO&quot;</SimpleData>
+		<SimpleData name="desvia">VIA G.D. ROMAGNOSI</SimpleData>
+		<SimpleData name="civico_alf">26</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.122744173467506,46.072801157277112</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED &amp; BREAKFAST &quot;ELISA&quot; - VIALE ROVERETO, 17</name>
+	<description>BED &amp; BREAKFAST &quot;ELISA&quot; - VIALE ROVERETO, 17</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3552</SimpleData>
+		<SimpleData name="peinse">BED &amp; BREAKFAST &quot;ELISA&quot;</SimpleData>
+		<SimpleData name="desvia">VIALE ROVERETO</SimpleData>
+		<SimpleData name="civico_alf">17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.127644507863044,46.059536060800319</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOTEL SPORTING TRENTO RISTORANTE OLYMPIC - VIA R. DA SANSEVERINO, 125</name>
+	<description>HOTEL SPORTING TRENTO RISTORANTE OLYMPIC - VIA R. DA SANSEVERINO, 125</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2651</SimpleData>
+		<SimpleData name="peinse">HOTEL SPORTING TRENTO RISTORANTE OLYMPIC</SimpleData>
+		<SimpleData name="desvia">VIA R. DA SANSEVERINO</SimpleData>
+		<SimpleData name="civico_alf">125</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.111827264814723,46.051125887514829</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>AFFITTACAMERE VELA - VIA SANTI COSMA E DAMIANO, 21/6</name>
+	<description>AFFITTACAMERE VELA - VIA SANTI COSMA E DAMIANO, 21/6</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3004</SimpleData>
+		<SimpleData name="peinse">AFFITTACAMERE VELA</SimpleData>
+		<SimpleData name="desvia">VIA SANTI COSMA E DAMIANO</SimpleData>
+		<SimpleData name="civico_alf">21/6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.103826472829745,46.081841375357712</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOTEL VELA - VIA SANTI COSMA E DAMIANO, 21/A</name>
+	<description>HOTEL VELA - VIA SANTI COSMA E DAMIANO, 21/A</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2019</SimpleData>
+		<SimpleData name="peinse">HOTEL VELA</SimpleData>
+		<SimpleData name="desvia">VIA SANTI COSMA E DAMIANO</SimpleData>
+		<SimpleData name="civico_alf">21/A</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.102888908706047,46.08215630150908</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST DOSS TRENTO - VIA SANTI COSMA E DAMIANO, 94</name>
+	<description>BED AND BREAKFAST DOSS TRENTO - VIA SANTI COSMA E DAMIANO, 94</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3743</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST DOSS TRENTO</SimpleData>
+		<SimpleData name="desvia">VIA SANTI COSMA E DAMIANO</SimpleData>
+		<SimpleData name="civico_alf">94</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.106681375476432,46.07335834096223</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED &amp; BREAKFAST &quot;BUONCONSIGLIO&quot; - SALITA DELLA SPALLIERA, 4</name>
+	<description>BED &amp; BREAKFAST &quot;BUONCONSIGLIO&quot; - SALITA DELLA SPALLIERA, 4</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2664</SimpleData>
+		<SimpleData name="peinse">BED &amp; BREAKFAST &quot;BUONCONSIGLIO&quot;</SimpleData>
+		<SimpleData name="desvia">SALITA DELLA SPALLIERA</SimpleData>
+		<SimpleData name="civico_alf">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.12762759775166,46.073389428416</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>APPARTAMENTI PER VACANZE BORGO ROSSI - VIA DEL SUFFRAGIO, 104</name>
+	<description>APPARTAMENTI PER VACANZE BORGO ROSSI - VIA DEL SUFFRAGIO, 104</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3756</SimpleData>
+		<SimpleData name="peinse">APPARTAMENTI PER VACANZE BORGO ROSSI</SimpleData>
+		<SimpleData name="desvia">VIA DEL SUFFRAGIO</SimpleData>
+		<SimpleData name="civico_alf">104</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.124604107059154,46.070560612959184</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALBERMONACO - VIA TORRE D'AUGUSTO, 25</name>
+	<description>ALBERMONACO - VIA TORRE D'AUGUSTO, 25</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">1994</SimpleData>
+		<SimpleData name="peinse">ALBERMONACO</SimpleData>
+		<SimpleData name="desvia">VIA TORRE D'AUGUSTO</SimpleData>
+		<SimpleData name="civico_alf">25</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.126699745541311,46.073333439688575</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>OSTELLO DELLA GIOVENTU' &quot;GIOVANE EUROPA&quot; - VIA TORRE VANGA, 9</name>
+	<description>OSTELLO DELLA GIOVENTU' &quot;GIOVANE EUROPA&quot; - VIA TORRE VANGA, 9</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2592</SimpleData>
+		<SimpleData name="peinse">OSTELLO DELLA GIOVENTU' &quot;GIOVANE EUROPA&quot;</SimpleData>
+		<SimpleData name="desvia">VIA TORRE VANGA</SimpleData>
+		<SimpleData name="civico_alf">9</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.118985448328692,46.070097722515328</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>El Mericàn - VIA TORRE VERDE, 50</name>
+	<description>El Mericàn - VIA TORRE VERDE, 50</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">1997</SimpleData>
+		<SimpleData name="peinse">El Mericàn</SimpleData>
+		<SimpleData name="desvia">VIA TORRE VERDE</SimpleData>
+		<SimpleData name="civico_alf">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.124079779347781,46.071113155946712</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CASA PER VACANZE AMERICA 3 - VIA TORRE VERDE, 58/2</name>
+	<description>CASA PER VACANZE AMERICA 3 - VIA TORRE VERDE, 58/2</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2535</SimpleData>
+		<SimpleData name="peinse">CASA PER VACANZE AMERICA 3</SimpleData>
+		<SimpleData name="desvia">VIA TORRE VERDE</SimpleData>
+		<SimpleData name="civico_alf">58/2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.124649844656309,46.071424855788393</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>APPARTAMENTI PER VACANZE RESIDENZA PORT'AQUILA - PIAZZA VENEZIA, 12</name>
+	<description>APPARTAMENTI PER VACANZE RESIDENZA PORT'AQUILA - PIAZZA VENEZIA, 12</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2530</SimpleData>
+		<SimpleData name="peinse">APPARTAMENTI PER VACANZE RESIDENZA PORT'AQUILA</SimpleData>
+		<SimpleData name="desvia">PIAZZA VENEZIA</SimpleData>
+		<SimpleData name="civico_alf">12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.127019361175853,46.068341560390458</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST TRENTO MIA - VIA VENEZIA, 49</name>
+	<description>BED AND BREAKFAST TRENTO MIA - VIA VENEZIA, 49</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4612</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST TRENTO MIA</SimpleData>
+		<SimpleData name="desvia">VIA VENEZIA</SimpleData>
+		<SimpleData name="civico_alf">49</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.133814243591095,46.066064252712692</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST SOFIA - VIA VITTORIO VENETO, 92</name>
+	<description>BED AND BREAKFAST SOFIA - VIA VITTORIO VENETO, 92</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4781</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST SOFIA</SimpleData>
+		<SimpleData name="desvia">VIA VITTORIO VENETO</SimpleData>
+		<SimpleData name="civico_alf">92</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.122252575110485,46.058194086534698</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ROSAGALINA - VIA ZARA, 8/C</name>
+	<description>ROSAGALINA - VIA ZARA, 8/C</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4671</SimpleData>
+		<SimpleData name="peinse">ROSAGALINA</SimpleData>
+		<SimpleData name="desvia">VIA ZARA</SimpleData>
+		<SimpleData name="civico_alf">8/C</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.131476424372307,46.064006103712195</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST ZARA - VIA ZARA, 8/C</name>
+	<description>BED AND BREAKFAST ZARA - VIA ZARA, 8/C</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4223</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST ZARA</SimpleData>
+		<SimpleData name="desvia">VIA ZARA</SimpleData>
+		<SimpleData name="civico_alf">8/C</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.131476424372307,46.064006103712195</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED &amp; BREAKFAST &quot;CASA POMPERMAIER&quot; - VIA A. SCHMID, 5</name>
+	<description>BED &amp; BREAKFAST &quot;CASA POMPERMAIER&quot; - VIA A. SCHMID, 5</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2541</SimpleData>
+		<SimpleData name="peinse">BED &amp; BREAKFAST &quot;CASA POMPERMAIER&quot;</SimpleData>
+		<SimpleData name="desvia">VIA A. SCHMID</SimpleData>
+		<SimpleData name="civico_alf">5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.116324019666813,46.08269027380279</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>APPARTAMENTI PER VACANZE AMERICA 4 - PIAZZETTA NICOLO' RASMO, 3</name>
+	<description>APPARTAMENTI PER VACANZE AMERICA 4 - PIAZZETTA NICOLO' RASMO, 3</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4121</SimpleData>
+		<SimpleData name="peinse">APPARTAMENTI PER VACANZE AMERICA 4</SimpleData>
+		<SimpleData name="desvia">PIAZZETTA NICOLO' RASMO</SimpleData>
+		<SimpleData name="civico_alf">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.124576882672372,46.071165196107138</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>AL MARINAIO HOTEL GARNI' - VIA DEI MARINAI D'ITALIA, 28</name>
+	<description>AL MARINAIO HOTEL GARNI' - VIA DEI MARINAI D'ITALIA, 28</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2748</SimpleData>
+		<SimpleData name="peinse">AL MARINAIO HOTEL GARNI'</SimpleData>
+		<SimpleData name="desvia">VIA DEI MARINAI D'ITALIA</SimpleData>
+		<SimpleData name="civico_alf">28</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.126339191824831,46.035390520831974</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOTEL RISTORANTE OASI - VIA BOLZANO, 14</name>
+	<description>HOTEL RISTORANTE OASI - VIA BOLZANO, 14</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">1248</SimpleData>
+		<SimpleData name="peinse">HOTEL RISTORANTE OASI</SimpleData>
+		<SimpleData name="desvia">VIA BOLZANO</SimpleData>
+		<SimpleData name="civico_alf">14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.112089211898045,46.099876012327513</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>APPARTAMENTI PER VACANZE RESIDENZA AL PARCO - VIA BOLZANO, 21/B</name>
+	<description>APPARTAMENTI PER VACANZE RESIDENZA AL PARCO - VIA BOLZANO, 21/B</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2606</SimpleData>
+		<SimpleData name="peinse">APPARTAMENTI PER VACANZE RESIDENZA AL PARCO</SimpleData>
+		<SimpleData name="desvia">VIA BOLZANO</SimpleData>
+		<SimpleData name="civico_alf">21/B</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.110830563328193,46.101144088913188</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CASA PER FERIE FOYER DELLA GIOVENTU' - VIA 4 NOVEMBRE, 28</name>
+	<description>CASA PER FERIE FOYER DELLA GIOVENTU' - VIA 4 NOVEMBRE, 28</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2563</SimpleData>
+		<SimpleData name="peinse">CASA PER FERIE FOYER DELLA GIOVENTU'</SimpleData>
+		<SimpleData name="desvia">VIA 4 NOVEMBRE</SimpleData>
+		<SimpleData name="civico_alf">28</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.111706565166473,46.105857582967005</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>APPARTAMENTI PER VACANZE ALEX - VIA 4 NOVEMBRE, 106</name>
+	<description>APPARTAMENTI PER VACANZE ALEX - VIA 4 NOVEMBRE, 106</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2533</SimpleData>
+		<SimpleData name="peinse">APPARTAMENTI PER VACANZE ALEX</SimpleData>
+		<SimpleData name="desvia">VIA 4 NOVEMBRE</SimpleData>
+		<SimpleData name="civico_alf">106</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.112699011459434,46.099846934255154</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CASE E APPARTAMENTI PER VACANZE RESIDENCE CAPITOL - VIA SOPRASASSO, 32</name>
+	<description>CASE E APPARTAMENTI PER VACANZE RESIDENCE CAPITOL - VIA SOPRASASSO, 32</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4718</SimpleData>
+		<SimpleData name="peinse">CASE E APPARTAMENTI PER VACANZE RESIDENCE CAPITOL</SimpleData>
+		<SimpleData name="desvia">VIA SOPRASASSO</SimpleData>
+		<SimpleData name="civico_alf">32</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.108551780974203,46.106699928978557</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>APPARTAMENTI PER VACANZE CAPITOL - VIA SOPRASASSO, 34</name>
+	<description>APPARTAMENTI PER VACANZE CAPITOL - VIA SOPRASASSO, 34</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2527</SimpleData>
+		<SimpleData name="peinse">APPARTAMENTI PER VACANZE CAPITOL</SimpleData>
+		<SimpleData name="desvia">VIA SOPRASASSO</SimpleData>
+		<SimpleData name="civico_alf">34</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.108408530588047,46.106580070538556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>QUID HOTEL GARNI' - VIA INNSBRUCK, 11</name>
+	<description>QUID HOTEL GARNI' - VIA INNSBRUCK, 11</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3768</SimpleData>
+		<SimpleData name="peinse">QUID HOTEL GARNI'</SimpleData>
+		<SimpleData name="desvia">VIA INNSBRUCK</SimpleData>
+		<SimpleData name="civico_alf">11</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.091857660474535,46.111311452314439</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>APPARTAMENTI PER VACANZE RESIDENZA ANTONELLA - VIA MONACO, 12</name>
+	<description>APPARTAMENTI PER VACANZE RESIDENZA ANTONELLA - VIA MONACO, 12</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3167</SimpleData>
+		<SimpleData name="peinse">APPARTAMENTI PER VACANZE RESIDENZA ANTONELLA</SimpleData>
+		<SimpleData name="desvia">VIA MONACO</SimpleData>
+		<SimpleData name="civico_alf">12</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.092591704131136,46.119743159804109</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST &quot; AL PARCO DI MELTA&quot; - VIA G. B. FATTORI, 16</name>
+	<description>BED AND BREAKFAST &quot; AL PARCO DI MELTA&quot; - VIA G. B. FATTORI, 16</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3331</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST &quot; AL PARCO DI MELTA&quot;</SimpleData>
+		<SimpleData name="desvia">VIA G. B. FATTORI</SimpleData>
+		<SimpleData name="civico_alf">16</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.118674524204883,46.101237980496769</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED &amp; BREAKFAST &quot;PARIS LORENZA&quot; - VIA ALLE COSTE, 24</name>
+	<description>BED &amp; BREAKFAST &quot;PARIS LORENZA&quot; - VIA ALLE COSTE, 24</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2165</SimpleData>
+		<SimpleData name="peinse">BED &amp; BREAKFAST &quot;PARIS LORENZA&quot;</SimpleData>
+		<SimpleData name="desvia">VIA ALLE COSTE</SimpleData>
+		<SimpleData name="civico_alf">24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.131254409646663,46.078447544099049</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOTEL RELAIS VILLA MADRUZZO - VIA PONTE ALTO, 26</name>
+	<description>HOTEL RELAIS VILLA MADRUZZO - VIA PONTE ALTO, 26</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2010</SimpleData>
+		<SimpleData name="peinse">HOTEL RELAIS VILLA MADRUZZO</SimpleData>
+		<SimpleData name="desvia">VIA PONTE ALTO</SimpleData>
+		<SimpleData name="civico_alf">26</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.148424941727344,46.073024684895785</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST &quot;MARINA&quot; - VIA PER VILLAMONTAGNA, 54</name>
+	<description>BED AND BREAKFAST &quot;MARINA&quot; - VIA PER VILLAMONTAGNA, 54</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3291</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST &quot;MARINA&quot;</SimpleData>
+		<SimpleData name="desvia">VIA PER VILLAMONTAGNA</SimpleData>
+		<SimpleData name="civico_alf">54</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.162486640250433,46.086143373806181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RIFUGIO ESCURSIONISTICO &quot;PINO PRATI&quot; - STRADA DEI BINDESI, 14</name>
+	<description>RIFUGIO ESCURSIONISTICO &quot;PINO PRATI&quot; - STRADA DEI BINDESI, 14</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3587</SimpleData>
+		<SimpleData name="peinse">RIFUGIO ESCURSIONISTICO &quot;PINO PRATI&quot;</SimpleData>
+		<SimpleData name="desvia">STRADA DEI BINDESI</SimpleData>
+		<SimpleData name="civico_alf">14</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.153897739394544,46.03617819614859</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST &quot;LE ZIETTE&quot; - VIA ALLA CASCATA, 4/1</name>
+	<description>BED AND BREAKFAST &quot;LE ZIETTE&quot; - VIA ALLA CASCATA, 4/1</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4049</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST &quot;LE ZIETTE&quot;</SimpleData>
+		<SimpleData name="desvia">VIA ALLA CASCATA</SimpleData>
+		<SimpleData name="civico_alf">4/1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.153332191874064,46.06638206695385</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST WHITE ROSE - LOC. PASSO CIMIRLO, 81</name>
+	<description>BED AND BREAKFAST WHITE ROSE - LOC. PASSO CIMIRLO, 81</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4681</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST WHITE ROSE</SimpleData>
+		<SimpleData name="desvia">LOC. PASSO CIMIRLO</SimpleData>
+		<SimpleData name="civico_alf">81</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.181505543862656,46.070982091656489</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>AFFITTACAMERE ESTER - VIA SALE', 8</name>
+	<description>AFFITTACAMERE ESTER - VIA SALE', 8</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2027</SimpleData>
+		<SimpleData name="peinse">AFFITTACAMERE ESTER</SimpleData>
+		<SimpleData name="desvia">VIA SALE'</SimpleData>
+		<SimpleData name="civico_alf">8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.151559112960946,46.06197542310111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED &amp; BREAKFAST &quot;CA' BIANCA&quot; - VIA GABBIOLO, 22</name>
+	<description>BED &amp; BREAKFAST &quot;CA' BIANCA&quot; - VIA GABBIOLO, 22</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2194</SimpleData>
+		<SimpleData name="peinse">BED &amp; BREAKFAST &quot;CA' BIANCA&quot;</SimpleData>
+		<SimpleData name="desvia">VIA GABBIOLO</SimpleData>
+		<SimpleData name="civico_alf">22</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.153247162414241,46.058256387145015</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST ADA POVO - VIA PINARA, 6</name>
+	<description>BED AND BREAKFAST ADA POVO - VIA PINARA, 6</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4651</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST ADA POVO</SimpleData>
+		<SimpleData name="desvia">VIA PINARA</SimpleData>
+		<SimpleData name="civico_alf">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.162245526246805,46.066911192429984</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RIFUGIO ESCURSIONISTICO &quot;MARANZA&quot; - STRADA PER MARANZA, 23</name>
+	<description>RIFUGIO ESCURSIONISTICO &quot;MARANZA&quot; - STRADA PER MARANZA, 23</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3585</SimpleData>
+		<SimpleData name="peinse">RIFUGIO ESCURSIONISTICO &quot;MARANZA&quot;</SimpleData>
+		<SimpleData name="desvia">STRADA PER MARANZA</SimpleData>
+		<SimpleData name="civico_alf">23</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.165640221167918,46.027539604684144</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED &amp; BREAKFAST &quot;NEGRI ANNA&quot; - VIA NAZIONALE, 58</name>
+	<description>BED &amp; BREAKFAST &quot;NEGRI ANNA&quot; - VIA NAZIONALE, 58</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2164</SimpleData>
+		<SimpleData name="peinse">BED &amp; BREAKFAST &quot;NEGRI ANNA&quot;</SimpleData>
+		<SimpleData name="desvia">VIA NAZIONALE</SimpleData>
+		<SimpleData name="civico_alf">58</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.128219837641115,46.010065970966735</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>KARINHALL - LOC. I GREZZI, 17</name>
+	<description>KARINHALL - LOC. I GREZZI, 17</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2014</SimpleData>
+		<SimpleData name="peinse">KARINHALL</SimpleData>
+		<SimpleData name="desvia">LOC. I GREZZI</SimpleData>
+		<SimpleData name="civico_alf">17</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.126206689033381,45.995578756896698</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>AFFITTACAMERE RIGHETTI DANIELA - STRADA DELLE NOVALINE, 42</name>
+	<description>AFFITTACAMERE RIGHETTI DANIELA - STRADA DELLE NOVALINE, 42</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2028</SimpleData>
+		<SimpleData name="peinse">AFFITTACAMERE RIGHETTI DANIELA</SimpleData>
+		<SimpleData name="desvia">STRADA DELLE NOVALINE</SimpleData>
+		<SimpleData name="civico_alf">42</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.139461993855297,46.011199050407257</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED &amp; BREAKFAST &quot;RIGHETTI DANIELA&quot; - STRADA DELLE NOVALINE, 44</name>
+	<description>BED &amp; BREAKFAST &quot;RIGHETTI DANIELA&quot; - STRADA DELLE NOVALINE, 44</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2163</SimpleData>
+		<SimpleData name="peinse">BED &amp; BREAKFAST &quot;RIGHETTI DANIELA&quot;</SimpleData>
+		<SimpleData name="desvia">STRADA DELLE NOVALINE</SimpleData>
+		<SimpleData name="civico_alf">44</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.139018744709167,46.011283577406033</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOTEL ADIGE - VIA POMERANOS, 2</name>
+	<description>HOTEL ADIGE - VIA POMERANOS, 2</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2024</SimpleData>
+		<SimpleData name="peinse">HOTEL ADIGE</SimpleData>
+		<SimpleData name="desvia">VIA POMERANOS</SimpleData>
+		<SimpleData name="civico_alf">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.132562547106085,46.015022850814425</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RELAIS VECCHIO MASO - STRADA MONASTERO S. ANNA, 2</name>
+	<description>RELAIS VECCHIO MASO - STRADA MONASTERO S. ANNA, 2</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3213</SimpleData>
+		<SimpleData name="peinse">RELAIS VECCHIO MASO</SimpleData>
+		<SimpleData name="desvia">STRADA MONASTERO S. ANNA</SimpleData>
+		<SimpleData name="civico_alf">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.0564547013318,46.068287380175462</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST LE TRE CIME - VIA DELLA POZZA, 50</name>
+	<description>BED AND BREAKFAST LE TRE CIME - VIA DELLA POZZA, 50</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3754</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST LE TRE CIME</SimpleData>
+		<SimpleData name="desvia">VIA DELLA POZZA</SimpleData>
+		<SimpleData name="civico_alf">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.06250071876414,46.076797276071026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALBERGO ALPINO - STRADA DI SPINEDA, 6</name>
+	<description>ALBERGO ALPINO - STRADA DI SPINEDA, 6</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">1232</SimpleData>
+		<SimpleData name="peinse">ALBERGO ALPINO</SimpleData>
+		<SimpleData name="desvia">STRADA DI SPINEDA</SimpleData>
+		<SimpleData name="civico_alf">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.058673908486913,46.072650920409302</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CASA PER VACANZE NEVADA - STRADA DI VASON, 39</name>
+	<description>CASA PER VACANZE NEVADA - STRADA DI VASON, 39</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2532</SimpleData>
+		<SimpleData name="peinse">CASA PER VACANZE NEVADA</SimpleData>
+		<SimpleData name="desvia">STRADA DI VASON</SimpleData>
+		<SimpleData name="civico_alf">39</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.059289992525752,46.040032700110039</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOTEL NEVADA - STRADA DI VASON, 61</name>
+	<description>HOTEL NEVADA - STRADA DI VASON, 61</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2006</SimpleData>
+		<SimpleData name="peinse">HOTEL NEVADA</SimpleData>
+		<SimpleData name="desvia">STRADA DI VASON</SimpleData>
+		<SimpleData name="civico_alf">61</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.058863077396591,46.039716421279849</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LE BLANC HOTEL &amp; SPA - STRADA DI VASON, 64</name>
+	<description>LE BLANC HOTEL &amp; SPA - STRADA DI VASON, 64</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3759</SimpleData>
+		<SimpleData name="peinse">LE BLANC HOTEL &amp; SPA</SimpleData>
+		<SimpleData name="desvia">STRADA DI VASON</SimpleData>
+		<SimpleData name="civico_alf">64</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.059152377175355,46.041843901025537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MONTANA - STRADA DI VASON, 70</name>
+	<description>MONTANA - STRADA DI VASON, 70</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">1396</SimpleData>
+		<SimpleData name="peinse">MONTANA</SimpleData>
+		<SimpleData name="desvia">STRADA DI VASON</SimpleData>
+		<SimpleData name="civico_alf">70</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.058486732048289,46.040708184333141</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>R.T.A. PRADA - STRADA DI VASON, 87</name>
+	<description>R.T.A. PRADA - STRADA DI VASON, 87</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">1991</SimpleData>
+		<SimpleData name="peinse">R.T.A. PRADA</SimpleData>
+		<SimpleData name="desvia">STRADA DI VASON</SimpleData>
+		<SimpleData name="civico_alf">87</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.058135649221256,46.038635880752189</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DOLOMITI CHALET - STRADA DI VASON, 88</name>
+	<description>DOLOMITI CHALET - STRADA DI VASON, 88</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3979</SimpleData>
+		<SimpleData name="peinse">DOLOMITI CHALET</SimpleData>
+		<SimpleData name="desvia">STRADA DI VASON</SimpleData>
+		<SimpleData name="civico_alf">88</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.057963151813755,46.039807534905513</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>VASON - STRADA DI VASON, 100</name>
+	<description>VASON - STRADA DI VASON, 100</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2008</SimpleData>
+		<SimpleData name="peinse">VASON</SimpleData>
+		<SimpleData name="desvia">STRADA DI VASON</SimpleData>
+		<SimpleData name="civico_alf">100</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.058005772380834,46.039277467179041</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CIELO APERTO - STRADA DI VASON, 117</name>
+	<description>CIELO APERTO - STRADA DI VASON, 117</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2025</SimpleData>
+		<SimpleData name="peinse">CIELO APERTO</SimpleData>
+		<SimpleData name="desvia">STRADA DI VASON</SimpleData>
+		<SimpleData name="civico_alf">117</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.057333753491251,46.038268835426074</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALPINE MUGON HOTEL - STRADA DI VASON, 120</name>
+	<description>ALPINE MUGON HOTEL - STRADA DI VASON, 120</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3200</SimpleData>
+		<SimpleData name="peinse">ALPINE MUGON HOTEL</SimpleData>
+		<SimpleData name="desvia">STRADA DI VASON</SimpleData>
+		<SimpleData name="civico_alf">120</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.056455083013542,46.039379153886024</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CHALET CAMINETTO - STRADA DI VASON, 139</name>
+	<description>CHALET CAMINETTO - STRADA DI VASON, 139</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2022</SimpleData>
+		<SimpleData name="peinse">CHALET CAMINETTO</SimpleData>
+		<SimpleData name="desvia">STRADA DI VASON</SimpleData>
+		<SimpleData name="civico_alf">139</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.05536507546071,46.03835103654918</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RIFUGIO VIOTE - STRADA DELLE VIOTE, 6</name>
+	<description>RIFUGIO VIOTE - STRADA DELLE VIOTE, 6</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4626</SimpleData>
+		<SimpleData name="peinse">RIFUGIO VIOTE</SimpleData>
+		<SimpleData name="desvia">STRADA DELLE VIOTE</SimpleData>
+		<SimpleData name="civico_alf">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.037889701278225,46.023221512104648</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOTEL NORGE - STRADA DEL NORGE, 5</name>
+	<description>HOTEL NORGE - STRADA DEL NORGE, 5</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3752</SimpleData>
+		<SimpleData name="peinse">HOTEL NORGE</SimpleData>
+		<SimpleData name="desvia">STRADA DEL NORGE</SimpleData>
+		<SimpleData name="civico_alf">5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.066659383747686,46.048700750384782</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BAITA MONTESEL - STRADA DEL NORGE, 99</name>
+	<description>BAITA MONTESEL - STRADA DEL NORGE, 99</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">1993</SimpleData>
+		<SimpleData name="peinse">BAITA MONTESEL</SimpleData>
+		<SimpleData name="desvia">STRADA DEL NORGE</SimpleData>
+		<SimpleData name="civico_alf">99</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.065599284823977,46.045455214786216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOTEL TERME SAN LEONARDO - STRADA DI VIGOLO BASELGA, 8</name>
+	<description>HOTEL TERME SAN LEONARDO - STRADA DI VIGOLO BASELGA, 8</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">1267</SimpleData>
+		<SimpleData name="peinse">HOTEL TERME SAN LEONARDO</SimpleData>
+		<SimpleData name="desvia">STRADA DI VIGOLO BASELGA</SimpleData>
+		<SimpleData name="civico_alf">8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.04336817986654,46.080963540188158</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PALLONCINO ROSSO - STRADA DI VIGOLO BASELGA, 21</name>
+	<description>PALLONCINO ROSSO - STRADA DI VIGOLO BASELGA, 21</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">1237</SimpleData>
+		<SimpleData name="peinse">PALLONCINO ROSSO</SimpleData>
+		<SimpleData name="desvia">STRADA DI VIGOLO BASELGA</SimpleData>
+		<SimpleData name="civico_alf">21</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.034093497644927,46.077101268522682</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FORESTERIA CENTRO MARIAPOLI - STRADA DI CADINE, 33</name>
+	<description>FORESTERIA CENTRO MARIAPOLI - STRADA DI CADINE, 33</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2582</SimpleData>
+		<SimpleData name="peinse">FORESTERIA CENTRO MARIAPOLI</SimpleData>
+		<SimpleData name="desvia">STRADA DI CADINE</SimpleData>
+		<SimpleData name="civico_alf">33</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.062448769133054,46.088273835493979</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED &amp; BREAKFAST &quot;SALTORI RENATA&quot; - SALITA DEL RONZEL, 4</name>
+	<description>BED &amp; BREAKFAST &quot;SALTORI RENATA&quot; - SALITA DEL RONZEL, 4</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2261</SimpleData>
+		<SimpleData name="peinse">BED &amp; BREAKFAST &quot;SALTORI RENATA&quot;</SimpleData>
+		<SimpleData name="desvia">SALITA DEL RONZEL</SimpleData>
+		<SimpleData name="civico_alf">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.122122268236478,46.125919952658357</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST &quot;ARCADIA&quot; - VIA DEL PRA DE L'AGNELA, 28</name>
+	<description>BED AND BREAKFAST &quot;ARCADIA&quot; - VIA DEL PRA DE L'AGNELA, 28</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3269</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST &quot;ARCADIA&quot;</SimpleData>
+		<SimpleData name="desvia">VIA DEL PRA DE L'AGNELA</SimpleData>
+		<SimpleData name="civico_alf">28</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.127912799785149,46.129155883055006</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CASA PER FERIE GRUPPI COLONIA PRALUNGO - VIA DI PRALUNGO, 3</name>
+	<description>CASA PER FERIE GRUPPI COLONIA PRALUNGO - VIA DI PRALUNGO, 3</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3360</SimpleData>
+		<SimpleData name="peinse">CASA PER FERIE GRUPPI COLONIA PRALUNGO</SimpleData>
+		<SimpleData name="desvia">VIA DI PRALUNGO</SimpleData>
+		<SimpleData name="civico_alf">3</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.142690564305973,46.119510183448575</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CASA PER FERIE CENTRO ATTIVITA' FORMATIVE CANDRIAI AERAT - STRADA DI CANDRIAI, 15</name>
+	<description>CASA PER FERIE CENTRO ATTIVITA' FORMATIVE CANDRIAI AERAT - STRADA DI CANDRIAI, 15</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2489</SimpleData>
+		<SimpleData name="peinse">CASA PER FERIE CENTRO ATTIVITA' FORMATIVE CANDRIAI AERAT</SimpleData>
+		<SimpleData name="desvia">STRADA DI CANDRIAI</SimpleData>
+		<SimpleData name="civico_alf">15</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.08498332054752,46.064774481965642</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RESIDENCE HOTEL CANDRIAI ALLA POSTA - STRADA DI CANDRIAI, 27</name>
+	<description>RESIDENCE HOTEL CANDRIAI ALLA POSTA - STRADA DI CANDRIAI, 27</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2021</SimpleData>
+		<SimpleData name="peinse">RESIDENCE HOTEL CANDRIAI ALLA POSTA</SimpleData>
+		<SimpleData name="desvia">STRADA DI CANDRIAI</SimpleData>
+		<SimpleData name="civico_alf">27</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.083883819353529,46.065211587373106</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOTEL ZODIACO PUB BAR TRE 3 - STRADA DI VANEZE, 23</name>
+	<description>HOTEL ZODIACO PUB BAR TRE 3 - STRADA DI VANEZE, 23</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">1573</SimpleData>
+		<SimpleData name="peinse">HOTEL ZODIACO PUB BAR TRE 3</SimpleData>
+		<SimpleData name="desvia">STRADA DI VANEZE</SimpleData>
+		<SimpleData name="civico_alf">23</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.07231823114282,46.0511422233213</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>R.T.A. ORIZZONTE - STRADA DI VANEZE, 24</name>
+	<description>R.T.A. ORIZZONTE - STRADA DI VANEZE, 24</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3204</SimpleData>
+		<SimpleData name="peinse">R.T.A. ORIZZONTE</SimpleData>
+		<SimpleData name="desvia">STRADA DI VANEZE</SimpleData>
+		<SimpleData name="civico_alf">24</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.072748292923361,46.051168382052353</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALBERGO EUROPA - STRADA DI VANEZE, 31</name>
+	<description>ALBERGO EUROPA - STRADA DI VANEZE, 31</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">1452</SimpleData>
+		<SimpleData name="peinse">ALBERGO EUROPA</SimpleData>
+		<SimpleData name="desvia">STRADA DI VANEZE</SimpleData>
+		<SimpleData name="civico_alf">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.071690588238935,46.051934798156758</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>AUGUSTUS - STRADA DI VANEZE, 35</name>
+	<description>AUGUSTUS - STRADA DI VANEZE, 35</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2012</SimpleData>
+		<SimpleData name="peinse">AUGUSTUS</SimpleData>
+		<SimpleData name="desvia">STRADA DI VANEZE</SimpleData>
+		<SimpleData name="civico_alf">35</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.071392197705983,46.052507426976952</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALLOGGI PER USO TURISTICO &quot;CASA ERMIDI&quot; PIANO RIALZATO - STRADA DI VANEZE, 52</name>
+	<description>ALLOGGI PER USO TURISTICO &quot;CASA ERMIDI&quot; PIANO RIALZATO - STRADA DI VANEZE, 52</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3988</SimpleData>
+		<SimpleData name="peinse">ALLOGGI PER USO TURISTICO &quot;CASA ERMIDI&quot; PIANO RIALZATO</SimpleData>
+		<SimpleData name="desvia">STRADA DI VANEZE</SimpleData>
+		<SimpleData name="civico_alf">52</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.069711489185172,46.052226298988977</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALLOGGI PER USO TURISTICO &quot;CASA ERMIDI&quot; PIANO PRIMO APP 1 - STRADA DI VANEZE, 52</name>
+	<description>ALLOGGI PER USO TURISTICO &quot;CASA ERMIDI&quot; PIANO PRIMO APP 1 - STRADA DI VANEZE, 52</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4027</SimpleData>
+		<SimpleData name="peinse">ALLOGGI PER USO TURISTICO &quot;CASA ERMIDI&quot; PIANO PRIMO APP 1</SimpleData>
+		<SimpleData name="desvia">STRADA DI VANEZE</SimpleData>
+		<SimpleData name="civico_alf">52</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.069711489185172,46.052226298988977</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALLOGGI PER USO TURISTICO &quot;CASA ERMIDI&quot; PIANO PRIMO APP 2 - STRADA DI VANEZE, 52</name>
+	<description>ALLOGGI PER USO TURISTICO &quot;CASA ERMIDI&quot; PIANO PRIMO APP 2 - STRADA DI VANEZE, 52</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4065</SimpleData>
+		<SimpleData name="peinse">ALLOGGI PER USO TURISTICO &quot;CASA ERMIDI&quot; PIANO PRIMO APP 2</SimpleData>
+		<SimpleData name="desvia">STRADA DI VANEZE</SimpleData>
+		<SimpleData name="civico_alf">52</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.069711489185172,46.052226298988977</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ALLOGGI PER USO TURISTICO &quot;CONDOM. BIANCA&quot; - VIA DEI DAINI - VANEZE, 6</name>
+	<description>ALLOGGI PER USO TURISTICO &quot;CONDOM. BIANCA&quot; - VIA DEI DAINI - VANEZE, 6</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3987</SimpleData>
+		<SimpleData name="peinse">ALLOGGI PER USO TURISTICO &quot;CONDOM. BIANCA&quot;</SimpleData>
+		<SimpleData name="desvia">VIA DEI DAINI - VANEZE</SimpleData>
+		<SimpleData name="civico_alf">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.070703069414362,46.055031535299449</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HOTEL MONTE BONDONE - VIA DEI FALCHI - VANEZE, 19</name>
+	<description>HOTEL MONTE BONDONE - VIA DEI FALCHI - VANEZE, 19</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2001</SimpleData>
+		<SimpleData name="peinse">HOTEL MONTE BONDONE</SimpleData>
+		<SimpleData name="desvia">VIA DEI FALCHI - VANEZE</SimpleData>
+		<SimpleData name="civico_alf">19</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.071711709786554,46.053444399783821</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST RELAIS VILLA SIZZO - VIA CENTRALE, 32/A</name>
+	<description>BED AND BREAKFAST RELAIS VILLA SIZZO - VIA CENTRALE, 32/A</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">4301</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST RELAIS VILLA SIZZO</SimpleData>
+		<SimpleData name="desvia">VIA CENTRALE</SimpleData>
+		<SimpleData name="civico_alf">32/A</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.104657674578563,46.038476645587139</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED &amp; BREAKFAST &quot;CASA DELL'ALBICOCCO&quot; - VIA ALLE PORTE, 71</name>
+	<description>BED &amp; BREAKFAST &quot;CASA DELL'ALBICOCCO&quot; - VIA ALLE PORTE, 71</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">2665</SimpleData>
+		<SimpleData name="peinse">BED &amp; BREAKFAST &quot;CASA DELL'ALBICOCCO&quot;</SimpleData>
+		<SimpleData name="desvia">VIA ALLE PORTE</SimpleData>
+		<SimpleData name="civico_alf">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.107456616802192,46.020109343812152</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED &amp; BREAKFAST &quot;CASA BRUNELLI&quot; - VIA DI SANTA BRIGIDA, 2</name>
+	<description>BED &amp; BREAKFAST &quot;CASA BRUNELLI&quot; - VIA DI SANTA BRIGIDA, 2</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3665</SimpleData>
+		<SimpleData name="peinse">BED &amp; BREAKFAST &quot;CASA BRUNELLI&quot;</SimpleData>
+		<SimpleData name="desvia">VIA DI SANTA BRIGIDA</SimpleData>
+		<SimpleData name="civico_alf">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.104454882071519,46.019069087966024</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BED AND BREAKFAST &quot;PRIME VIOLE&quot; - VIA DI SANTA BRIGIDA, 2</name>
+	<description>BED AND BREAKFAST &quot;PRIME VIOLE&quot; - VIA DI SANTA BRIGIDA, 2</description>
+	<ExtendedData><SchemaData schemaUrl="#civici_strutture_ricettive">
+		<SimpleData name="peprim">3792</SimpleData>
+		<SimpleData name="peinse">BED AND BREAKFAST &quot;PRIME VIOLE&quot;</SimpleData>
+		<SimpleData name="desvia">VIA DI SANTA BRIGIDA</SimpleData>
+		<SimpleData name="civico_alf">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>11.104454882071519,46.019069087966024</coordinates></Point>
+  </Placemark>
+</Folder>
+<Schema name="civici_strutture_ricettive" id="civici_strutture_ricettive">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="peprim" type="float"></SimpleField>
+	<SimpleField name="peinse" type="string"></SimpleField>
+	<SimpleField name="desvia" type="string"></SimpleField>
+	<SimpleField name="civico_alf" type="string"></SimpleField>
+</Schema>
+</Document></kml>

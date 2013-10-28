@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataflow xmlns="http://www.example.org/mml-schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.example.org/mml-schema mml-schema.xsd ">
+
+	<output/>
+
+	<variable name="xmlDoc" type="org.w3c.dom.Document" />
+	<variable name="medalsXSSList"
+		type="it.sayservice.services.universiadi2013.data.message.Data.MedalsList" />
+	
+	<httpConnector name="htmlMedals" method="GET" encoding="utf-8" />
+	
+	<connect name="c1" connector="htmlMedals" transformer="xhtml" outputVar="xmlDoc">
+		<properties>
+			<property name="url">
+				<value>"http://winteruniversiade2013.sportresult.com/WUNI2013_INFO_TEST/NH/en/-120/Medal/HistoricalMedals?medalKind=DefaultSports"</value>
+			</property>
+		</properties>
+	</connect>
+	
+	<xss key="service/universiadi2013/medals.xml" outputVar="medalsXSSList">
+		<in>xmlDoc</in>
+	</xss>
+	
+	<merge outputVar="output" writeAction="append" initOutput="false">
+		<in>medalsXSSList.getNationList()</in>
+	</merge>
+		
+</dataflow>

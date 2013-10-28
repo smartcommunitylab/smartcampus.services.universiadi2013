@@ -4,34 +4,126 @@
 
 	<output/>
 
-	<variable name="datiJsonIt" type="java.lang.String" />
-	<variable name="datiJsonEn" type="java.lang.String" />
+	<variable name="startingTime" type="java.util.Date" />
+	<variable name="currentTime" type="java.util.Date" />
+	<variable name="baseNewsUrl" type="java.lang.String" />
+	<variable name="baseComunicatiUrl" type="java.lang.String" />
+	<variable name="baseResultsUrl" type="java.lang.String" />
+	<variable name="datiNewsJsonIt" type="java.lang.String" />
+	<variable name="datiNewsJsonEn" type="java.lang.String" />
+	<variable name="datiComunicatiJsonIt" type="java.lang.String" />
+	<variable name="datiComunicatiJsonEn" type="java.lang.String" />
+	<variable name="datiResultsJsonIt" type="java.lang.String" />
+	<variable name="datiResultsJsonEn" type="java.lang.String" />
 	
-	<httpConnector name="newsJSON" method="GET" encoding="UTF-8" />
+	<httpConnector name="newsJSON" method="GET" encoding="iso-8859-1" />
 	
-	<connect name="c1" connector="newsJSON" transformer="string" outputVar="datiJsonIt">
+	<set outputVar="currentTime">
+		<body>new Date()</body>
+	</set>
+	
+	<set outputVar="startingTime">
+		<body>new Date(1381183200000L)</body>
+	</set>
+	
+	<script outputVar="baseNewsUrl"  writeAction="update">
+	  <className>it.sayservice.services.universiadi2013.script.ScriptBody</className>
+	  <method>getNewsUrl</method>
+	  <variables>
+	    <value>startingTime</value>
+	  </variables>
+	</script>
+	
+	<connect name="c1" connector="newsJSON" transformer="string" outputVar="datiNewsJsonIt">
 		<properties>
 			<property name="url">
-				<value>"http://v4m-vps5.juniper-xs.it/v4web/uni2013?RefOwner=6A02F0E4B7EA457E90F11E341D60E444&amp;lang=IT"</value>
+				<value>baseNewsUrl + "lang=IT"</value>
 			</property>
 		</properties>
 	</connect>
 	
-	<connect name="c2" connector="newsJSON" transformer="string" outputVar="datiJsonEn">
+	<connect name="c2" connector="newsJSON" transformer="string" outputVar="datiNewsJsonEn">
 		<properties>
 			<property name="url">
-				<value>"http://v4m-vps5.juniper-xs.it/v4web/uni2013?RefOwner=6A02F0E4B7EA457E90F11E341D60E444&amp;lang=EN"</value>
+				<value>baseNewsUrl + "lang=EN"</value>
 			</property>
 		</properties>
 	</connect>
 	
-	<script outputVar="output" writeAction="update">
+	<script outputVar="output" writeAction="append" writeMethod="addAll">
 	  <className>it.sayservice.services.universiadi2013.script.ScriptBody</className>
 	  <method>getNews</method>
 	  <variables>
-	    <value>datiJsonIt</value>
-	    <value>datiJsonEn</value>
+	    <value>datiNewsJsonIt</value>
+	    <value>datiNewsJsonEn</value>
 	  </variables>
 	</script>
+	
+	<script outputVar="baseComunicatiUrl"  writeAction="update">
+	  <className>it.sayservice.services.universiadi2013.script.ScriptBody</className>
+	  <method>getComunicatiUrl</method>
+	  <variables>
+	    <value>startingTime</value>
+	  </variables>
+	</script>
+	
+	<connect name="c1" connector="newsJSON" transformer="string" outputVar="datiComunicatiJsonIt">
+		<properties>
+			<property name="url">
+				<value>baseComunicatiUrl + "lang=IT"</value>
+			</property>
+		</properties>
+	</connect>
+	
+	<connect name="c2" connector="newsJSON" transformer="string" outputVar="datiComunicatiJsonEn">
+		<properties>
+			<property name="url">
+				<value>baseComunicatiUrl + "lang=EN"</value>
+			</property>
+		</properties>
+	</connect>
+	
+	<script outputVar="output" writeAction="append" writeMethod="addAll">
+	  <className>it.sayservice.services.universiadi2013.script.ScriptBody</className>
+	  <method>getComunicati</method>
+	  <variables>
+	    <value>datiComunicatiJsonIt</value>
+	    <value>datiComunicatiJsonEn</value>
+	  </variables>
+	</script>
+	
+	<script outputVar="baseResultsUrl"  writeAction="update">
+	  <className>it.sayservice.services.universiadi2013.script.ScriptBody</className>
+	  <method>getResultsUrl</method>
+	  <variables>
+	    <value>lastNewsUpdate</value>
+	  </variables>
+	</script>
+	
+	<connect name="c1" connector="newsJSON" transformer="string" outputVar="datiResultsJsonIt">
+		<properties>
+			<property name="url">
+				<value>baseResultsUrl + "lang=IT"</value>
+			</property>
+		</properties>
+	</connect>
+	
+	<connect name="c2" connector="newsJSON" transformer="string" outputVar="datiResultsJsonEn">
+		<properties>
+			<property name="url">
+				<value>baseResultsUrl + "lang=EN"</value>
+			</property>
+		</properties>
+	</connect>
+	
+	<script outputVar="output" writeAction="append" writeMethod="addAll">
+	  <className>it.sayservice.services.universiadi2013.script.ScriptBody</className>
+	  <method>getResults</method>
+	  <variables>
+	    <value>datiResultsJsonIt</value>
+	    <value>datiResultsJsonEn</value>
+	  </variables>
+	</script>
+	
 	
 </dataflow>

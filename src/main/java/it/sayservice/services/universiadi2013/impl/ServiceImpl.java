@@ -339,6 +339,75 @@ public class ServiceImpl extends Service implements ServiceEngineInterface {
 
                 //end operation GetEvents
             }
+                //start operation GetCompetitionSchedule
+                {
+                    ServiceStatus serviceStatus = new ServiceStatus();
+                    Map<String, String> parametersTypes = new HashMap<String, String>();
+                    
+
+                    ServiceStatusDAO serviceStatusDAO = this.serviceParameters.getServiceStatusDAO();
+                    
+                    ServicePersistence servicePersistence = new GetCompetitionScheduleServicePersistence(serviceParameters.getMongoDB());
+        
+                try {
+                    serviceStatus = serviceStatusDAO.load( "it.sayservice.ext.universiadi2013", "GetCompetitionSchedule");
+                } catch (EntityNotFoundException e) {
+                        String period = (String)getDefaultServiceStatusConf("GetCompetitionSchedule").get(PERIOD);
+                        String periodOnDefault = (String)getDefaultServiceStatusConf("GetCompetitionSchedule").get(PERIOD_ON_DEFAULT);
+                        String periodOnFailure = (String)getDefaultServiceStatusConf("GetCompetitionSchedule").get(PERIOD_ON_FAILURE);
+                        long cacheValidityPeriod = (Long)getDefaultServiceStatusConf("GetCompetitionSchedule").get(CACHE_VALIDITY_PERIOD);
+                        long validityPeriod = (Long)getDefaultServiceStatusConf("GetCompetitionSchedule").get(VALIDITY_PERIOD);
+                        long delay = (Long)getDefaultServiceStatusConf("GetCompetitionSchedule").get(DELAY);
+                        boolean automaticRefresh = (Boolean)getDefaultServiceStatusConf("GetCompetitionSchedule").get(AUTOMATIC_REFRESH);
+                        boolean runnableAfterDelay = (Boolean)getDefaultServiceStatusConf("GetCompetitionSchedule").get(RUNNABLE_AFTER_DELAY);
+                        boolean serviceBlocked = (Boolean)getDefaultServiceStatusConf("GetCompetitionSchedule").get(SERVICE_BLOCKED);
+                        boolean dataflowInvokable = (Boolean)getDefaultServiceStatusConf("GetCompetitionSchedule").get(DATAFLOW_INVOKABLE);              
+                        boolean storable = (Boolean)getDefaultServiceStatusConf("GetCompetitionSchedule").get(STORABLE);
+                        
+                        serviceStatus.setStorable(storable);
+                        if (storable) {
+	                        serviceStatus.setAutomaticRefresh(automaticRefresh); 
+	                        if (automaticRefresh) {
+	                            serviceStatus.setPeriod(period);
+	                            serviceStatus.setPeriodOnDefault(periodOnDefault);
+	                            serviceStatus.setPeriodOnFailure(periodOnFailure);
+	                            serviceStatus.setRunnableAfterDelay(runnableAfterDelay);
+	                        }
+                        }
+
+                        serviceStatus.setCacheValidityPeriod(cacheValidityPeriod);
+                        serviceStatus.setValidityPeriod(validityPeriod);                            
+                        serviceStatus.setDelay(delay); // Fixed
+                        serviceStatus.setMethodName("GetCompetitionSchedule");
+                        serviceStatus.setServiceId(SERVICE_ID);
+                        serviceStatus.setServiceBlocked(serviceBlocked);
+                        serviceStatus.setDataFlowInvokable(dataflowInvokable);
+                        serviceStatus.setRemoteUrl(serviceExecutorParameters.getUrl());
+                        serviceStatus.setRemote(serviceExecutorParameters.isRemote());
+                        serviceStatusDAO.store(serviceStatus);
+                        
+                    }  
+                    List<Map<String, Object>> queries = this.getDefaultInitialQueriesConf().get("GetCompetitionSchedule");
+                    if(queries != null && ! queries.isEmpty()) {
+                        java.util.Collection<Map<String,Object>> parameters = servicePersistence.getQueryParameters();
+                        if (parameters == null || parameters.isEmpty()) {
+                            for(Map<String, Object> query : queries) {
+                                servicePersistence.storeQueryParameters(query);
+                            }
+                        }
+                    }
+                    
+                    // end of persistence
+                    ServiceDataFlow serviceDataFlow = new GetCompetitionScheduleDataFlow();
+                    ServiceValidation serviceValidation = new GetCompetitionScheduleServiceValidation(serviceStatus.getServiceId(), serviceStatus.getMethodName(), serviceParameters.getPersistenceEngine());
+                    // ServiceMonitoring serviceMonitoring = new GetCompetitionScheduleServiceMonitoring(serviceStatus.getServiceId(), serviceStatus.getMethodName(), serviceParameters.getPersistenceEngine());
+                    
+                    ServiceMethod serviceMethod =  new ServiceMethod("GetCompetitionSchedule", serviceDataFlow, serviceStatus, servicePersistence, serviceParameters, serviceValidation, null, parametersTypes);
+                    serviceDataFlow.setServiceMethod(serviceMethod);
+                    serviceMethods.put("GetCompetitionSchedule", serviceMethod);
+
+                //end operation GetCompetitionSchedule
+            }
     }
 
 	public String getServiceId() {
@@ -353,6 +422,8 @@ public class ServiceImpl extends Service implements ServiceEngineInterface {
         set.add("GetVenues");
         
         set.add("GetEvents");
+        
+        set.add("GetCompetitionSchedule");
         
         return set;
     }

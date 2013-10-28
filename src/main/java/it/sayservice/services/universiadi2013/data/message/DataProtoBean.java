@@ -961,6 +961,20 @@ public class DataProtoBean {
       return shortDescList .size();
     }
     
+          private List<it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean> longDescList;
+    public List<it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean> getLongDescList() {
+      return longDescList;
+    }
+    public void setLongDescList(List<it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean> longDescList) {
+      this.longDescList = longDescList;
+    }
+    public it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean getLongDesc(int i) {
+      return longDescList .get(i);
+    }
+    public int getLongDescCount() {
+      return longDescList .size();
+    }
+    
           private String category;
     public String getCategory() {
       return category;
@@ -983,20 +997,6 @@ public class DataProtoBean {
     }
     public void setContact(it.sayservice.services.universiadi2013.data.message.DataProtoBean.ContactProtoBean contact) {
       this.contact = contact;
-    }
-    
-          private List<it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean> longDescList;
-    public List<it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean> getLongDescList() {
-      return longDescList;
-    }
-    public void setLongDescList(List<it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean> longDescList) {
-      this.longDescList = longDescList;
-    }
-    public it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean getLongDesc(int i) {
-      return longDescList .get(i);
-    }
-    public int getLongDescCount() {
-      return longDescList .size();
     }
     
           private String url;
@@ -1023,12 +1023,46 @@ public class DataProtoBean {
       this.poiId = poiId;
     }
     
-          private String eventId;
-    public String getEventId() {
-      return eventId;
+          private List<String> eventIdList;
+    public List<String> getEventIdList() {
+      return eventIdList;
     }
-    public void setEventId(String eventId) {
-      this.eventId = eventId;
+    public void setEventIdList(List<String> eventIdList) {
+      this.eventIdList = eventIdList;
+    }
+    public String getEventId(int i) {
+      return eventIdList .get(i);
+    }
+    public int getEventIdCount() {
+      return eventIdList .size();
+    }
+    
+          private List<String> sportsList;
+    public List<String> getSportsList() {
+      return sportsList;
+    }
+    public void setSportsList(List<String> sportsList) {
+      this.sportsList = sportsList;
+    }
+    public String getSports(int i) {
+      return sportsList .get(i);
+    }
+    public int getSportsCount() {
+      return sportsList .size();
+    }
+    
+          private List<String> tagsList;
+    public List<String> getTagsList() {
+      return tagsList;
+    }
+    public void setTagsList(List<String> tagsList) {
+      this.tagsList = tagsList;
+    }
+    public String getTags(int i) {
+      return tagsList .get(i);
+    }
+    public int getTagsCount() {
+      return tagsList .size();
     }
     
     
@@ -1051,19 +1085,21 @@ public class DataProtoBean {
           getShortDescList().add(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean(item));
         }
       }
-                                    setCategory(reference.getCategory());
-                                    setPublished(reference.getPublished());
-                                    setContact(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.ContactProtoBean(reference.getContact()));
                                     if (reference.getLongDescList()!=null) {
         longDescList = new LinkedList<it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean>();
         for (it.sayservice.services.universiadi2013.data.message.Data.KeyValue item : reference.getLongDescList()) {
           getLongDescList().add(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean(item));
         }
       }
+                                    setCategory(reference.getCategory());
+                                    setPublished(reference.getPublished());
+                                    setContact(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.ContactProtoBean(reference.getContact()));
                                     setUrl(reference.getUrl());
                                     setImageUrl(reference.getImageUrl());
                                     setPoiId(reference.getPoiId());
-                                    setEventId(reference.getEventId());
+                                    setEventIdList(reference.getEventIdList());
+                                    setSportsList(reference.getSportsList());
+                                    setTagsList(reference.getTagsList());
                       }  
 
     public NewsProtoBean(XSSData data) throws XSSDataException {
@@ -1089,6 +1125,13 @@ public class DataProtoBean {
                 getShortDescList().add(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean((XSSData)item));
                           }
           }
+                                longDescList = new LinkedList<it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean>();
+          if (data.get("longDesc")!=null) {
+            for (Object item : data.get("longDesc")) {
+                              if (!(item instanceof XSSData)) throw new XSSDataException("Incorrect data type for field longDesc: expected XSSData");
+                getLongDescList().add(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean((XSSData)item));
+                          }
+          }
                                 if (data.get("category") != null && !data.get("category").isEmpty()) {
             if (data.get("category").size()>1) throw new XSSDataException("Incorrect data cardinality for field category: expected single value.");
             
@@ -1110,13 +1153,6 @@ public class DataProtoBean {
                           if (!(item instanceof XSSData)) throw new XSSDataException("Incorrect data type for field contact: expected XSSData");
               setContact(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.ContactProtoBean((XSSData)item));
                       }
-                                longDescList = new LinkedList<it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean>();
-          if (data.get("longDesc")!=null) {
-            for (Object item : data.get("longDesc")) {
-                              if (!(item instanceof XSSData)) throw new XSSDataException("Incorrect data type for field longDesc: expected XSSData");
-                getLongDescList().add(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean((XSSData)item));
-                          }
-          }
                                 if (data.get("url") != null && !data.get("url").isEmpty()) {
             if (data.get("url").size()>1) throw new XSSDataException("Incorrect data cardinality for field url: expected single value.");
             
@@ -1138,13 +1174,27 @@ public class DataProtoBean {
                             if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field poiId: expected DOMData");
                                   setPoiId(convertToString(((DOMData)item).getStringValue()));
                                       }
-                                if (data.get("eventId") != null && !data.get("eventId").isEmpty()) {
-            if (data.get("eventId").size()>1) throw new XSSDataException("Incorrect data cardinality for field eventId: expected single value.");
-            
-            Object item = data.get("eventId").get(0); 
-                            if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field eventId: expected DOMData");
-                                  setEventId(convertToString(((DOMData)item).getStringValue()));
-                                      }
+                                eventIdList = new LinkedList<String>();
+          if (data.get("eventId")!=null) {
+            for (Object item : data.get("eventId")) {
+                              if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field eventId: expected DOMData");
+                                  getEventIdList().add(convertToString(((DOMData)item).getStringValue()));
+                                          }
+          }
+                                sportsList = new LinkedList<String>();
+          if (data.get("sports")!=null) {
+            for (Object item : data.get("sports")) {
+                              if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field sports: expected DOMData");
+                                  getSportsList().add(convertToString(((DOMData)item).getStringValue()));
+                                          }
+          }
+                                tagsList = new LinkedList<String>();
+          if (data.get("tags")!=null) {
+            for (Object item : data.get("tags")) {
+                              if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field tags: expected DOMData");
+                                  getTagsList().add(convertToString(((DOMData)item).getStringValue()));
+                                          }
+          }
                   }  
 
     
@@ -1163,6 +1213,11 @@ public class DataProtoBean {
                     builder. addShortDesc(item.buildMessage());
                   }
       }
+                        if (getLongDescList()!=null) {
+        for (it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean item : getLongDescList()) {
+                    builder. addLongDesc(item.buildMessage());
+                  }
+      }
                               if (getCategory() != null) {
       	builder.setCategory(getCategory());
       }
@@ -1172,12 +1227,7 @@ public class DataProtoBean {
                                     if (getContact() != null) {
       	builder.setContact(getContact() .buildMessage());
       }
-                              if (getLongDescList()!=null) {
-        for (it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean item : getLongDescList()) {
-                    builder. addLongDesc(item.buildMessage());
-                  }
-      }
-                              if (getUrl() != null) {
+                                    if (getUrl() != null) {
       	builder.setUrl(getUrl());
       }
                                     if (getImageUrl() != null) {
@@ -1186,10 +1236,22 @@ public class DataProtoBean {
                                     if (getPoiId() != null) {
       	builder.setPoiId(getPoiId());
       }
-                                    if (getEventId() != null) {
-      	builder.setEventId(getEventId());
+                              if (getEventIdList()!=null) {
+        for (String item : getEventIdList()) {
+                    builder. addEventId(item);
+                  }
       }
-                        return builder.buildPartial();
+                        if (getSportsList()!=null) {
+        for (String item : getSportsList()) {
+                    builder. addSports(item);
+                  }
+      }
+                        if (getTagsList()!=null) {
+        for (String item : getTagsList()) {
+                    builder. addTags(item);
+                  }
+      }
+                  return builder.buildPartial();
     }
     
     
@@ -1277,6 +1339,14 @@ public class DataProtoBean {
       this.contact = contact;
     }
     
+          private it.sayservice.services.universiadi2013.data.message.DataProtoBean.LocationProtoBean location;
+    public it.sayservice.services.universiadi2013.data.message.DataProtoBean.LocationProtoBean getLocation() {
+      return location;
+    }
+    public void setLocation(it.sayservice.services.universiadi2013.data.message.DataProtoBean.LocationProtoBean location) {
+      this.location = location;
+    }
+    
           private String url;
     public String getUrl() {
       return url;
@@ -1299,6 +1369,34 @@ public class DataProtoBean {
     }
     public void setPoiId(String poiId) {
       this.poiId = poiId;
+    }
+    
+          private List<String> sportsList;
+    public List<String> getSportsList() {
+      return sportsList;
+    }
+    public void setSportsList(List<String> sportsList) {
+      this.sportsList = sportsList;
+    }
+    public String getSports(int i) {
+      return sportsList .get(i);
+    }
+    public int getSportsCount() {
+      return sportsList .size();
+    }
+    
+          private List<String> tagsList;
+    public List<String> getTagsList() {
+      return tagsList;
+    }
+    public void setTagsList(List<String> tagsList) {
+      this.tagsList = tagsList;
+    }
+    public String getTags(int i) {
+      return tagsList .get(i);
+    }
+    public int getTagsCount() {
+      return tagsList .size();
     }
     
     
@@ -1331,9 +1429,12 @@ public class DataProtoBean {
                                     setStartDate(reference.getStartDate());
                                     setEndDate(reference.getEndDate());
                                     setContact(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.ContactProtoBean(reference.getContact()));
+                                    setLocation(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.LocationProtoBean(reference.getLocation()));
                                     setUrl(reference.getUrl());
                                     setImageUrl(reference.getImageUrl());
                                     setPoiId(reference.getPoiId());
+                                    setSportsList(reference.getSportsList());
+                                    setTagsList(reference.getTagsList());
                       }  
 
     public EventProtoBean(XSSData data) throws XSSDataException {
@@ -1394,6 +1495,13 @@ public class DataProtoBean {
                           if (!(item instanceof XSSData)) throw new XSSDataException("Incorrect data type for field contact: expected XSSData");
               setContact(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.ContactProtoBean((XSSData)item));
                       }
+                                if (data.get("location") != null && !data.get("location").isEmpty()) {
+            if (data.get("location").size()>1) throw new XSSDataException("Incorrect data cardinality for field location: expected single value.");
+            
+            Object item = data.get("location").get(0); 
+                          if (!(item instanceof XSSData)) throw new XSSDataException("Incorrect data type for field location: expected XSSData");
+              setLocation(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.LocationProtoBean((XSSData)item));
+                      }
                                 if (data.get("url") != null && !data.get("url").isEmpty()) {
             if (data.get("url").size()>1) throw new XSSDataException("Incorrect data cardinality for field url: expected single value.");
             
@@ -1415,6 +1523,20 @@ public class DataProtoBean {
                             if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field poiId: expected DOMData");
                                   setPoiId(convertToString(((DOMData)item).getStringValue()));
                                       }
+                                sportsList = new LinkedList<String>();
+          if (data.get("sports")!=null) {
+            for (Object item : data.get("sports")) {
+                              if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field sports: expected DOMData");
+                                  getSportsList().add(convertToString(((DOMData)item).getStringValue()));
+                                          }
+          }
+                                tagsList = new LinkedList<String>();
+          if (data.get("tags")!=null) {
+            for (Object item : data.get("tags")) {
+                              if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field tags: expected DOMData");
+                                  getTagsList().add(convertToString(((DOMData)item).getStringValue()));
+                                          }
+          }
                   }  
 
     
@@ -1450,6 +1572,9 @@ public class DataProtoBean {
                                     if (getContact() != null) {
       	builder.setContact(getContact() .buildMessage());
       }
+                                    if (getLocation() != null) {
+      	builder.setLocation(getLocation() .buildMessage());
+      }
                                     if (getUrl() != null) {
       	builder.setUrl(getUrl());
       }
@@ -1459,7 +1584,17 @@ public class DataProtoBean {
                                     if (getPoiId() != null) {
       	builder.setPoiId(getPoiId());
       }
-                        return builder.buildPartial();
+                              if (getSportsList()!=null) {
+        for (String item : getSportsList()) {
+                    builder. addSports(item);
+                  }
+      }
+                        if (getTagsList()!=null) {
+        for (String item : getTagsList()) {
+                    builder. addTags(item);
+                  }
+      }
+                  return builder.buildPartial();
     }
     
     
@@ -1495,6 +1630,20 @@ public class DataProtoBean {
       return nameList .size();
     }
     
+          private List<it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean> descriptionList;
+    public List<it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean> getDescriptionList() {
+      return descriptionList;
+    }
+    public void setDescriptionList(List<it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean> descriptionList) {
+      this.descriptionList = descriptionList;
+    }
+    public it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean getDescription(int i) {
+      return descriptionList .get(i);
+    }
+    public int getDescriptionCount() {
+      return descriptionList .size();
+    }
+    
           private it.sayservice.services.universiadi2013.data.message.DataProtoBean.LocationProtoBean location;
     public it.sayservice.services.universiadi2013.data.message.DataProtoBean.LocationProtoBean getLocation() {
       return location;
@@ -1517,6 +1666,14 @@ public class DataProtoBean {
       return tagList .size();
     }
     
+          private String imageUrl;
+    public String getImageUrl() {
+      return imageUrl;
+    }
+    public void setImageUrl(String imageUrl) {
+      this.imageUrl = imageUrl;
+    }
+    
     
     public VenueProtoBean() {
     	super();
@@ -1532,8 +1689,15 @@ public class DataProtoBean {
           getNameList().add(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean(item));
         }
       }
+                                    if (reference.getDescriptionList()!=null) {
+        descriptionList = new LinkedList<it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean>();
+        for (it.sayservice.services.universiadi2013.data.message.Data.KeyValue item : reference.getDescriptionList()) {
+          getDescriptionList().add(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean(item));
+        }
+      }
                                     setLocation(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.LocationProtoBean(reference.getLocation()));
                                     setTagList(reference.getTagList());
+                                    setImageUrl(reference.getImageUrl());
                       }  
 
     public VenueProtoBean(XSSData data) throws XSSDataException {
@@ -1559,6 +1723,13 @@ public class DataProtoBean {
                 getNameList().add(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean((XSSData)item));
                           }
           }
+                                descriptionList = new LinkedList<it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean>();
+          if (data.get("description")!=null) {
+            for (Object item : data.get("description")) {
+                              if (!(item instanceof XSSData)) throw new XSSDataException("Incorrect data type for field description: expected XSSData");
+                getDescriptionList().add(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean((XSSData)item));
+                          }
+          }
                                 if (data.get("location") != null && !data.get("location").isEmpty()) {
             if (data.get("location").size()>1) throw new XSSDataException("Incorrect data cardinality for field location: expected single value.");
             
@@ -1573,6 +1744,13 @@ public class DataProtoBean {
                                   getTagList().add(convertToString(((DOMData)item).getStringValue()));
                                           }
           }
+                                if (data.get("imageUrl") != null && !data.get("imageUrl").isEmpty()) {
+            if (data.get("imageUrl").size()>1) throw new XSSDataException("Incorrect data cardinality for field imageUrl: expected single value.");
+            
+            Object item = data.get("imageUrl").get(0); 
+                            if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field imageUrl: expected DOMData");
+                                  setImageUrl(convertToString(((DOMData)item).getStringValue()));
+                                      }
                   }  
 
     
@@ -1589,6 +1767,11 @@ public class DataProtoBean {
                     builder. addName(item.buildMessage());
                   }
       }
+                        if (getDescriptionList()!=null) {
+        for (it.sayservice.services.universiadi2013.data.message.DataProtoBean.KeyValueProtoBean item : getDescriptionList()) {
+                    builder. addDescription(item.buildMessage());
+                  }
+      }
                               if (getLocation() != null) {
       	builder.setLocation(getLocation() .buildMessage());
       }
@@ -1597,7 +1780,238 @@ public class DataProtoBean {
                     builder. addTag(item);
                   }
       }
+                              if (getImageUrl() != null) {
+      	builder.setImageUrl(getImageUrl());
+      }
+                        return builder.buildPartial();
+    }
+    
+    
+  }
+  public static class MedalsListProtoBean implements ProtoBean {
+          private List<it.sayservice.services.universiadi2013.data.message.DataProtoBean.MedalsProtoBean> nationList;
+    public List<it.sayservice.services.universiadi2013.data.message.DataProtoBean.MedalsProtoBean> getNationList() {
+      return nationList;
+    }
+    public void setNationList(List<it.sayservice.services.universiadi2013.data.message.DataProtoBean.MedalsProtoBean> nationList) {
+      this.nationList = nationList;
+    }
+    public it.sayservice.services.universiadi2013.data.message.DataProtoBean.MedalsProtoBean getNation(int i) {
+      return nationList .get(i);
+    }
+    public int getNationCount() {
+      return nationList .size();
+    }
+    
+    
+    public MedalsListProtoBean() {
+    	super();
+    }
+    
+    public MedalsListProtoBean(it.sayservice.services.universiadi2013.data.message.Data.MedalsList reference) {
+      super();
+                        if (reference.getNationList()!=null) {
+        nationList = new LinkedList<it.sayservice.services.universiadi2013.data.message.DataProtoBean.MedalsProtoBean>();
+        for (it.sayservice.services.universiadi2013.data.message.Data.Medals item : reference.getNationList()) {
+          getNationList().add(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.MedalsProtoBean(item));
+        }
+      }
+                      }  
+
+    public MedalsListProtoBean(XSSData data) throws XSSDataException {
+      super();
+                        nationList = new LinkedList<it.sayservice.services.universiadi2013.data.message.DataProtoBean.MedalsProtoBean>();
+          if (data.get("nation")!=null) {
+            for (Object item : data.get("nation")) {
+                              if (!(item instanceof XSSData)) throw new XSSDataException("Incorrect data type for field nation: expected XSSData");
+                getNationList().add(new it.sayservice.services.universiadi2013.data.message.DataProtoBean.MedalsProtoBean((XSSData)item));
+                          }
+          }
+                  }  
+
+    
+    public it.sayservice.services.universiadi2013.data.message.Data.MedalsList buildMessage() {
+      it.sayservice.services.universiadi2013.data.message.Data.MedalsList .Builder builder = it.sayservice.services.universiadi2013.data.message.Data.MedalsList .newBuilder();
+                  if (getNationList()!=null) {
+        for (it.sayservice.services.universiadi2013.data.message.DataProtoBean.MedalsProtoBean item : getNationList()) {
+                    builder. addNation(item.buildMessage());
+                  }
+      }
                   return builder.buildPartial();
+    }
+    
+    
+  }
+  public static class MedalsProtoBean implements ProtoBean {
+          private String nationCode;
+    public String getNationCode() {
+      return nationCode;
+    }
+    public void setNationCode(String nationCode) {
+      this.nationCode = nationCode;
+    }
+    
+          private String nationName;
+    public String getNationName() {
+      return nationName;
+    }
+    public void setNationName(String nationName) {
+      this.nationName = nationName;
+    }
+    
+          private String rank;
+    public String getRank() {
+      return rank;
+    }
+    public void setRank(String rank) {
+      this.rank = rank;
+    }
+    
+          private String rankByTotal;
+    public String getRankByTotal() {
+      return rankByTotal;
+    }
+    public void setRankByTotal(String rankByTotal) {
+      this.rankByTotal = rankByTotal;
+    }
+    
+          private String total;
+    public String getTotal() {
+      return total;
+    }
+    public void setTotal(String total) {
+      this.total = total;
+    }
+    
+          private String gold;
+    public String getGold() {
+      return gold;
+    }
+    public void setGold(String gold) {
+      this.gold = gold;
+    }
+    
+          private String silver;
+    public String getSilver() {
+      return silver;
+    }
+    public void setSilver(String silver) {
+      this.silver = silver;
+    }
+    
+          private String bronze;
+    public String getBronze() {
+      return bronze;
+    }
+    public void setBronze(String bronze) {
+      this.bronze = bronze;
+    }
+    
+    
+    public MedalsProtoBean() {
+    	super();
+    }
+    
+    public MedalsProtoBean(it.sayservice.services.universiadi2013.data.message.Data.Medals reference) {
+      super();
+                        setNationCode(reference.getNationCode());
+                                    setNationName(reference.getNationName());
+                                    setRank(reference.getRank());
+                                    setRankByTotal(reference.getRankByTotal());
+                                    setTotal(reference.getTotal());
+                                    setGold(reference.getGold());
+                                    setSilver(reference.getSilver());
+                                    setBronze(reference.getBronze());
+                      }  
+
+    public MedalsProtoBean(XSSData data) throws XSSDataException {
+      super();
+                        if (data.get("nationCode") != null && !data.get("nationCode").isEmpty()) {
+            if (data.get("nationCode").size()>1) throw new XSSDataException("Incorrect data cardinality for field nationCode: expected single value.");
+            
+            Object item = data.get("nationCode").get(0); 
+                            if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field nationCode: expected DOMData");
+                                  setNationCode(convertToString(((DOMData)item).getStringValue()));
+                                      }
+                                if (data.get("nationName") != null && !data.get("nationName").isEmpty()) {
+            if (data.get("nationName").size()>1) throw new XSSDataException("Incorrect data cardinality for field nationName: expected single value.");
+            
+            Object item = data.get("nationName").get(0); 
+                            if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field nationName: expected DOMData");
+                                  setNationName(convertToString(((DOMData)item).getStringValue()));
+                                      }
+                                if (data.get("rank") != null && !data.get("rank").isEmpty()) {
+            if (data.get("rank").size()>1) throw new XSSDataException("Incorrect data cardinality for field rank: expected single value.");
+            
+            Object item = data.get("rank").get(0); 
+                            if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field rank: expected DOMData");
+                                  setRank(convertToString(((DOMData)item).getStringValue()));
+                                      }
+                                if (data.get("rankByTotal") != null && !data.get("rankByTotal").isEmpty()) {
+            if (data.get("rankByTotal").size()>1) throw new XSSDataException("Incorrect data cardinality for field rankByTotal: expected single value.");
+            
+            Object item = data.get("rankByTotal").get(0); 
+                            if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field rankByTotal: expected DOMData");
+                                  setRankByTotal(convertToString(((DOMData)item).getStringValue()));
+                                      }
+                                if (data.get("total") != null && !data.get("total").isEmpty()) {
+            if (data.get("total").size()>1) throw new XSSDataException("Incorrect data cardinality for field total: expected single value.");
+            
+            Object item = data.get("total").get(0); 
+                            if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field total: expected DOMData");
+                                  setTotal(convertToString(((DOMData)item).getStringValue()));
+                                      }
+                                if (data.get("gold") != null && !data.get("gold").isEmpty()) {
+            if (data.get("gold").size()>1) throw new XSSDataException("Incorrect data cardinality for field gold: expected single value.");
+            
+            Object item = data.get("gold").get(0); 
+                            if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field gold: expected DOMData");
+                                  setGold(convertToString(((DOMData)item).getStringValue()));
+                                      }
+                                if (data.get("silver") != null && !data.get("silver").isEmpty()) {
+            if (data.get("silver").size()>1) throw new XSSDataException("Incorrect data cardinality for field silver: expected single value.");
+            
+            Object item = data.get("silver").get(0); 
+                            if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field silver: expected DOMData");
+                                  setSilver(convertToString(((DOMData)item).getStringValue()));
+                                      }
+                                if (data.get("bronze") != null && !data.get("bronze").isEmpty()) {
+            if (data.get("bronze").size()>1) throw new XSSDataException("Incorrect data cardinality for field bronze: expected single value.");
+            
+            Object item = data.get("bronze").get(0); 
+                            if (!(item instanceof DOMData)) throw new XSSDataException("Incorrect data type for field bronze: expected DOMData");
+                                  setBronze(convertToString(((DOMData)item).getStringValue()));
+                                      }
+                  }  
+
+    
+    public it.sayservice.services.universiadi2013.data.message.Data.Medals buildMessage() {
+      it.sayservice.services.universiadi2013.data.message.Data.Medals .Builder builder = it.sayservice.services.universiadi2013.data.message.Data.Medals .newBuilder();
+                        if (getNationCode() != null) {
+      	builder.setNationCode(getNationCode());
+      }
+                                    if (getNationName() != null) {
+      	builder.setNationName(getNationName());
+      }
+                                    if (getRank() != null) {
+      	builder.setRank(getRank());
+      }
+                                    if (getRankByTotal() != null) {
+      	builder.setRankByTotal(getRankByTotal());
+      }
+                                    if (getTotal() != null) {
+      	builder.setTotal(getTotal());
+      }
+                                    if (getGold() != null) {
+      	builder.setGold(getGold());
+      }
+                                    if (getSilver() != null) {
+      	builder.setSilver(getSilver());
+      }
+                                    if (getBronze() != null) {
+      	builder.setBronze(getBronze());
+      }
+                        return builder.buildPartial();
     }
     
     

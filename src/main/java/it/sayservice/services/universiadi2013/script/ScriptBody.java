@@ -14,12 +14,15 @@ import it.sayservice.services.universiadi2013.data.message.Data.Poi;
 import it.sayservice.services.universiadi2013.data.message.Data.Venue;
 
 import java.io.StringReader;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 import org.apache.commons.logging.Log;
@@ -258,10 +261,161 @@ public class ScriptBody {
 		return location;
 	}
 	
+	private String getValue(JsonNode node, String attrib) {
+		String result = null;
+		if(node.get(attrib) != null)
+			result = node.get(attrib).asText();
+		return result;
+	}
+	
 	private boolean isEmpty(String value) {
 		if(value == null)
 			return true;
 		return value.isEmpty();
+	}
+	
+	public String getEventsUrl(Date time) {
+		String url = "http://v4m-vps5.juniper-xs.it/v4web/uni2013?RefOwner=6A02F0E4B7EA457E90F11E341D60E444&&metatype=Event&";
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
+		url = url + "lastupdate=" + sdf.format(time) + "&";
+		if(log.isInfoEnabled())
+			log.info(url);
+		return url;
+	}
+	
+	public String getNewsUrl(Date time) {
+		String url = "http://v4m-vps5.juniper-xs.it/v4web/uni2013?RefOwner=6A02F0E4B7EA457E90F11E341D60E444&&metatype=News&";
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
+		url = url + "lastupdate=" + sdf.format(time) + "&";
+		if(log.isInfoEnabled())
+			log.info(url);
+		return url;
+	}
+	
+	public String getComunicatiUrl(Date time) {
+		String url = "http://v4m-vps5.juniper-xs.it/v4web/uni2013?RefOwner=6A02F0E4B7EA457E90F11E341D60E444&metatype=Comunicato&";
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
+		url = url + "lastupdate=" + sdf.format(time) + "&";
+		if(log.isInfoEnabled())
+			log.info(url);
+		return url;
+	}
+	
+	public String getResultsUrl(Date time) {
+		String url = "http://v4m-vps5.juniper-xs.it/v4web/uni2013?RefOwner=6A02F0E4B7EA457E90F11E341D60E444&metatype=Result&ATT=1&";
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
+		url = url + "lastupdate=" + sdf.format(time) + "&";
+		if(log.isInfoEnabled())
+			log.info(url);
+		return url;
+	}
+	
+	public List<Message> getResults(String jsonIt, String jsonEn) throws Exception {
+		List<Message> result = new ArrayList<Message>();
+		Map<String, RowNews> mapNewsIt = new HashMap<String, RowNews>();
+		Map<String, RowNews> mapNewsEn = new HashMap<String, RowNews>();
+		ObjectMapper m = new ObjectMapper();
+		//IT news
+		JsonNode rootNodeIt;
+		rootNodeIt = m.readValue(jsonIt, JsonNode.class);
+		Iterator<JsonNode> elementsIt = rootNodeIt.getElements();
+		while(elementsIt.hasNext()) {
+			try {
+				JsonNode node = elementsIt.next();
+				RowNews news = getRowResult(node, "IT");
+				if(news != null) {
+					mapNewsIt.put(news.langGroup, news);
+				}
+			} catch (Exception e) {
+				log.error("error", e);
+			}
+		}
+		//EN news
+		JsonNode rootNodeEn;
+		rootNodeEn = m.readValue(jsonEn, JsonNode.class);
+		Iterator<JsonNode> elementsEn = rootNodeEn.getElements();
+		while(elementsEn.hasNext()) {
+			try {
+				JsonNode node = elementsEn.next();
+				RowNews news = getRowResult(node, "EN");
+				if(news != null) {
+					mapNewsEn.put(news.langGroup, news);
+				}
+			} catch (Exception e) {
+				log.error("error", e);
+			}
+		}
+		Set<String> keysEn = mapNewsEn.keySet();
+		Set<String> keysIt = mapNewsIt.keySet();
+		for(String langGroup : keysIt) {
+			RowNews newsIt = mapNewsIt.get(langGroup);
+			RowNews newsEn = mapNewsEn.get(langGroup);
+			if(newsEn != null) {
+				result.add(getNews(newsIt, newsEn));
+				keysEn.remove(langGroup);
+			} else {
+				result.add(getNews(newsIt, "IT"));
+			}
+		}
+		for(String langGroup : keysEn) {
+			RowNews newsEn = mapNewsEn.get(langGroup);
+			result.add(getNews(newsEn, "EN"));
+		}
+		return result;
+	}
+	
+	public List<Message> getComunicati(String jsonIt, String jsonEn) throws Exception {
+		List<Message> result = new ArrayList<Message>();
+		Map<String, RowNews> mapNewsIt = new HashMap<String, RowNews>();
+		Map<String, RowNews> mapNewsEn = new HashMap<String, RowNews>();
+		ObjectMapper m = new ObjectMapper();
+		//IT news
+		JsonNode rootNodeIt;
+		rootNodeIt = m.readValue(jsonIt, JsonNode.class);
+		Iterator<JsonNode> elementsIt = rootNodeIt.getElements();
+		while(elementsIt.hasNext()) {
+			try {
+				JsonNode node = elementsIt.next();
+				RowNews news = getRowNews(node, "IT");
+				if(news != null) {
+					mapNewsIt.put(news.langGroup, news);
+				}
+			} catch (Exception e) {
+				log.error("error", e);
+			}
+		}
+		//EN news
+		JsonNode rootNodeEn;
+		rootNodeEn = m.readValue(jsonEn, JsonNode.class);
+		Iterator<JsonNode> elementsEn = rootNodeEn.getElements();
+		while(elementsEn.hasNext()) {
+			try {
+				JsonNode node = elementsEn.next();
+				RowNews news = getRowNews(node, "EN");
+				if(news != null) {
+					mapNewsEn.put(news.langGroup, news);
+				}
+			} catch (Exception e) {
+				log.error("error", e);
+			}
+		}
+		Set<String> keysEn = mapNewsEn.keySet();
+		Set<String> keysIt = mapNewsIt.keySet();
+		for(String langGroup : keysIt) {
+			RowNews newsIt = mapNewsIt.get(langGroup);
+			RowNews newsEn = mapNewsEn.get(langGroup);
+			if(newsEn != null) {
+				result.add(getNews(newsIt, newsEn));
+				keysEn.remove(langGroup);
+			} else {
+				result.add(getNews(newsIt, "IT"));
+			}
+		}
+		for(String langGroup : keysEn) {
+			RowNews newsEn = mapNewsEn.get(langGroup);
+			result.add(getNews(newsEn, "EN"));
+		}
+		return result;
 	}
 	
 	public List<Message> getNews(String jsonIt, String jsonEn) throws Exception {
@@ -339,6 +493,10 @@ public class ScriptBody {
 			KeyValue longDesc = getLongDesc(news.longDescUrl, lang);
 			if(longDesc != null)
 				builder.addLongDesc(longDesc);
+		} else {
+			if(!isEmpty(news.longDesc)) {
+				builder.addLongDesc(getValue(lang, news.longDesc));
+			}
 		}
 		
 		if(!isEmpty(news.url))
@@ -351,7 +509,10 @@ public class ScriptBody {
 			builder.setPoiId(news.poiId);
 		
 		if(!isEmpty(news.eventId))
-			builder.setEventId(news.eventId);
+			builder.addEventId(news.eventId);
+		
+		if(!news.sports.isEmpty())
+			builder.addAllSports(news.sports);
 		
 		return builder.build();
 	}
@@ -383,12 +544,20 @@ public class ScriptBody {
 			KeyValue longDescIt = getLongDesc(newsIt.longDescUrl, "IT");
 			if(longDescIt != null)
 				builder.addLongDesc(longDescIt);
+		} else {
+			if(!isEmpty(newsIt.longDesc)) {
+				builder.addLongDesc(getValue("IT", newsIt.longDesc));
+			}			
 		}
 		
 		if(!isEmpty(newsEn.longDescUrl)) {
 			KeyValue longDescEn = getLongDesc(newsEn.longDescUrl, "EN");
 			if(longDescEn != null)
 				builder.addLongDesc(longDescEn);
+		} else {
+			if(!isEmpty(newsEn.longDesc)) {
+				builder.addLongDesc(getValue("EN", newsEn.longDesc));
+			}			
 		}
 		
 		if(!isEmpty(newsIt.url))
@@ -401,7 +570,10 @@ public class ScriptBody {
 			builder.setPoiId(newsIt.poiId);
 		
 		if(!isEmpty(newsIt.eventId))
-			builder.setEventId(newsIt.eventId);
+			builder.addEventId(newsIt.eventId);
+
+		if(!newsIt.sports.isEmpty())
+			builder.addAllSports(newsIt.sports);
 		
 		return builder.build();
 	}
@@ -412,7 +584,7 @@ public class ScriptBody {
 				return null;
 			HTTPConnector connector = new HTTPConnector();
 			connector.setUrl(longDescUrl);
-			connector.setEncoding("iso-8859-15");
+			connector.setEncoding("iso-8859-1");
 			ReaderToStringTransformer transformer = new ReaderToStringTransformer();
 			String desc = transformer.transform(connector.run());
 			KeyValue result = KeyValue.newBuilder()
@@ -426,28 +598,27 @@ public class ScriptBody {
 		return null;
 	}
 
-	private RowNews getRowNews(JsonNode node, String lang) {
+	private RowNews getRowResult(JsonNode node, String lang) {
 		RowNews news = new RowNews();
-		String id = node.get("OID").asText();
-		String category = node.get("CATEGORIA").asText();
+		String id = getValue(node, "OID");
+		String category = getValue(node, "CATEGORIA");
 		if(isEmpty(category)) {
 			if(log.isWarnEnabled())
 				log.warn("empty category:" + id);
 			return null;
 		}
-		if(category.toLowerCase().equals("event"))
-			return null;
-		String langGroup = node.get("LANGGROUP").asText();
-		String title = node.get("TITOLO").asText();
-		String shortDesc = node.get("DESCRIZIONE_BREVE").asText();
-		String publishDate = node.get("DATA_PUBBLICAZIONE").asText();
-		String publishHour = node.get("ORA_PUBBLICAZIONE").asText();
-		String url = node.get("URL_SITO_WEB").asText();
-		String imageUrl = node.get("IMAGE").asText();
-		String longDescUrl = node.get("DESCRIZIONE_LUNGA").asText();
-		String poiId = node.get("RIFERIMENTO_POI").asText();
-		String eventId = node.get("RIFERIMENTO_EVENTO").asText();
+		String langGroup = getValue(node, "LANGGROUP");
+		String title = getValue(node, "TITOLO");
+		String shortDesc = getValue(node, "DESCRIZIONE_BREVE");
+		String publishDate = getValue(node, "DATA_PUBBLICAZIONE");
+		String publishHour = getValue(node, "ORA_PUBBLICAZIONE");;
+		String url = getValue(node, "WEBURL");
+		String imageUrl = getValue(node, "IMAGE");
+		String longDescUrl = getValue(node, "DESCRIZIONE_LUNGA");
+		String poiId = getPoiId(node); //node.get("RIFERIMENTO_POI").asText();
+		String eventId = getValue(node, "RIFERIMENTO_EVENTO");
 		Contact contact = getContact(node, lang);
+		List<String> sports = getListFromNode(node.get("SPORTS"));
 		
 		news.id = id;
 		news.langGroup = langGroup;
@@ -463,7 +634,110 @@ public class ScriptBody {
 		news.poiId = poiId;
 		news.eventId = eventId;
 		news.contact = contact;
+		news.sports = sports;
 		return news;
+	}
+	
+	private RowNews getRowNews(JsonNode node, String lang) {
+		RowNews news = new RowNews();
+		String id = getValue(node, "OID");
+		String category = getValue(node, "CATEGORIA");
+		if(isEmpty(category)) {
+			if(log.isWarnEnabled())
+				log.warn("empty category:" + id);
+			return null;
+		}
+		String langGroup = getValue(node, "LANGGROUP");
+		String title = getValue(node, "TITOLO");
+		String shortDesc = getValue(node, "DESCRIZIONE_BREVE");
+		String publishDate = getValue(node, "DATA_PUBBLICAZIONE");
+		String publishHour = getValue(node, "ORA_PUBBLICAZIONE");;
+		String url = getValue(node, "WEBURL");
+		if(!isEmpty(url)) {
+			if(!url.toLowerCase().startsWith("http://"))
+				url = "http://www.universiadetrentino.org" + url;
+		}
+		String imageUrl = getValue(node, "IMAGE");
+		String longDescUrl = getValue(node, "DESCRIZIONE_LUNGA");
+		String poiId = getPoiId(node); //node.get("RIFERIMENTO_POI").asText();
+		String eventId = getValue(node, "RIFERIMENTO_EVENTO");
+		Contact contact = getContact(node, lang);
+		List<String> sports = getListFromNode(node.get("SPORTS"));
+		
+		news.id = id;
+		news.langGroup = langGroup;
+		news.lang = lang;
+		news.category = category;
+		news.title = title;
+		news.shortDesc = shortDesc;
+		news.publishDate = publishDate;
+		news.publishHour = publishHour;
+		news.url = url;
+		news.imageUrl = imageUrl;
+		news.longDescUrl = longDescUrl;
+		news.poiId = poiId;
+		news.eventId = eventId;
+		news.contact = contact;
+		news.sports = sports;
+		return news;
+	}
+	
+	private List<String> getListFromNode(JsonNode rootNode) {
+		List<String> result = new ArrayList<String>();
+		if(rootNode != null) {
+			Iterator<JsonNode> elements = rootNode.getElements();
+			while(elements.hasNext()) {
+				JsonNode node = elements.next();
+				result.add(node.asText());
+			}
+		}
+		return result;
+	}
+
+	private String getPoiId(JsonNode node) {
+		JsonNode location = node.get("LOCATION");
+		if(location == null)
+			return null;
+		if(location.get("id") != null) {
+			return location.get("id").asText();
+		}
+		return null;
+	}
+	
+	private Location getLocation(JsonNode node, String lang) {
+		JsonNode locationNode = node.get("LOCATION");
+		if(locationNode == null)
+			return null;
+		
+		String street = getValue(locationNode, "address");
+		String postalCode = getValue(locationNode, "postalCode");
+		String city = getValue(locationNode, "city");
+		
+		Address.Builder address = Address.newBuilder();
+		if(!isEmpty(street)) {
+			address.setStreet(street);
+		}
+		if(!isEmpty(postalCode)) {
+			address.setPostalCode(postalCode);
+		}
+		if(!isEmpty(city)) {
+			address.setCity(city);
+		}
+		address.setLang(lang);
+		
+		double latitude = locationNode.get("lat").asDouble();
+		double longitude = locationNode.get("lng").asDouble();
+		Coordinate coordinate = Coordinate.newBuilder()
+		.setLatitude(latitude)
+		.setLongitude(longitude)
+		.build();
+		
+		Location location = Location.newBuilder()
+		.addAddress(address)
+		.setCoordinate(coordinate)
+		.build();
+		
+		return location;
 	}
 	
 	private Contact getContact(JsonNode node, String lang) {
@@ -512,6 +786,9 @@ public class ScriptBody {
 					log.info("venue:" + id);
 				String nameIt = node.get("venueIt").asText();
 				String nameEn = node.get("venueEn").asText();
+				String descIt = node.get("descIt").asText();
+				String descEn = node.get("descEn").asText();
+				String imageUrl = node.get("imageUrl").asText();
 				String category = node.get("category").asText();
 				String[] tags = node.get("tags").asText().split(";");
 				List<String> tagList = Arrays.asList(tags);
@@ -521,6 +798,12 @@ public class ScriptBody {
 				builder.setId(id);
 				builder.addName(getValue("IT", nameIt));
 				builder.addName(getValue("EN", nameEn));
+				if(!isEmpty(descIt))
+					builder.addDescription(getValue("IT", descIt));
+				if(!isEmpty(descEn))
+					builder.addDescription(getValue("EN", descEn));
+				if(!isEmpty(imageUrl))
+					builder.setImageUrl(imageUrl);
 				builder.setCategory(category);
 				builder.setLocation(location);
 				builder.addAllTag(tagList);
@@ -666,8 +949,14 @@ public class ScriptBody {
 		if(!isEmpty(eventIt.imageUrl))
 			builder.setImageUrl(eventIt.imageUrl);
 		
-		if(!isEmpty(eventIt.poiId))
+		if(!isEmpty(eventIt.poiId)) {
 			builder.setPoiId(eventIt.poiId);
+		} else if(eventIt.location != null) {
+			builder.setLocation(eventIt.location);
+		}
+		
+		if(!eventIt.sports.isEmpty())
+			builder.addAllSports(eventIt.sports);
 		
 		return builder.build();
 	}
@@ -703,37 +992,43 @@ public class ScriptBody {
 		if(!isEmpty(event.imageUrl))
 			builder.setImageUrl(event.imageUrl);
 		
-		if(!isEmpty(event.poiId))
+		if(!isEmpty(event.poiId)) {
 			builder.setPoiId(event.poiId);
+		} else if(event.location != null) {
+			builder.setLocation(event.location);
+		}
+		
+		if(!event.sports.isEmpty())
+			builder.addAllSports(event.sports);
 		
 		return builder.build();
 	}
 
 	private RowEvent getRowEvent(JsonNode node, String lang) {
 		RowEvent event = new RowEvent();
-		String id = node.get("OID").asText();
-		String category = node.get("CATEGORIA").asText();
+		String id = getValue(node, "OID");
+		String category = getValue(node, "CATEGORIA");
 		if(isEmpty(category)) {
 			if(log.isWarnEnabled())
 				log.warn("empty category:" + id);
 			return null;
 		}
-		if(!category.toLowerCase().equals("event"))
-			return null;
 		if(log.isInfoEnabled())
 			log.info("event:" + id);
-		String langGroup = node.get("LANGGROUP").asText();
-		String title = node.get("TITOLO").asText();
-		String shortDesc = node.get("DESCRIZIONE_BREVE").asText();
-		String startDate = node.get("EVENTDATE").asText();
-		String startHour = node.get("TIMESTART").asText();
-		String endDate = node.get("EVENTEND").asText();
-		String endHour = node.get("TIMEEND").asText();
-		String url = node.get("URL_SITO_WEB").asText();
-		String imageUrl = node.get("IMAGE").asText();
-		String longDescUrl = node.get("DESCRIZIONE_LUNGA").asText();
-		String poiId = node.get("LOCATION").get("id").asText();
+		String langGroup = getValue(node, "LANGGROUP");
+		String title = getValue(node, "TITOLO");
+		String shortDesc = getValue(node, "DESCRIZIONE_BREVE");
+		String startDate = getValue(node, "EVENTDATE");
+		String startHour = getValue(node, "TIMESTART");
+		String endDate = getValue(node, "EVENTEND");
+		String endHour = getValue(node, "TIMEEND");
+		String url = getValue(node, "WEBURL");
+		String imageUrl = getValue(node, "IMAGE");
+		String longDescUrl = getValue(node, "DESCRIZIONE_LUNGA");
+		String poiId = getPoiId(node); //node.get("LOCATION").get("id").asText();
+		Location location = getLocation(node, lang);
 		Contact contact = getContact(node, lang);
+		List<String> sports = getListFromNode(node.get("SPORTS"));
 		
 		event.id = id;
 		event.langGroup = langGroup;
@@ -750,7 +1045,81 @@ public class ScriptBody {
 		event.longDescUrl = longDescUrl;
 		event.poiId = poiId;
 		event.contact = contact;
+		event.sports = sports;
+		event.location = location;
 		return event;
 	}
+	
 
+
+	public List<Message> getCompetitionSchedule(String json) throws Exception {
+		List<Message> result = new ArrayList<Message>();
+		ObjectMapper m = new ObjectMapper();
+		JsonNode rootNode = m.readValue(json, JsonNode.class);
+		Iterator<Entry<String, JsonNode>> sports = rootNode.getFields();
+		while(sports.hasNext()) {
+			Entry<String, JsonNode> sport = sports.next();
+			String category = sport.getKey();
+			if(log.isInfoEnabled())
+				log.info(category);
+			Iterator<JsonNode> disciplines = sport.getValue().getElements();
+			while(disciplines.hasNext()) {
+				JsonNode discipline = disciplines.next();
+				Iterator<JsonNode> events = discipline.getElements();
+				while(events.hasNext()) {
+					try {
+						Event event = getCompetitionEvent(events.next(), category);
+						if(event != null)
+							result.add(event);
+					} catch (Exception e) {
+						log.error("error", e);
+					}
+				}
+			}
+		}
+		return result;
+	}
+	
+	private Event getCompetitionEvent(JsonNode node, String category) {
+		String id = node.get("id").asText();
+		String title = node.get("id").asText();
+		if(id == null) {
+			if(log.isWarnEnabled())
+				log.warn("empty id:" + title);
+			return null;
+		}
+		if(log.isInfoEnabled())
+			log.info("event id:" + id);
+		String date = node.get("date").asText();
+		String stime = node.get("stime").asText();
+		String etime = node.get("etime").asText();
+		String descIt = node.get("descIt").asText();
+		String descEn = node.get("descEn").asText();
+		String venue = node.get("venue").asText();
+		
+		Event.Builder builder = Event.newBuilder();
+		builder.setId(id);
+		
+		KeyValue titleIt = getValue("IT", descIt);
+		KeyValue titleEn = getValue("EN", descEn);
+		builder.addTitle(titleIt);
+		builder.addTitle(titleEn);
+
+		KeyValue shordDescIt = getValue("IT", descIt);
+		KeyValue shordDescEn = getValue("EN", descEn);
+		builder.addShortDesc(shordDescIt);
+		builder.addShortDesc(shordDescEn);
+		
+		builder.setCategory(category);
+		
+		builder.setStartDate(date + "T" + stime);
+		builder.setEndDate(date + "T" + etime);
+		
+		if(!isEmpty(venue))
+			builder.setPoiId(venue);
+		
+		return builder.build();
+	}
+	
+	
 }

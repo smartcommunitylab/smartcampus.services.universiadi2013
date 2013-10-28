@@ -58,14 +58,16 @@ message News {
 	required string id = 1;
 	repeated KeyValue title = 2;
 	repeated KeyValue shortDesc = 3;
-	required string category = 4;
-	required string published = 5;
-	optional Contact contact = 6;
-	repeated KeyValue longDesc = 7;
+	repeated KeyValue longDesc = 4;
+	required string category = 5;
+	required string published = 6;
+	optional Contact contact = 7;
 	optional string url = 8;
 	optional string imageUrl = 9;
 	optional string poiId = 10;
-	optional string eventId = 11;
+	repeated string eventId = 11;
+	repeated string sports = 12;
+	repeated string tags = 13;
 }
 
 message Event {
@@ -77,15 +79,35 @@ message Event {
 	required string startDate = 6;
 	required string endDate = 7;
 	optional Contact contact = 8;
-	optional string url = 9;
-	optional string imageUrl = 10;
-	optional string poiId = 11;
+	optional Location location = 9;
+	optional string url = 10;
+	optional string imageUrl = 11;
+	optional string poiId = 12;
+	repeated string sports = 13;
+	repeated string tags = 14;
 }
 
 message Venue {
 	required string id = 1;
 	required string category = 2;
 	repeated KeyValue name = 3;
-	required Location location = 4;
-	repeated string tag = 5;
+	repeated KeyValue description = 4;
+	required Location location = 5;
+	repeated string tag = 6;
+	optional string imageUrl = 7;
+}
+
+message MedalsList {
+	repeated Medals nation = 1;
+}
+
+message Medals {
+	required string nationCode = 1;
+	required string nationName = 2;
+	required string rank = 3;
+	required string rankByTotal = 4;
+	required string total = 5;
+	optional string gold = 6;
+	optional string silver = 7;
+	optional string bronze = 8;
 }
