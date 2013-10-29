@@ -89,9 +89,12 @@
 							<methods>
 								<method>
 									<methodName>GetPoiFromCsv</methodName>
+									<defaultParameters>
+										<parameters />
+									</defaultParameters>
 									<statusParameters>
 										<storable>true</storable>
-										<automaticRefresh>false</automaticRefresh>
+										<automaticRefresh>true</automaticRefresh>
 										<delay>#{1000L*15}</delay>
 										<period>#{1000L*60*60*24}</period>
 										<periodOnDefault>#{1000L*60*60*24}</periodOnDefault>
@@ -100,14 +103,17 @@
 										<validityPeriod>#{1000L*60*60*24*30}</validityPeriod>
 										<serviceBlocked>false</serviceBlocked>
 										<dataFlowInvokable>true</dataFlowInvokable>
-										<runnableAfterDelay>false</runnableAfterDelay>
+										<runnableAfterDelay>true</runnableAfterDelay>
 									</statusParameters>
 								</method>
 								<method>
 									<methodName>GetNews</methodName>
+									<defaultParameters>
+										<parameters />
+									</defaultParameters>
 									<statusParameters>
 										<storable>true</storable>
-										<automaticRefresh>false</automaticRefresh>
+										<automaticRefresh>true</automaticRefresh>
 										<delay>#{1000L*15}</delay>
 										<period>#{1000L*60*60*24}</period>
 										<periodOnDefault>#{1000L*60*60*24}</periodOnDefault>
@@ -116,14 +122,17 @@
 										<validityPeriod>#{1000L*60*60*24*30}</validityPeriod>
 										<serviceBlocked>false</serviceBlocked>
 										<dataFlowInvokable>true</dataFlowInvokable>
-										<runnableAfterDelay>false</runnableAfterDelay>
+										<runnableAfterDelay>true</runnableAfterDelay>
 									</statusParameters>
 								</method>
 								<method>
 									<methodName>GetVenues</methodName>
+									<defaultParameters>
+										<parameters />
+									</defaultParameters>
 									<statusParameters>
 										<storable>true</storable>
-										<automaticRefresh>false</automaticRefresh>
+										<automaticRefresh>true</automaticRefresh>
 										<delay>#{1000L*15}</delay>
 										<period>#{1000L*60*60*24}</period>
 										<periodOnDefault>#{1000L*60*60*24}</periodOnDefault>
@@ -132,14 +141,17 @@
 										<validityPeriod>#{1000L*60*60*24*30}</validityPeriod>
 										<serviceBlocked>false</serviceBlocked>
 										<dataFlowInvokable>true</dataFlowInvokable>
-										<runnableAfterDelay>false</runnableAfterDelay>
+										<runnableAfterDelay>true</runnableAfterDelay>
 									</statusParameters>
 								</method>
 								<method>
 									<methodName>GetEvents</methodName>
+									<defaultParameters>
+										<parameters />
+									</defaultParameters>
 									<statusParameters>
 										<storable>true</storable>
-										<automaticRefresh>false</automaticRefresh>
+										<automaticRefresh>true</automaticRefresh>
 										<delay>#{1000L*15}</delay>
 										<period>#{1000L*60*60*24}</period>
 										<periodOnDefault>#{1000L*60*60*24}</periodOnDefault>
@@ -148,14 +160,14 @@
 										<validityPeriod>#{1000L*60*60*24*30}</validityPeriod>
 										<serviceBlocked>false</serviceBlocked>
 										<dataFlowInvokable>true</dataFlowInvokable>
-										<runnableAfterDelay>false</runnableAfterDelay>
+										<runnableAfterDelay>true</runnableAfterDelay>
 									</statusParameters>
 								</method>
 								<method>
 									<methodName>GetCompetitionSchedule</methodName>
 									<statusParameters>
 										<storable>true</storable>
-										<automaticRefresh>false</automaticRefresh>
+										<automaticRefresh>true</automaticRefresh>
 										<delay>#{1000L*15}</delay>
 										<period>#{1000L*60*60*24}</period>
 										<periodOnDefault>#{1000L*60*60*24}</periodOnDefault>
@@ -164,7 +176,7 @@
 										<validityPeriod>#{1000L*60*60*24*30}</validityPeriod>
 										<serviceBlocked>false</serviceBlocked>
 										<dataFlowInvokable>true</dataFlowInvokable>
-										<runnableAfterDelay>false</runnableAfterDelay>
+										<runnableAfterDelay>true</runnableAfterDelay>
 									</statusParameters>
 								</method>
 							</methods>
