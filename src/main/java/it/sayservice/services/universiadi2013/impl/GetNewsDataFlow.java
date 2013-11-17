@@ -218,7 +218,7 @@ public class GetNewsDataFlow implements ServiceDataFlow {
 		//Script
 		{
 		try {
-			java.lang.String scriptResult5 = (java.lang.String)InvokeDataFlowScriptNode.invoke(it.sayservice.services.universiadi2013.script.ScriptBody.class, "getResultsUrl", "lastNewsUpdate", contextVariables, serviceExecutionId, serviceMethod);
+			java.lang.String scriptResult5 = (java.lang.String)InvokeDataFlowScriptNode.invoke(it.sayservice.services.universiadi2013.script.ScriptBody.class, "getResultsUrl", "startingTime", contextVariables, serviceExecutionId, serviceMethod);
 			baseResultsUrl = (java.lang.String)scriptResult5;
 			contextVariables.put("baseResultsUrl", baseResultsUrl);
 			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "baseResultsUrl", baseResultsUrl);

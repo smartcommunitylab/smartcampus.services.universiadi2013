@@ -1,7 +1,6 @@
 package it.sayservice.services.universiadi2013.impl;
 
 import it.sayservice.platform.core.bus.service.compiler.InvokeDataFlowScriptNode;
-import it.sayservice.platform.core.bus.service.compiler.InvokeLoadResource;
 import it.sayservice.platform.core.bus.service.dataflow.ServiceDataFlow;
 import java.util.ArrayList;
 import java.io.Reader;
@@ -40,7 +39,6 @@ public class GetPoiFromCsvDataFlow implements ServiceDataFlow {
 	Logger log = Logger.getLogger(this.getClass());
 
 
-	private java.lang.String datiCsv;
 
 	private ServiceMethod serviceMethod;
 
@@ -54,11 +52,9 @@ public class GetPoiFromCsvDataFlow implements ServiceDataFlow {
 
 	public List<Message> invoke(String serviceExecutionId, Map<String, Object> parameters) throws DataFlowException {
 		Map<String, Object> contextVariables = new java.util.HashMap<String,Object>();
-	contextVariables.put("datiCsv", datiCsv);
 
 
 		List<Message> output = new java.util.ArrayList<Message>();
-		try {
 		java.lang.String csv = null;
 		if (!(parameters.get("csv") instanceof java.lang.String)) {
 				throw new DataFlowException(ExceptionMessage.PARAMETER_INCORRECT);
@@ -69,19 +65,10 @@ public class GetPoiFromCsvDataFlow implements ServiceDataFlow {
 		InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "csv", csv);
 
 		
-		//Load Resource
-		try {
-					datiCsv = InvokeLoadResource.loadString(serviceExecutionId, serviceMethod, (String)InvokeScript.invoke("\"service/universiadi2013/\" + csv", contextVariables));
-		contextVariables.put("datiCsv", datiCsv);
-			} catch (DataFlowVariableException e0) {
-				log.error("DataFlow Error: " + e0.getClass().getName());
-				throw new DataFlowException(ExceptionMessage.SERVICE_DATAFLOW_ERROR, e0);
-			}
-
 		//Script
 		{
 		try {
-			java.util.List<com.google.protobuf.Message> scriptResult1 = (java.util.List<com.google.protobuf.Message>)InvokeDataFlowScriptNode.invoke(it.sayservice.services.universiadi2013.script.ScriptBody.class, "getPoiFromCsv", "datiCsv", contextVariables, serviceExecutionId, serviceMethod);
+			java.util.List<com.google.protobuf.Message> scriptResult1 = (java.util.List<com.google.protobuf.Message>)InvokeDataFlowScriptNode.invoke(it.sayservice.services.universiadi2013.script.ScriptBody.class, "getPoiFromCsv", "csv", contextVariables, serviceExecutionId, serviceMethod);
 			output = (List<Message>)scriptResult1;
 			contextVariables.put("output", output);
 			InvokeVariableValidation.validate(serviceMethod, serviceExecutionId, "output", output);
@@ -92,20 +79,6 @@ public class GetPoiFromCsvDataFlow implements ServiceDataFlow {
 		}
 
 	return output;
-	} catch (ParseException pe) {
-		log.error("Script Error: Parse Exception.", pe);
-		throw new DataFlowException(pe.getMessage(), pe);
-	} catch (EvalError ee) {
-		log.error("Script Error: Eval Error.", ee);
-		throw new DataFlowException(ee.getMessage(), ee);
-	} catch (Exception e) {
-		if (e instanceof DataFlowException) {
-			throw (DataFlowException)e;
-		} else {
-			log.error("Unexpected Error", e);
-			throw new DataFlowException(e.getMessage(), e);
-		}
-	}
 	}
 
 	public Message.Builder getOutputBuilder() {

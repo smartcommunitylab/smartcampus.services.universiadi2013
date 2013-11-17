@@ -17,15 +17,18 @@ import junit.framework.TestCase;
 
 public class TestPoiServiceDataFlow extends TestCase {
 	
-	public void testRistorazioneFlow() throws ServiceException, EntityNotFoundException, PersistenceException {
+	public void testCsvFlow() throws ServiceException, EntityNotFoundException, PersistenceException {
 		Map<String, Object> params = new HashMap<String, Object>();
-		params.put("csv", "ristoranti_APT_Trento.csv");
+		//params.put("csv", "APT_Pine_Cembra_Censimento_POI.csv");
+		//params.put("csv", "APT_Valsugana_Censimento_POI.csv");
+		//params.put("csv", "APT_Fassa_Censimento_POI.csv");
+		params.put("csv", "APT_Trento_Censimento_POI.csv");
 		DataFlowTestHelper helper = new DataFlowTestHelper();
 		Map<String, Object> out = helper.executeDataFlow("it.sayservice.ext.universiadi2013", "GetPoiFromCsv", new GetPoiFromCsvDataFlow(), params);
-		System.out.println(out);
+		//System.out.println(out);
 	}
 	
-	public void _testNewsFlow() throws ServiceException, EntityNotFoundException, PersistenceException {
+	public void testNewsFlow() throws ServiceException, EntityNotFoundException, PersistenceException {
 		Map<String, Object> params = new HashMap<String, Object>();
 		DataFlowTestHelper helper = new DataFlowTestHelper();
 		Map<String, Object> out = helper.executeDataFlow("it.sayservice.ext.universiadi2013", "GetNews", new GetNewsDataFlow(), params);
@@ -45,11 +48,11 @@ public class TestPoiServiceDataFlow extends TestCase {
 		Map<String, Object> out = helper.executeDataFlow("it.sayservice.ext.universiadi2013", "GetEvents", new GetEventsDataFlow(), params);
 		System.out.println(out);
 	}
+	
 	public void testScheduleFlow() throws ServiceException, EntityNotFoundException, PersistenceException {
 		Map<String, Object> params = new HashMap<String, Object>();
 		DataFlowTestHelper helper = new DataFlowTestHelper();
 		Map<String, Object> out = helper.executeDataFlow("it.sayservice.ext.universiadi2013", "GetCompetitionSchedule", new GetCompetitionScheduleDataFlow(), params);
 		System.out.println(out);
 	}
-
 }

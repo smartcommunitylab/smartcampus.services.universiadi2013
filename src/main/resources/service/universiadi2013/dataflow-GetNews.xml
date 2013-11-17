@@ -96,7 +96,7 @@
 	  <className>it.sayservice.services.universiadi2013.script.ScriptBody</className>
 	  <method>getResultsUrl</method>
 	  <variables>
-	    <value>lastNewsUpdate</value>
+	    <value>startingTime</value>
 	  </variables>
 	</script>
 	

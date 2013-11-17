@@ -13,6 +13,9 @@ import it.sayservice.services.universiadi2013.data.message.Data.News;
 import it.sayservice.services.universiadi2013.data.message.Data.Poi;
 import it.sayservice.services.universiadi2013.data.message.Data.Venue;
 
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -25,6 +28,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
+import org.apache.commons.lang.StringEscapeUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.codehaus.jackson.JsonNode;
@@ -62,42 +66,71 @@ public class ScriptBody {
 	public static final int TAG_2 = 22;
 	public static final int TAG_3 = 23;
 	public static final int TAG_4 = 24;
-	public static final int CAPACITY_IT = 25;
-	public static final int CAPACITY_EN = 26;
-	public static final int STORY_IT = 27;
-	public static final int STORY_EN = 28;
-	public static final int ODDITY_IT = 29;
-	public static final int ODDITY_EN = 30;
-	public static final int ARRIVE_IT = 31;
-	public static final int ARRIVE_EN = 32;
-	public static final int ACCESSIBILITY_IT = 33;
-	public static final int ACCESSIBILITY_EN = 34;
+	public static final int TAG_ADD = 25;
+	public static final int CAPACITY_IT = 26;
+	public static final int CAPACITY_EN = 27;
+	public static final int STORY_IT = 28;
+	public static final int STORY_EN = 29;
+	public static final int ODDITY_IT = 30;
+	public static final int ODDITY_EN = 31;
+	public static final int ARRIVE_IT = 32;
+	public static final int ARRIVE_EN = 33;
+	public static final int ACCESSIBILITY_IT = 34;
+	public static final int ACCESSIBILITY_EN = 35;
 	
-	public List<Message> getPoiFromCsv(String csv) throws ServiceException {
+	public static final String categories = "noleggiosci;scuolasci;impiantosci;stadioghiaccio;stadiosalto;snowpark;"
+	+ "camposportivo;campotennis;maneggio;piscina;palestra;disco;minigolf;wellness;parco;attrazione;museo;monumento;"
+	+ "sitoarcheologico;teatro;luogoculto;pizzeria;ristorante;agriturismo;malga;birreria;bar;gelateria;"
+	+ "hotel;residence;appartamentovacanze;affittocamere;bedbreakfast;garni;rifugio;camping;parcheggio;"
+	+ "stazioneservizio;taxi;busnavetta;busfermata;autostazione;funivia;stazionetreni;serviziobici;noleggioprivato;"
+	+ "servizisanitari;dentista;veterinario;farmacia;igienici;isoleecologiche;fontane;automoto;serviziabbigliamento;"
+	+ "parrucchiera;istruzione;biblioteca;wifi;agenziaviaggi;info;forzeordine;servizimunicipali;posta;banca;"
+	+ "prodottitipici;souvenir;mercato;antiquariato;cartoleria;tabacchino;centrocommerciale;negozioanimali;giocattoli;"
+	+ "ottico;profumeria;gioielleria;abbigliamento;negoziosport;elettronica;ferramenta;casalinghi;alimentari;negozio";
+	
+	public List<Message> getPoiFromCsv(String csvFile) throws ServiceException {
 		List<Message> result = new ArrayList<Message>();
+		List<String> ids = new ArrayList<String>();
 		try {
+			ClassLoader loader = Thread.currentThread().getContextClassLoader();
+			InputStream is = loader.getResourceAsStream("service/universiadi2013/" + csvFile);
+			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(is, "ISO-8859-1"));
+			StringBuffer sb = new StringBuffer();
+			String line;
+			while((line = bufferedReader.readLine()) != null) {
+				sb.append(line+"\n");
+			}
+			String csv = sb.toString();
+			
+			String[] categoryList = categories.split(";");
+			
 			StringReader reader = new StringReader(csv);
-			CSVReader csvReader = new CSVReader(reader, ',', '"', '\\', 1);
+			CSVReader csvReader = new CSVReader(reader, ',', '"', 1);
 			List<String[]> lines = csvReader.readAll();
+			int count = 0;
 			for (String[] fields : lines) {
-				if((fields != null) && (fields.length >= 34)) {
-					String id = getId(fields);
+				count++;
+				if(log.isInfoEnabled())
+					log.info("line " + count);
+				
+				if((fields != null) && (fields.length >= 36)) {
+					
+					String name = fields[NAME_IT];
+					if(isEmpty(name)) {
+						log.warn("NameIT empty");
+						continue;
+					}
 					
 					String category = fields[CATEGORY];
-					
-					KeyValue nameIt = getValue("IT", fields[NAME_IT]);
-					KeyValue nameEn = getValue("EN", fields[NAME_EN]);
-					
-					KeyValue descIt = getValue("IT", fields[DESC_IT]);
-					KeyValue descEn = getValue("EN", fields[DESC_EN]);
-					
-					KeyValue longDescIt = getLongDesc("IT", fields[STORY_IT], fields[ODDITY_IT], fields[ARRIVE_IT]);
-					KeyValue longDescEn = getLongDesc("EN", fields[STORY_EN], fields[ODDITY_EN], fields[ARRIVE_EN]);
-					
-					KeyValue serviceIt = getValue("IT", fields[SERVICES_IT]);
-					KeyValue serviceEn = getValue("EN", fields[SERVICES_EN]);
-					
-					List<String> topics = getTopics(fields);
+					if(isEmpty(category)) {
+						log.warn("empty category:" + name);
+						continue;
+					}
+					category = category.toLowerCase().replace(" ", "");
+					if(!containsCategory(category, categoryList)) {
+						log.warn("unknown category:" + name);
+						continue;
+					}
 					
 					Location location = null;
 					try {
@@ -106,6 +139,27 @@ public class ScriptBody {
 						log.warn("Location not valid:" + fields[NAME_IT]);
 						continue;
 					}
+					
+					String id = getId(fields, location);
+					if(ids.contains(id)) {
+						log.warn("id duplicated:" + id);
+						continue;
+					}
+					ids.add(id);
+					
+					KeyValue nameIt = getValue("IT", fields[NAME_IT]);
+					KeyValue nameEn = getValue("EN", fields[NAME_EN]);
+					
+					KeyValue descIt = getHtmlDesc("IT", fields[DESC_IT]);
+					KeyValue descEn = getHtmlDesc("EN", fields[DESC_EN]);
+					
+					KeyValue longDescIt = getLongDesc("IT", fields[STORY_IT], fields[ODDITY_IT], fields[ARRIVE_IT]);
+					KeyValue longDescEn = getLongDesc("EN", fields[STORY_EN], fields[ODDITY_EN], fields[ARRIVE_EN]);
+					
+					KeyValue serviceIt = getHtmlDesc("IT", fields[SERVICES_IT]);
+					KeyValue serviceEn = getHtmlDesc("EN", fields[SERVICES_EN]);
+					
+					List<String> topics = getTopics(fields);
 					
 					Contact contact = getContact(fields);
 					
@@ -181,6 +235,14 @@ public class ScriptBody {
 			throw new ServiceException(e.getMessage());
 		} 
 	}
+	
+	private boolean containsCategory(String value, String[] list) {
+		for(String listvalue : list) {
+			if(value.contains(listvalue))
+				return true;
+		}
+		return false;
+	}
 
 	private KeyValue getValue(String key, String value) {
 		KeyValue keyValue = KeyValue.newBuilder()
@@ -190,21 +252,35 @@ public class ScriptBody {
 		return keyValue;
 	}
 	
-	private String getId(String[] fields) {
-		return fields[CATEGORY] + "." + fields[NAME_IT] + "." + fields[STREET] + "." + fields[POSTAL_CODE] + "." + fields[CITY];
+	private String getId(String[] fields, Location location) {
+		return fields[NAME_IT] + "_" + location.getCoordinate().getLatitude() + "_" + location.getCoordinate().getLongitude();
 	}
 	
 	private List<String> getTopics(String[] fields) {
-		 List<String> result = new ArrayList<String>();
-		 if(!fields[TAG_1].isEmpty())
-			 result.add(fields[TAG_1]);
-		 if(!fields[TAG_2].isEmpty())
-			 result.add(fields[TAG_2]);
-		 if(!fields[TAG_3].isEmpty())
-			 result.add(fields[TAG_3]);
-		 if(!fields[TAG_4].isEmpty())
-			 result.add(fields[TAG_4]);
+		List<String> result = new ArrayList<String>();
+		if(!isEmpty(fields[TAG_1]))
+			result.add(fields[TAG_1]);
+		if(!isEmpty(fields[TAG_2]))
+			result.add(fields[TAG_2]);
+		if(!isEmpty(fields[TAG_3]))
+			result.add(fields[TAG_3]);
+		if(!isEmpty(fields[TAG_4]))
+			result.add(fields[TAG_4]);
+		if(!isEmpty(fields[TAG_ADD])) {
+			String[] tags = fields[TAG_ADD].split(",");
+			result.addAll(Arrays.asList(tags));
+		}
 		return result;
+	}
+	
+	private KeyValue getHtmlDesc(String key, String value) {
+		String valueClened = StringEscapeUtils.unescapeHtml(value);
+		valueClened = valueClened.replaceAll("\\<.*?>","");
+		KeyValue keyValue = KeyValue.newBuilder()
+		.setKey(key)
+		.setValue(valueClened)
+		.build();
+		return keyValue;
 	}
 	
 	private KeyValue getLongDesc(String key, String story, String oddity, String arrive) {
@@ -246,8 +322,12 @@ public class ScriptBody {
 		.setLang("IT")
 		.build();
 		
-		double latitude = Double.parseDouble(fields[LATITUDE]);
-		double longitude = Double.parseDouble(fields[LONGITUDE]);
+		String lat = fields[LATITUDE];
+		String lng = fields[LONGITUDE];
+		if(isEmpty(lat) || isEmpty(lng))
+			throw new NumberFormatException("empty value");
+		double latitude = Double.parseDouble(lat.trim().replace("'", "").replace(",", "."));
+		double longitude = Double.parseDouble(lng.trim().replace("'", "").replace(",", "."));
 		Coordinate coordinate = Coordinate.newBuilder()
 		.setLatitude(latitude)
 		.setLongitude(longitude)

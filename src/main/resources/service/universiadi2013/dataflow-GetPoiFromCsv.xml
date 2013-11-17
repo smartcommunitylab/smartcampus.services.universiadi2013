@@ -5,17 +5,17 @@
 	<input name="csv" type="java.lang.String" />
 	<output/>
 
-	<variable name="datiCsv" type="java.lang.String" />
+<!-- 	<variable name="datiCsv" type="java.lang.String" /> -->
 	
-	<loadresource outputVar="datiCsv" resourceType="string">
-		<resource>"service/universiadi2013/" + csv</resource>
-	</loadresource>
+<!-- 	<loadresource outputVar="datiCsv" resourceType="string"> -->
+<!-- 		<resource>"service/universiadi2013/" + csv</resource> -->
+<!-- 	</loadresource> -->
 	
 	<script outputVar="output" writeAction="update">
 	  <className>it.sayservice.services.universiadi2013.script.ScriptBody</className>
 	  <method>getPoiFromCsv</method>
 	  <variables>
-	    <value>datiCsv</value>
+	    <value>csv</value>
 	  </variables>
 	</script>
 	
