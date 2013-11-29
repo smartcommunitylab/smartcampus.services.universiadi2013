@@ -165,6 +165,9 @@
 								</method>
 								<method>
 									<methodName>GetCompetitionSchedule</methodName>
+									<defaultParameters>
+										<parameters />
+									</defaultParameters>
 									<statusParameters>
 										<storable>true</storable>
 										<automaticRefresh>true</automaticRefresh>

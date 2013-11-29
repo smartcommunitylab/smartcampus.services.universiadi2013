@@ -6,15 +6,19 @@
 
 	<variable name="datiJson" type="java.lang.String" />
 	
-	<httpConnector name="venueJSON" method="GET" encoding="utf-8" />
+<!-- 	<httpConnector name="venueJSON" method="GET" encoding="utf-8" /> -->
 	
-	<connect name="c1" connector="venueJSON" transformer="string" outputVar="datiJson">
-		<properties>
-			<property name="url">
-				<value>"http://v4m-cdn.juniper.it/x00001/public/6A02F0E4B7EA457E90F11E341D60E444/WebElements/venue.json"</value>
-			</property>
-		</properties>
-	</connect>
+	<loadresource outputVar="datiJson" resourceType="string">
+		<resource>"service/universiadi2013/venue.json"</resource>
+	</loadresource>
+	
+<!-- 	<connect name="c1" connector="venueJSON" transformer="string" outputVar="datiJson"> -->
+<!-- 		<properties> -->
+<!-- 			<property name="url"> -->
+<!-- 				<value>"http://v4m-cdn.juniper.it/x00001/public/6A02F0E4B7EA457E90F11E341D60E444/WebElements/venue.json"</value> -->
+<!-- 			</property> -->
+<!-- 		</properties> -->
+<!-- 	</connect> -->
 	
 	<script outputVar="output" writeAction="update">
 	  <className>it.sayservice.services.universiadi2013.script.ScriptBody</className>

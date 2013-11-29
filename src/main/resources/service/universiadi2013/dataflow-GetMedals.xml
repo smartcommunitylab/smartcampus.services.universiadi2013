@@ -13,7 +13,8 @@
 	<connect name="c1" connector="htmlMedals" transformer="xhtml" outputVar="xmlDoc">
 		<properties>
 			<property name="url">
-				<value>"http://winteruniversiade2013.sportresult.com/WUNI2013_INFO_TEST/NH/en/-120/Medal/HistoricalMedals?medalKind=DefaultSports"</value>
+<!-- 				<value>"http://winteruniversiade2013.sportresult.com/WUNI2013_INFO_TEST/NH/en/-120/Medal/HistoricalMedals?medalKind=DefaultSports"</value> -->
+				<value>"http://winteruniversiade2013.sportresult.com/HIDE/en/-60/Medal/HistoricalMedals?medalKind=DefaultSports"</value>
 			</property>
 		</properties>
 	</connect>

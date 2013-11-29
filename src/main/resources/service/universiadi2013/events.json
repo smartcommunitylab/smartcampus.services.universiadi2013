@@ -1,17 +1,6 @@
 {
 	"Alpine Skiing": {
-		"Downhill Men": [{
-			"id": "WU2013-001",
-			"date": "2013-12-10",
-			"title": "Free Skiing W/M",
-			"stime": "09:00",
-			"etime": "12:00",
-			"gender": "A",
-			"type": "free",
-			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Free Downhill Female/Male Skiing",
-			"descIt": "Sci libero femminile/maschile Downhill"
-		},
+		"Downhill Men": [
 		{
 			"id": "WU2013-002",
 			"date": "2013-12-11",
@@ -21,8 +10,8 @@
 			"gender": "M",
 			"type": "inspection",
 			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Male field's inspection",
-			"descIt": "Ispezione del campo maschile"
+			"descEn": "Course Inspection - Downhill - Men",
+			"descIt": "Ricognizione Pista - Discesa Libera - Maschile"
 		},
 		{
 			"id": "WU2013-003",
@@ -33,8 +22,8 @@
 			"gender": "M",
 			"type": "training",
 			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Men's Downhill Training 1st",
-			"descIt": "Prima sessione di prove per Downhill maschile"
+			"descEn": "Training - Downhill - Men",
+			"descIt": "Allenamento - Discesa Libera - Maschile"
 		},
 		{
 			"id": "WU2013-004",
@@ -45,8 +34,8 @@
 			"gender": "M",
 			"type": "inspection",
 			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Male field's inspection",
-			"descIt": "Ispezione del campo maschile"
+			"descEn": "Course Inspection - Downhill - Men",
+			"descIt": "Ricognizione Pista - Discesa Libera - Maschile"
 		},
 		{
 			"id": "WU2013-005",
@@ -57,20 +46,21 @@
 			"gender": "M",
 			"type": "training",
 			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Men's Downhill Training 2nd Training",
-			"descIt": "Seconda sessione di prove per Downhill maschile"
+			"descEn": "Training - Downhill - Men",
+			"descIt": "Allenamento - Discesa Libera - Maschile"
 		},
 		{
 			"id": "WU2013-006",
 			"date": "2013-12-13",
+			"medal" : true,
 			"title": "Race",
 			"stime": "12:00",
 			"etime": null,
 			"gender": "M",
 			"type": "official",
 			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Men's Downhill Race",
-			"descIt": "Gara Downhill maschile"
+			"descEn": "Downhill - Men",
+			"descIt": "Discesa Libera - Maschile"
 		}],
 		"Super-G Men": [{
 			"id": "WU2013-007",
@@ -81,20 +71,21 @@
 			"gender": "M",
 			"type": "inspection",
 			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Male field's inspection",
-			"descIt": "Ispezione del campo maschile"
+			"descEn": "Ricognizione Pista - SuperG - Maschile",
+			"descIt": "Course Inspection - SuperG - Men"
 		},
 		{
 			"id": "WU2013-008",
 			"date": "2013-12-14",
+			"medal" : true,
 			"title": "Race",
 			"stime": "10:00",
 			"etime": null,
 			"gender": "M",
 			"type": "official",
 			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Men's Super-G",
-			"descIt": "Super-G maschile"
+			"descEn": "SuperG - Men",
+			"descIt": "SuperG - Maschile"
 		}],
 		"Giant Slalom Men": [{
 			"id": "WU2013-009",
@@ -105,56 +96,60 @@
 			"gender": "M",
 			"type": "free",
 			"venue": "4f09be54e4b00a275348d21b",
-			"descEn": "Free Giant Slalom Male Skiing",
-			"descIt": "Sci libero maschile Slalom Gigante"
+			"descEn": "Training - Giant Slalom - Men and Ladies",
+			"descIt": "Allenamento - Slalom Gigante - Maschile e Femminile"
 		},
 		{
 			"id": "WU2013-010",
 			"date": "2013-12-17",
+			"medal" : true,
 			"title": "1^ manche",
 			"stime": "10:00",
 			"etime": null,
 			"gender": "M",
 			"type": "official",
 			"venue": "4f09be54e4b00a275348d21b",
-			"descEn": "Men's Giant Slalom Giant Slalom Run 1",
-			"descIt": "Prima prova Slalom Gigante maschile"
+			"descEn": "Giant Slalom - 1st Run - Men",
+			"descIt": "Slalom Gigante - 1^ manche - Maschile"
 		},
 		{
 			"id": "WU2013-078",
 			"date": "2013-12-17",
+			"medal" : true,
 			"title": "2^ manche",
 			"stime": "13:00",
 			"etime": null,
 			"gender": "M",
 			"type": "official",
 			"venue": "4f09be54e4b00a275348d21b",
-			"descEn": "Men's Giant Slalom Giant Slalom Run 2",
-			"descIt": "Seconda prova Slalom Gigante maschile"
+			"descEn": "Giant Slalom - 2nd Run - Men",
+			"descIt": "Slalom Gigante - 2^ manche - Maschile"
 		}],
 		"Slalom Men": [{
 			"id": "WU2013-011",
-			"date": "2013-12-20",
+			"date": "2013-12-19",
+			"medal" : true,
 			"title": "1^ manche",
 			"stime": "17:00",
 			"etime": null,
 			"gender": "M",
 			"type": "official",
 			"venue": "4f09be54e4b00a275348d21b",
-			"descEn": "Men's Slalom Run 1",
-			"descIt": "Prima prova Slalom maschile"
+			"descEn": "Slalom - 1st Run - Men",
+			"descIt": "Slalom - 1^ Manche - Maschile"
 		},
 		{
 			"id": "WU2013-012",
-			"date": "2013-12-17",
+			"date": "2013-12-19",
+			"medal" : true,
 			"title": "2^ manche",
 			"stime": "20:00",
 			"etime": null,
 			"gender": "M",
 			"type": "official",
 			"venue": "4f09be54e4b00a275348d21b",
-			"descEn": "Men's Slalom Run 2",
-			"descIt": "Seconda prova Slalom maschile"
+			"descEn": "Slalom - 2nd Run - Men",
+			"descIt": "Slalom - 2^ Manche - Maschile"
 		}],
 		"Downhill Women": [{
 			"id": "WU2013-013",
@@ -165,8 +160,8 @@
 			"gender": "A",
 			"type": "free",
 			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Free Downhill Female/Male Skiing",
-			"descIt": "Sci libero femminile/maschile Downhill"
+			"descEn": "Training - Downhill",
+			"descIt": "Allenamento - Discesa Libera"
 		},
 		{
 			"id": "WU2013-014",
@@ -177,8 +172,8 @@
 			"gender": "W",
 			"type": "inspection",
 			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Ladies field's inspection",
-			"descIt": "Ispezione del campo femminile"
+			"descEn": "Course Inspection - Downhill - Ladies",
+			"descIt": "Ricognizione Pista - Discesa Libera - Femminile"
 		},
 		{
 			"id": "WU2013-015",
@@ -189,8 +184,8 @@
 			"gender": "W",
 			"type": "training",
 			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Ladies's Downhill Training 1st Training",
-			"descIt": "Prima sessione di prove per Downhill femminile"
+			"descEn": "Training - Downhill - Ladies",
+			"descIt": "Allenamento - Discesa Libera - Femminile"
 		},
 		{
 			"id": "WU2013-016",
@@ -201,8 +196,8 @@
 			"gender": "W",
 			"type": "inspection",
 			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Ladies field's inspection",
-			"descIt": "Ispezione del campo femminile"
+			"descEn": "Course Inspection - Downhill - Ladies",
+			"descIt": "Ricognizione Pista - Discesa Libera - Femminile"
 		},
 		{
 			"id": "WU2013-017",
@@ -213,20 +208,21 @@
 			"gender": "W",
 			"type": "training",
 			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Ladies' Downhill Training 2nd Training",
-			"descIt": "Seconda sessione di prove per Downhill femminile"
+			"descEn": "Training - Downhill - Ladies",
+			"descIt": "Allenamento - Discesa Libera - Femminile"
 		},
 		{
 			"id": "WU2013-018",
 			"date": "2013-12-13",
+			"medal" : true,
 			"title": "Race",
 			"stime": "10:00",
 			"etime": null,
 			"gender": "W",
 			"type": "official",
 			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Ladies's Downhill Race",
-			"descIt": "Gara Downhill femminile"
+			"descEn": "Downhill - Ladies",
+			"descIt": "Discesa Libera - Femminile"
 		}],
 		"Super-G Women": [{
 			"id": "WU2013-019",
@@ -237,80 +233,74 @@
 			"gender": "W",
 			"type": "inspection",
 			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Male field's inspection",
-			"descIt": "Ispezione del campo maschile"
+			"descEn": "Course Inspection - SuperG - Ladies",
+			"descIt": "Ricognizione Pista - SuperG - Femminile"
 		},
 		{
 			"id": "WU2013-020",
 			"date": "2013-12-15",
+			"medal" : true,
 			"title": "Race",
 			"stime": "10:00",
 			"etime": null,
 			"gender": "W",
 			"type": "race",
 			"venue": "51051377e4b06b57cd79c53c",
-			"descEn": "Ladies' Super-G",
-			"descIt": "Super-G femminile"
+			"descEn": "SuperG - Ladies",
+			"descIt": "SuperG - Femminile"
 		}],
-		"Giant Slalom Women": [{
-			"id": "WU2013-021",
-			"date": "2013-12-16",
-			"title": "Free Skiing",
-			"stime": "09:30",
-			"etime": "12:00",
-			"gender": "W",
-			"type": "free",
-			"venue": "4f09be54e4b00a275348d21b",
-			"descEn": "Ladies Free Giant Slalom",
-			"descIt": "Sci libero femminile Slalom Gigante"
-		},
+		"Giant Slalom Women": [
 		{
 			"id": "WU2013-022",
 			"date": "2013-12-18",
+			"medal" : true,
 			"title": "1^ manche",
 			"stime": "10:00",
 			"etime": null,
 			"gender": "W",
 			"type": "official",
 			"venue": "4f09be54e4b00a275348d21b",
-			"descEn": "Ladies's Giant Slalom Giant Slalom Run 1",
-			"descIt": "Prima prova Slalom Gigante femminile"
+			"descEn": "Giant Slalom - 1st Run - Ladies",
+			"descIt": "Slalom Gigante - 1^ manche - Femminile"
 		},
 		{
 			"id": "WU2013-023",
 			"date": "2013-12-18",
+			"medal" : true,
 			"title": "2^ manche",
 			"stime": "13:00",
 			"etime": null,
 			"gender": "W",
 			"type": "official",
 			"venue": "4f09be54e4b00a275348d21b",
-			"descEn": "Ladies's Giant Slalom Giant Slalom Run 2",
-			"descIt": "Seconda prova Slalom Gigante femminile"
+			"descEn": "Giant Slalom - 2nd Run - Ladies",
+			"descIt": "Slalom Gigante - 2^ manche - Femminile"
 		}],
 		"Slalom Women": [{
 			"id": "WU2013-024",
 			"date": "2013-12-20",
+			"medal" : true,
 			"title": "1^ manche",
-			"stime": "9:30",
+			"stime": "17:00",
 			"etime": null,
 			"gender": "W",
 			"type": "official",
 			"venue": "4f09be54e4b00a275348d21b",
-			"descEn": "Ladies's Slalom Run 1",
-			"descIt": "Prima prova Slalom femminile"
+			"descEn": "Slalom - 1st Run - Ladies",
+			"descIt": "Slalom - 1^ Manche - Femminile"
 		},
 		{
 			"id": "WU2013-025",
 			"date": "2013-12-20",
+			"medal" : true,
 			"title": "2^ manche",
-			"stime": "12:30",
+			"stime": "20:00",
 			"etime": null,
 			"gender": "W",
 			"type": "official",
 			"venue": "4f09be54e4b00a275348d21b",
-			"descEn": "Men's Slalom Run 2",
-			"descIt": "Seconda prova Slalom maschile"
+			"descEn": "Slalom - 2nd Run - Ladies",
+			"descIt": "Slalom - 2^ Manche - Femminile"
 		}]
 	},
 	"Biathlon": {
@@ -318,13 +308,13 @@
 			"id": "WU2013-026",
 			"date": "2013-12-10",
 			"title": "Unofficial Training",
-			"stime": null,
+			"stime": "09:00",
 			"etime": null,
 			"type": "training",
 			"gender": "A",
 			"venue": "4d204e1a756e8cfa69246b54",
 			"descEn": "Unofficial Training Day",
-			"descIt": "Giorno di prova non ufficiale"
+			"descIt": "Allenamento non ufficiale"
 		},
 		{
 			"id": "WU2013-027",
@@ -335,8 +325,8 @@
 			"type": "training",
 			"gender": "M",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Male unofficial Training",
-			"descIt": "Prove non ufficiali maschili"
+			"descEn": "Training (unofficial) - Men",
+			"descIt": "Allenamento (non ufficiale) - Maschile"
 		},
 		{
 			"id": "WU2013-028",
@@ -347,8 +337,8 @@
 			"type": "training",
 			"gender": "W",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies unofficial Training",
-			"descIt": "Prove non ufficiali femminili"
+			"descEn": "Training (unofficial) - Ladies",
+			"descIt": "Allenamento (non ufficiale) - Femminile"
 		},
 		{
 			"id": "WU2013-029",
@@ -359,8 +349,8 @@
 			"type": "training",
 			"gender": "M",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Male official Training",
-			"descIt": "Prove ufficiali maschili"
+			"descEn": "Training - Men",
+			"descIt": "Allenamento - Maschile"
 		},
 		{
 			"id": "WU2013-030",
@@ -371,8 +361,8 @@
 			"type": "training",
 			"gender": "W",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies official Training",
-			"descIt": "Prove ufficiali femminili"
+			"descEn": "Training - Ladies",
+			"descIt": "Allenamento - Femminile"
 		}],
 		"12.5km Mass Start W": [{
 			"id": "WU2013-031",
@@ -383,20 +373,21 @@
 			"type": "training",
 			"gender": "A",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies's 12.5 km Mass Start Official Training",
-			"descIt": "Prove ufficiali 12.5 km partenza di gruppo femminile"
+			"descEn": "Training - 12.5 km Mass Start - Ladies",
+			"descIt": "Allenamento - 12,5 km Mass Start - Femminile"
 		},
 		{
 			"id": "WU2013-032",
 			"date": "2013-12-20",
+			"medal" : true,
 			"title": "12.5km Mass Start Women",
 			"stime": "12:30",
 			"etime": "13:10",
 			"type": "official",
 			"gender": "W",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies's 12.5 km Mass Start 12.5 km Mass Start",
-			"descIt": "12.5 km partenze di gruppo femminile zeroing"
+			"descEn": "12.5 km Mass Start - Ladies",
+			"descIt": "12,5 km Mass Start - Femminile"
 		},
 		{
 			"id": "WU2013-033",
@@ -407,8 +398,8 @@
 			"type": "zero",
 			"gender": "W",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies's 12.5 km Mass Start Zeroing",
-			"descIt": "12.5 km partenze di gruppo femminile zeroing"
+			"descEn": "Zeroing - 12.5 km Mass Start - Ladies",
+			"descIt": "Azzeramento - 12,5 km Mass Start - Femminile"
 		}],
 		"15km Mass Start M": [{
 			"id": "WU2013-034",
@@ -419,20 +410,21 @@
 			"type": "zero",
 			"gender": "M",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's 15 km Mass Start Zeroing",
-			"descIt": "15 km partenza di gruppo maschile zeroing"
+			"descEn": "Zeroing - 15 km Mass Start - Men",
+			"descIt": "Azzeramento - 15 km Mass Start - Maschile"
 		},
 		{
 			"id": "WU2013-035",
 			"date": "2013-12-20",
+			"medal" : true,
 			"title": "15km Mass Start Men",
 			"stime": "11:00",
 			"etime": "11:50",
 			"type": "official",
 			"gender": "M",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's 15 km Mass Start",
-			"descIt": "15 km partenza di gruppo maschile"
+			"descEn": "15 km Mass Start - Men",
+			"descIt": "15 km Mass Start - Maschile"
 		},
 		{
 			"id": "WU2013-036",
@@ -443,8 +435,8 @@
 			"type": "training",
 			"gender": "A",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's 15 km Mass Start Official Training",
-			"descIt": "Prove ufficiali 15 km partenza di gruppo maschile"
+			"descEn": "Training - 15 km Mass Start - Men",
+			"descIt": "Allenamento - 15 km Mass Start – Maschile"
 		}],
 		"15km Individual W": [{
 			"id": "WU2013-037",
@@ -455,20 +447,21 @@
 			"type": "zero",
 			"gender": "W",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies's 15 km individual zeroing",
-			"descIt": "15 km individuale femminile zeroing"
+			"descEn": "Zeroing - 15 km Individual - Ladies",
+			"descIt": "Azzeramento - 15 km Individuale - Femminile"
 		},
 		{
 			"id": "WU2013-038",
 			"date": "2013-12-13",
 			"title": "Individual M",
+			"medal" : true,
 			"stime": "13:15",
 			"etime": "14:50",
 			"type": "official",
 			"gender": "M",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies's 15 km individual",
-			"descIt": "15 km individuale femminile"
+			"descEn": "15 km Individuale - Femminile",
+			"descIt": "15 km Individual - Ladies"
 		}],
 		"10km Pursuit W": [{
 			"id": "WU2013-039",
@@ -479,20 +472,21 @@
 			"type": "zero",
 			"gender": "W",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies's 10 km pursuit Zeroing",
-			"descIt": "10 km inseguimento femminile zeroing"
+			"descEn": "Zeroing - 10 km Pursuit - Ladies",
+			"descIt": "Azzeramento - 10 km Pursuit - Femminile"
 		},
 		{
 			"id": "WU2013-040",
 			"date": "2013-12-16",
+			"medal" : true,
 			"title": "Zero W",
 			"stime": "12:25",
 			"etime": "13:10",
 			"type": "official",
 			"gender": "W",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies's 10 km pursuit",
-			"descIt": "10 km inseguimento femminile"
+			"descEn": "10 km Pursuit - Ladies",
+			"descIt": "10 km Inseguimento - Femminile"
 		}],
 		"7.5km Sprint W": [{
 			"id": "WU2013-041",
@@ -503,8 +497,8 @@
 			"type": "training",
 			"gender": "W",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies's 7.5 km sprint official training",
-			"descIt": "Prove ufficiali 7.5 km spring femminili"
+			"descEn": "Training - 7.5 km Sprint - Ladies",
+			"descIt": "Allenamento - 7,5 km Sprint - Femminile"
 		},
 		{
 			"id": "WU2013-042",
@@ -515,20 +509,21 @@
 			"type": "zero",
 			"gender": "W",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies's 7.5 km sprint zeroing",
-			"descIt": "7.5 km sprint femminile zeroing"
+			"descEn": "Zeroing - 7.5 km Sprint - Ladies",
+			"descIt": "Azzeramento - 7,5 km Sprint - Femminile"
 		},
 		{
 			"id": "WU2013-043",
 			"date": "2013-12-15",
+			"medal" : true,
 			"title": "Zero W",
 			"stime": "12:35",
 			"etime": "14:00",
 			"type": "official",
 			"gender": "W",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies's 7.5 km sprint",
-			"descIt": "7.5 km sprint femminile"
+			"descEn": "7.5 km Sprint - Ladies",
+			"descIt": "7,5 km Sprint - Femminile"
 		}],
 		"20km Individual M": [{
 			"id": "WU2013-044",
@@ -539,20 +534,22 @@
 			"type": "zero",
 			"gender": "M",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's 20 km individual zeroing",
-			"descIt": "20 km individuale maschile zeroing"
+			"descEn": "Zeroing - 20 km Individual - Men",
+			"descIt": "Azzeramento - 20 km Individuale - Maschile"
 		},
 		{
 			"id": "WU2013-045",
 			"date": "2013-12-13",
 			"title": "Individual M",
+			"medal" : true,
 			"stime": "10:15",
 			"etime": "12:10",
 			"type": "official",
 			"gender": "M",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's 20 km individual",
-			"descIt": "20 km individuale maschile"
+			"descEn": "20 km Individual - Men",
+			"descIt": "20 km Individuale - Maschile",
+			"model": true
 		}],
 		"12.5km Pursuit M": [{
 			"id": "WU2013-046",
@@ -563,20 +560,21 @@
 			"type": "zero",
 			"gender": "M",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's 12.5 km pursuit zeroing",
-			"descIt": "12.5 km inseguimento maschile zeroing"
+			"descEn": "Zeroing - 12.5 km Pursuit - Men",
+			"descIt": "Azzeramento - 12,5 km Inseguimento - Maschile"
 		},
 		{
 			"id": "WU2013-047",
 			"date": "2013-12-16",
+			"medal" : true,
 			"title": "Zero M",
 			"stime": "10:45",
 			"etime": "11:30",
 			"type": "official",
 			"gender": "M",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's 12.5 km pursuit",
-			"descIt": "12.5 km inseguimento maschile"
+			"descEn": "12.5 km Pursuit - Men",
+			"descIt": "12,5 km Inseguimento - Maschile"
 		}],
 		"10km Sprint M": [{
 			"id": "WU2013-048",
@@ -587,8 +585,8 @@
 			"type": "training",
 			"gender": "M",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's 10 km sprint official training",
-			"descIt": "Prove ufficiali 10 km sprint maschili"
+			"descEn": "Training - 10 km Sprint - Men",
+			"descIt": "Allenamento - 10 km Sprint - Maschile"
 		},
 		{
 			"id": "WU2013-049",
@@ -599,20 +597,21 @@
 			"type": "zero",
 			"gender": "M",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's 10 km sprint zeroing",
-			"descIt": "10 km sprint maschile zeroing"
+			"descEn": "Zeroing - 10 km Sprint -Men",
+			"descIt": "Azzeramento - 10 km Sprint - Maschile"
 		},
 		{
 			"id": "WU2013-050",
 			"date": "2013-12-15",
+			"medal" : true,
 			"title": "Zero M",
 			"stime": "09:45",
 			"etime": "11:30",
 			"type": "official",
 			"gender": "M",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's 10 km sprint",
-			"descIt": "10 km sprint maschile"
+			"descEn": "10 km Sprint - Men",
+			"descIt": "10 km Sprint - Maschile"
 		}],
 		"Mixed Relay W/M": [{
 			"id": "WU2013-051",
@@ -623,8 +622,8 @@
 			"type": "training",
 			"gender": "A",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Mixed relay 2x6 km ladies + 2x7.5 km male official training",
-			"descIt": "Prove ufficiali staffetta mista 2x6 km femminile + 2x7.5 km maschile"
+			"descEn": "Training - Mixed relay - 2x6 km ladies + 2x7.5 km men",
+			"descIt": "Allenamento - Staffetta mista - 2x6 km femminile + 2x7.5 km maschile"
 		},
 		{
 			"id": "WU2013-052",
@@ -635,35 +634,50 @@
 			"type": "zero",
 			"gender": "A",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Mixed relay 2x6 km ladies + 2x7.5 km Men Zeroing",
-			"descIt": "Staffetta mista 2x6 km femminile + 2x7.5 km maschile zeroing"
+			"descEn": "Zeroing - Mixed relay - 2x6 km Ladies + 2x7.5 km Men",
+			"descIt": "Azzeramento - Staffetta mista - 2x6 km Femminile + 2x7.5 km Maschile"
 		},
 		{
 			"id": "WU2013-053",
 			"date": "2013-12-18",
+			"medal" : true,
 			"title": "W/M",
 			"stime": "11:00",
 			"etime": "12:40",
 			"type": "official",
 			"gender": "A",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Mixed relay 2x6 km ladies + 2x7.5 km Men",
-			"descIt": "Staffetta mista 2x6 km femminile + 2x7.5 km maschile"
+			"descEn": "Mixed relay - 2x6 km Ladies + 2x7.5 km Men",
+			"descIt": "Staffetta mista - 2x6 km Femminile + 2x7.5 km Maschile"
 		}]
 	},
 	"Cross Country Skiing": {
-		"Cross Country Skiing": [{
+		"Cross Country Skiing": [
+		{
 			"id": "WU2013-054",
 			"date": "2013-12-10",
 			"title": "Training",
-			"stime": null,
+			"stime": "09:00",
 			"etime": null,
 			"gender": "A",
 			"type": "training",
 			"venue": "4d204e1a756e8cfa69246b54",
 			"descEn": "Unofficial Training Day",
-			"descIt": "Giorno di prove non ufficiale"
-		}],
+			"descIt": "Giorno di allenamento non ufficiale"
+		},
+		{
+			"id": "WU2013-369",
+			"date": "2013-12-18",
+			"title": "Training",
+			"stime": "09:00",
+			"etime": null,
+			"gender": "A",
+			"type": "training",
+			"venue": "5266c66e11d27de29c4d9b26",
+			"descEn": "Unofficial Training Day",
+			"descIt": "Giorno di allenamento non ufficiale"
+		}
+		],
 		"Sprint (C) Men": [{
 			"id": "WU2013-055",
 			"date": "2013-12-13",
@@ -673,8 +687,8 @@
 			"gender": "M",
 			"type": "training",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Official Training",
-			"descIt": "Prove ufficiali"
+			"descEn": "Training - Men and Ladies",
+			"descIt": "Allenamento - Maschile e Femminile"
 		},
 		{
 			"id": "WU2013-056",
@@ -685,20 +699,21 @@
 			"gender": "M",
 			"type": "qualification",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's Sprint Classic Qualification",
-			"descIt": "Qualificazione maschile sprint classico"
+			"descEn": "Qualification Sprint CT - Men and Ladies",
+			"descIt": "Qualificazione Sprint TC - Maschile e Femminile"
 		},
 		{
 			"id": "WU2013-057",
 			"date": "2013-12-14",
+			"medal" : true,
 			"title": "Race",
 			"stime": "16:00",
 			"etime": null,
 			"gender": "M",
 			"type": "official",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's Sprint Classic Quarterfinals Quarterfinal 1",
-			"descIt": "Primi quarti di finale maschile sprint classico"
+			"descEn": "Finals Sprint CT - Men",
+			"descIt": "Finali Sprint TC - Maschile"
 		}],
 		"Mixed Team Sprint (F) Men": [{
 			"id": "WU2013-058",
@@ -709,20 +724,21 @@
 			"gender": "M",
 			"type": "qualification",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Mixed Team Sprint Free Semifinals Semifinal 1",
-			"descIt": "Prima seminfinale sprint a squadre mista libero"
+			"descEn": "Qualification Team Mixed Sprint",
+			"descIt": "Qualificazione Sprint Squadre Miste"
 		},
 		{
 			"id": "WU2013-059",
 			"date": "2013-12-15",
+			"medal" : true,
 			"title": "Race",
 			"stime": "16:50",
 			"etime": null,
 			"gender": "M",
 			"type": "official",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Mixed Team Sprint Free Final",
-			"descIt": "Finale sprint a squadre mista libero"
+			"descEn": "Finals Team Mixed Sprint FT",
+			"descIt": "Finali Sprint Squadre Miste TL"
 		}],
 		"10km (F) Individual Start Men": [{
 			"id": "WU2013-059",
@@ -733,20 +749,21 @@
 			"gender": "M",
 			"type": "training",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Official individual training",
-			"descIt": "Prove ufficiali individuali"
+			"descEn": "Allenamento - Maschile e Femminile",
+			"descIt": "Training - Men and Ladies"
 		},
 		{
 			"id": "WU2013-060",
 			"date": "2013-12-17",
+			"medal" : true,
 			"title": "Race",
 			"stime": "15:15",
 			"etime": null,
 			"gender": "M",
 			"type": "official",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's 10km Free",
-			"descIt": "10 km libero maschile"
+			"descEn": "10 km Individual FT - Men",
+			"descIt": "10 km Individuale TL - Maschile"
 		}],
 		"Skiathlon Men 7.5km (C)/7.5km (F) Men": [{
 			"id": "WU2013-061",
@@ -757,32 +774,34 @@
 			"gender": "M",
 			"type": "training",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Official Training Skiathlon",
-			"descIt": "Prove ufficiali skiathlon"
+			"descEn": "Training - Skiathlon",
+			"descIt": "Allenamento - Skiathlon"
 		},
 		{
 			"id": "WU2013-062",
 			"date": "2013-12-12",
+			"medal" : true,
 			"title": "Race",
 			"stime": "15:15",
 			"etime": null,
 			"gender": "M",
 			"type": "official",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's Skiathlon 7.5km Classic + 7.5km Free Skiathlon",
-			"descIt": "7.5 km Skiathlon maschile classico e libero"
+			"descEn": "Skiathlon - Men - 15 km (7.5 km CT + 7.5km FT)",
+			"descIt": "Skiathlon Maschile - 15 km (7,5 km TC + 7,5 km TL)"
 		}],
 		"30km (C) Mass Start Men": [{
 			"id": "WU2013-063",
 			"date": "2013-12-21",
+			"medal" : true,
 			"title": "Race",
 			"stime": "10:00",
 			"etime": null,
 			"gender": "M",
 			"type": "official",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's 30km Classic Mass Start",
-			"descIt": "30 km partenza di gruppo maschile classico"
+			"descEn": "30 km Mass Start CT - Men",
+			"descIt": "30 km Mass Start TC - Maschile"
 		}],
 		"4x10km CCFF/CCLL Relay Men": [{
 			"id": "WU2013-064",
@@ -793,20 +812,21 @@
 			"gender": "M",
 			"type": "training",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Official relay training",
-			"descIt": "Prove ufficiali staffetta"
+			"descEn": "Training - Relay Men and Ladies",
+			"descIt": "Allenamento - Staffetta Maschile e Femminile"
 		},
 		{
 			"id": "WU2013-065",
 			"date": "2013-12-19",
+			"medal" : true,
 			"title": "Race",
 			"stime": "14:50",
 			"etime": null,
 			"gender": "M",
 			"type": "official",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Men's Relay 4 x 10km",
-			"descIt": "4 x 10 km staffetta maschile"
+			"descEn": "4 x 10 km Relay - Men",
+			"descIt": "4 x 10 km Staffetta - Maschile"
 		}],
 		"Sprint (C) Women": [{
 			"id": "WU2013-066",
@@ -817,8 +837,8 @@
 			"gender": "W",
 			"type": "training",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Official Training",
-			"descIt": "Prove ufficiali"
+			"descEn": "Training - Men and Ladies",
+			"descIt": "Allenamento - Maschile e Femminile"
 		},
 		{
 			"id": "WU2013-067",
@@ -829,20 +849,21 @@
 			"gender": "W",
 			"type": "qualification",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies' Sprint Classic Qualification",
-			"descIt": "Qualificazione femminile sprint classico"
+			"descEn": "Qualification Sprint CT - Men and Ladies",
+			"descIt": "Qualificazione Sprint TC - Maschile e Femminile"
 		},
 		{
 			"id": "WU2013-068",
 			"date": "2013-12-14",
+			"medal" : true,
 			"title": "Race",
 			"stime": "16:00",
 			"etime": null,
 			"gender": "W",
 			"type": "official",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies' Sprint Classic Quarterfinals Quarterfinal 1",
-			"descIt": "Primi quarti di finale femminili sprint classico"
+			"descEn": "Finals Sprint CT - Ladies",
+			"descIt": "Finali Sprint TC - Femminile"
 		}],
 		"Mixed Team Sprint (F) Women": [{
 			"id": "WU2013-069",
@@ -853,20 +874,21 @@
 			"gender": "W",
 			"type": "qualification",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Mixed Team Sprint Free Semifinals Semifinal 1",
-			"descIt": "Prima seminfinale sprint a squadre mista libero"
+			"descEn": "Qualification Team Mixed Sprint",
+			"descIt": "Qualificazione Sprint Squadre Miste"
 		},
 		{
 			"id": "WU2013-070",
 			"date": "2013-12-15",
 			"title": "Race",
+			"medal" : true,
 			"stime": "16:50",
 			"etime": null,
 			"gender": "W",
 			"type": "official",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Mixed Team Sprint Free Final",
-			"descIt": "Finale sprint a squadre mista libero"
+			"descEn": "Finals Team Mixed Sprint FT",
+			"descIt": "Finali Sprint Squadre Miste TL"
 		}],
 		"5km (F) Individual Start Women": [{
 			"id": "WU2013-071",
@@ -877,20 +899,21 @@
 			"gender": "W",
 			"type": "training",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Official individual training",
-			"descIt": "Prove ufficiali individuale"
+			"descEn": "Training - Men and Ladies",
+			"descIt": "Allenamento - Maschile e Femminile"
 		},
 		{
 			"id": "WU2013-072",
 			"date": "2013-12-17",
+			"medal" : true,
 			"title": "Race",
 			"stime": "13:30",
 			"etime": null,
 			"gender": "W",
 			"type": "official",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies' 5km Free",
-			"descIt": "5 km libero femminile"
+			"descEn": "5 km Individual FT - Ladies",
+			"descIt": "5 km Individuale TL - Femminile"
 		}],
 		"Skiathlon Women 5km (C)/5km (F) Women": [{
 			"id": "WU2013-073",
@@ -901,32 +924,34 @@
 			"gender": "W",
 			"type": "training",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Official Training Skiathlon",
-			"descIt": "Prove ufficiali skiathlon"
+			"descEn": "Training - Skiathlon",
+			"descIt": "Allenamento - Skiathlon"
 		},
 		{
 			"id": "WU2013-074",
 			"date": "2013-12-12",
+			"medal" : true,
 			"title": "Race",
 			"stime": "13:45",
 			"etime": null,
 			"gender": "W",
 			"type": "official",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies' Skiathlon 5km Classic + 5km Free Skiathlon",
-			"descIt": "5 km Skiathlon femminile classico e libero"
+			"descEn": "Skiathlon - Ladies - 10 km (5 km CT + 5km FT)",
+			"descIt": "Skiathlon Femminile - 10 km (5 km TC + 5 km TL)"
 		}],
 		"15km (C) Mass Start Women": [{
 			"id": "WU2013-075",
 			"date": "2013-12-20",
+			"medal" : true,
 			"title": "Race",
 			"stime": "16:00",
 			"etime": null,
 			"gender": "W",
 			"type": "official",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies' 15km Classic Mass Start",
-			"descIt": "15 km partenza di gruppo classico femminile"
+			"descEn": "15km Mass Start CT - Ladies",
+			"descIt": "15 km Mass Start TC - Femminile"
 		}],
 		"3x5km CCFF/CCLL Relay Women": [{
 			"id": "WU2013-076",
@@ -938,26 +963,27 @@
 			"type": "training",
 			"venue": "4d204e1a756e8cfa69246b54",
 			"descEn": "Unofficial Training Day",
-			"descIt": "Giorno di prove non ufficiale"
+			"descIt": "Giorno di allenamenti non ufficiali"
 		},
 		{
 			"id": "WU2013-077",
 			"date": "2013-12-19",
+			"medal" : true,
 			"title": "Race",
 			"stime": "13:00",
 			"etime": null,
 			"gender": "W",
 			"type": "official",
 			"venue": "4d204e1a756e8cfa69246b54",
-			"descEn": "Ladies' Relay 3 x 5km Relay",
-			"descIt": "3 x 10 km staffetta femminile"
+			"descEn": "3 x 5 km Relay - Ladies",
+			"descIt": "3 x 10 km Staffetta - Femminile"
 		}]
 	},
 	"Curling": {
 		"Men": [{
 			"id": "WU2013-600",
-			"descEn": "Training M",
-			"descIt": "Allenamenti Maschili",
+			"descEn": "Training - Male",
+			"descIt": "Allenamento - Squadre maschili",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-10",
 			"title": "Training M",
@@ -968,8 +994,8 @@
 		},
 		{
 			"id": "WU2013-599",
-			"descEn": "Training M",
-			"descIt": "Allenamenti Maschili",
+			"descEn": "Training - Male",
+			"descIt": "Allenamento - Squadre maschili",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-10",
 			"title": "Training M",
@@ -980,8 +1006,8 @@
 		},
 		{
 			"id": "WU2013-598",
-			"descEn": "Training M",
-			"descIt": "Allenamenti Maschili",
+			"descEn": "Training - Men",
+			"descIt": "Allenamento - Squadre maschili",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-11",
 			"title": "Training M",
@@ -992,8 +1018,8 @@
 		},
 		{
 			"id": "WU2013-597",
-			"descEn": "Training M",
-			"descIt": "Allenamenti Maschili",
+			"descEn": "Training - Men",
+			"descIt": "Allenamento - Squadre maschili",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-11",
 			"title": "Training M",
@@ -1004,8 +1030,8 @@
 		},
 		{
 			"id": "WU2013-596",
-			"descEn": "Qualification M draw 1",
-			"descIt": "Qualificazioni Maschili draw 1",
+			"descEn": "Men’s Tournament - Draw 1 - Qualification",
+			"descIt": "Torneo Maschile - Draw 1 - Qualificazioni",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-12",
 			"title": "Qualification M draw 1",
@@ -1016,8 +1042,8 @@
 		},
 		{
 			"id": "WU2013-595",
-			"descEn": "Qualification M draw 2-3",
-			"descIt": "Qualificazioni Maschili draw 2-3",
+			"descEn": "Men’s Tournament - Draw 2-3 - Qualification",
+			"descIt": "Torneo Maschile - Draw 2-3 - Qualificazioni",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-13",
 			"title": "Qualification M draw 2-3",
@@ -1028,8 +1054,8 @@
 		},
 		{
 			"id": "WU2013-594",
-			"descEn": "Qualification M draw 4",
-			"descIt": "Qualificazioni Maschili draw 4",
+			"descEn": "Men’s Tournament - Draw 4 - Qualification",
+			"descIt": "Torneo Maschile - Draw 4 - Qualificazioni",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-14",
 			"title": "Qualification M draw 4",
@@ -1040,8 +1066,8 @@
 		},
 		{
 			"id": "WU2013-593",
-			"descEn": "Qualification M draw 5-6",
-			"descIt": "Qualificazioni Maschili draw 5-6",
+			"descEn": "Men’s Tournament - Draw 5-6 - Qualification",
+			"descIt": "Torneo Maschile - Draw 5-6 - Qualificazioni",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-15",
 			"title": "Qualification M draw 5-6",
@@ -1052,10 +1078,11 @@
 		},
 		{
 			"id": "WU2013-592",
-			"descEn": "Gold Medal M",
-			"descIt": "Medaglia d'oro Maschile",
+			"descEn": "Men’s Tournament - Gold Medal Final",
+			"descIt": "Torneo Maschile - Finale 1°-2° posto",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-20",
+			"medal" : true,
 			"title": "Gold Medal M",
 			"stime": "14:00",
 			"etime": null,
@@ -1064,8 +1091,8 @@
 		}],
 		"Women": [{
 			"id": "WU2013-591",
-			"descEn": "Training W",
-			"descIt": "Allenamenti Femminili",
+			"descEn": "Training - Female",
+			"descIt": "Allenamento - Squadre Femminili",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-10",
 			"title": "Training W",
@@ -1076,8 +1103,8 @@
 		},
 		{
 			"id": "WU2013-590",
-			"descEn": "Training W",
-			"descIt": "Allenamenti Femminili",
+			"descEn": "Training - Female",
+			"descIt": "Allenamento - Squadre Femminili",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-10",
 			"title": "Training W",
@@ -1088,8 +1115,8 @@
 		},
 		{
 			"id": "WU2013-589",
-			"descEn": "Training W",
-			"descIt": "Allenamenti Femminili",
+			"descEn": "Training - Female",
+			"descIt": "Allenamento - Squadre Femminili",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-11",
 			"title": "Training W",
@@ -1100,8 +1127,8 @@
 		},
 		{
 			"id": "WU2013-588",
-			"descEn": "Training W",
-			"descIt": "Allenamenti Femminili",
+			"descEn": "Training - Female",
+			"descIt": "Allenamento - Squadre Femminili",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-11",
 			"title": "Training W",
@@ -1112,8 +1139,8 @@
 		},
 		{
 			"id": "WU2013-587",
-			"descEn": "Qualification W draw 1-2",
-			"descIt": "Qualificazioni Femminili draw 1-2",
+			"descEn": "Ladies’ Tournament - Draw 1-2 - Qualification",
+			"descIt": "Torneo Femminile - Draw 1-2 -Qualificazioni",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-12",
 			"title": "Qualification W draw 1-2",
@@ -1124,8 +1151,8 @@
 		},
 		{
 			"id": "WU2013-586",
-			"descEn": "Qualification W draw 3",
-			"descIt": "Qualificazioni Femminili draw 3",
+			"descEn": "Ladies’ Tournament - Draw 3 - Qualification",
+			"descIt": "Torneo Femminile - Draw 3 -Qualificazioni",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-13",
 			"title": "Qualification W draw 3",
@@ -1136,8 +1163,8 @@
 		},
 		{
 			"id": "WU2013-585",
-			"descEn": "Qualification W draw 4-5",
-			"descIt": "Qualificazioni Femminili draw 4-5",
+			"descEn": "Ladies’ Tournament - Draw 4-5 - Qualification",
+			"descIt": "Torneo Femminile - Draw 4-5 -Qualificazioni",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-14",
 			"title": "Qualification W draw 4-5",
@@ -1148,8 +1175,8 @@
 		},
 		{
 			"id": "WU2013-584",
-			"descEn": "Qualification W draw 6",
-			"descIt": "Qualificazioni Femminili draw 6",
+			"descEn": "Ladies’ Tournament - Draw 6 - Qualification",
+			"descIt": "Torneo Femminile - Draw 6 -Qualificazioni",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-15",
 			"title": "Qualification W draw 6",
@@ -1160,8 +1187,8 @@
 		},
 		{
 			"id": "WU2013-583",
-			"descEn": "Qualification W draw 7-8",
-			"descIt": "Qualificazioni Femminili draw 7-8",
+			"descEn": "Ladies’ Tournament - Draw 7-8 - Qualification",
+			"descIt": "Torneo Femminile - Draw 7-8 -Qualificazioni",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-16",
 			"title": "Qualification W draw -87",
@@ -1172,8 +1199,8 @@
 		},
 		{
 			"id": "WU2013-582",
-			"descEn": "Qualification M draw 7",
-			"descIt": "Qualificazioni Maschili draw 7",
+			"descEn": "Men’s Tournament - Draw 7 - Qualification ",
+			"descIt": "Torneo Maschile - Draw 7 - Qualificazioni",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-16",
 			"title": "Qualification M draw 7",
@@ -1184,8 +1211,8 @@
 		},
 		{
 			"id": "WU2013-581",
-			"descEn": "Qualification W draw 8-9",
-			"descIt": "Qualificazioni Femminili draw 8-9",
+			"descEn": "Ladies’ Tournament - Draw 7-8 - Qualification",
+			"descIt": "Torneo Femminile - Draw 7-8 -Qualificazioni",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-16",
 			"title": "Qualification W draw 8-9",
@@ -1196,8 +1223,8 @@
 		},
 		{
 			"id": "WU2013-580",
-			"descEn": "Qualification W draw 9",
-			"descIt": "Qualificazioni Femminili draw 9",
+			"descEn": "Ladies’ Tournament - Draw 9 - Qualification",
+			"descIt": "Torneo Femminile - Draw 9 -Qualificazioni",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-17",
 			"title": "Qualification W draw 9",
@@ -1208,8 +1235,8 @@
 		},
 		{
 			"id": "WU2013-579",
-			"descEn": "Tie Break W/M",
-			"descIt": "Tie Break W/M",
+			"descEn": "Men’s and Ladies’ Tournaments - Tie Break",
+			"descIt": "Tornei Maschile e Femminile - Tie Break",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-18",
 			"title": "Tie Break",
@@ -1220,8 +1247,8 @@
 		},
 		{
 			"id": "WU2013-578",
-			"descEn": "Tie Break W/M",
-			"descIt": "Tie Break W/M",
+			"descEn": "Men’s and Ladies’ Tournaments - Tie Break",
+			"descIt": "Tornei Maschile e Femminile - Tie Break",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-18",
 			"title": "Tie Break",
@@ -1232,8 +1259,8 @@
 		},
 		{
 			"id": "WU2013-577",
-			"descEn": "Tie Break W/M",
-			"descIt": "Tie Break W/M",
+			"descEn": "Men’s and Ladies’ Tournaments - Tie Break",
+			"descIt": "Tornei Maschile e Femminile - Tie Break",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-18",
 			"title": "Tie Break",
@@ -1244,8 +1271,8 @@
 		},
 		{
 			"id": "WU2013-576",
-			"descEn": "Seminfinals W/M",
-			"descIt": "Semifinali",
+			"descEn": "Men’s and Ladies’ Tournaments - Semifinals",
+			"descIt": "Tornei Maschile e Femminile - Semifinali",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-19",
 			"title": "SF W/M",
@@ -1256,8 +1283,8 @@
 		},
 		{
 			"id": "WU2013-575",
-			"descEn": "Bronze Medal W/M",
-			"descIt": "Medaglia di Bronzo",
+			"descEn": "Men’s and Ladies’ Tournaments - Bronze medal finals",
+			"descIt": "Tornei Maschile e Femminile - Finali 3°-4° Posto",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-19",
 			"title": "Bronze Medal W/M",
@@ -1268,9 +1295,10 @@
 		},
 		{
 			"id": "WU2013-574",
-			"descEn": "Gold Medal W",
-			"descIt": "Medaglia d'oro Femminile",
+			"descEn": "Ladies’ Tournament - Gold Medal Final",
+			"descIt": "Torneo Femminile - Finale 1°-2° posto",
 			"venue": "4bf58dd8d48988d187941735",
+			"medal" : true,
 			"date": "2013-12-20",
 			"title": "Gold Medal W",
 			"stime": "09:00",
@@ -1283,8 +1311,8 @@
 		"Ski Cross": [{
 			"id": "WU2013-573",
 			"descEn": "Cross Inspection + Training W/M",
-			"descIt": "Cross, Ispezione e Allenamenti",
-			"venue": "521c858c7e489fbfb37ada21",
+			"descIt": "Cross, Ricognizione e Prove",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-13",
 			"title": "Inspection + Training W/M",
 			"stime": "10:00",
@@ -1295,8 +1323,8 @@
 		{
 			"id": "WU2013-572",
 			"descEn": "Cross Training W/M",
-			"descIt": "Cross, Allenamenti",
-			"venue": "521c858c7e489fbfb37ada21",
+			"descIt": "Cross, Prove",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-13",
 			"title": "Training W/M",
 			"stime": "13:30",
@@ -1307,8 +1335,8 @@
 		{
 			"id": "WU2013-571",
 			"descEn": "Cross Training W/M",
-			"descIt": "Cross, Allenamenti",
-			"venue": "521c858c7e489fbfb37ada21",
+			"descIt": "Cross, Prove",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-14",
 			"title": "Training W/M",
 			"stime": "10:00",
@@ -1319,8 +1347,8 @@
 		{
 			"id": "WU2013-570",
 			"descEn": "Cross Training W/M",
-			"descIt": "Cross, Allenamenti",
-			"venue": "521c858c7e489fbfb37ada21",
+			"descIt": "Cross, Prove",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-15",
 			"title": "Training W/M",
 			"stime": "9:00",
@@ -1332,7 +1360,7 @@
 			"id": "WU2013-569",
 			"descEn": "Cross Qualification W/M",
 			"descIt": "Cross, Qualificazioni",
-			"venue": "521c858c7e489fbfb37ada21",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-15",
 			"title": "Qualification W/M",
 			"stime": "10:30",
@@ -1344,8 +1372,9 @@
 			"id": "WU2013-568",
 			"descEn": "Cross Finals W/M",
 			"descIt": "Cross, Finali",
-			"venue": "521c858c7e489fbfb37ada21",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-15",
+			"medal" : true,
 			"title": "Race W/M",
 			"stime": "13:00",
 			"etime": "14:30",
@@ -1355,8 +1384,8 @@
 		"Ski Slopestyle": [{
 			"id": "WU2013-567",
 			"descEn": "Slopestyle Training W/M",
-			"descIt": "Slopestyle, Allenamenti",
-			"venue": "521c858c7e489fbfb37ada21",
+			"descIt": "Slopestyle, Prove",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-16",
 			"title": "Training W/M",
 			"stime": "13:00",
@@ -1367,8 +1396,8 @@
 		{
 			"id": "WU2013-566",
 			"descEn": "Slopestyle Training W/M",
-			"descIt": "Slopestyle, Allenamenti",
-			"venue": "521c858c7e489fbfb37ada21",
+			"descIt": "Slopestyle, Prove",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-17",
 			"title": "Training W/M",
 			"stime": "13:00",
@@ -1380,7 +1409,7 @@
 			"id": "WU2013-565",
 			"descEn": "Slopestyle Qualification W/M",
 			"descIt": "Slopestyle, Qualificazioni",
-			"venue": "521c858c7e489fbfb37ada21",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-18",
 			"title": "Qualification W/M",
 			"stime": "9:30",
@@ -1392,8 +1421,9 @@
 			"id": "WU2013-564",
 			"descEn": "Slopestyle Finals W/M",
 			"descIt": "Slopestyle, Finali",
-			"venue": "521c858c7e489fbfb37ada21",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-18",
+			"medal" : true,
 			"title": "Race W/M",
 			"stime": "12:00",
 			"etime": "14:00",
@@ -1404,11 +1434,11 @@
 	"IceHockey": {
 		"IceHockeyMen": [{
 			"id": "WU2013-563",
-			"descEn": "Men, Match A1-A4",
-			"descIt": "Maschile, Gara A1-A4",
+			"descEn": "Men’s Tournament ITA-LAT",
+			"descIt": "Torneo Maschile ITA-LAT",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-10",
-			"title": "A1-A4",
+			"title": "ITA-LAT",
 			"stime": "16:30",
 			"etime": "19:00",
 			"gender": "M",
@@ -1416,11 +1446,11 @@
 		},
 		{
 			"id": "WU2013-562",
-			"descEn": "Men, Match A2-A3",
-			"descIt": "Maschile, Gara A2-A3",
+			"descEn": "Men’s Tournament USA-SWE",
+			"descIt": "Torneo Maschile USA-SWE",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-10",
-			"title": "A2-A3",
+			"title": "USA-SWE",
 			"stime": "20:30",
 			"etime": "23:00",
 			"gender": "M",
@@ -1428,11 +1458,11 @@
 		},
 		{
 			"id": "WU2013-561",
-			"descEn": "Men, Match C1-C4",
-			"descIt": "Maschile, Gara C1-C4",
+			"descEn": "Men’s Tournament CAN-JPN",
+			"descIt": "Torneo Maschile CAN-JPN",
 			"venue": "4da1e4589935a09369aca96f",
 			"date": "2013-12-10",
-			"title": "C1-C4",
+			"title": "CAN-JPN",
 			"stime": "20:00",
 			"etime": "22:30",
 			"gender": "M",
@@ -1440,11 +1470,11 @@
 		},
 		{
 			"id": "WU2013-560",
-			"descEn": "Men, Match B1-B4",
-			"descIt": "Maschile, Gara B1-B4",
+			"descEn": "Men’s Tournament RUS-GBR",
+			"descIt": "Torneo Maschile RUS-GBR",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-12",
-			"title": "B1-B4",
+			"title": "RUS-GBR",
 			"stime": "16:30",
 			"etime": "19:00",
 			"gender": "M",
@@ -1452,11 +1482,11 @@
 		},
 		{
 			"id": "WU2013-559",
-			"descEn": "Men, Match B2-B3",
-			"descIt": "Maschile, Gara B2-B3",
+			"descEn": "Men’s Tournament SVK-CZE",
+			"descIt": "Torneo Maschile SVK-CZE",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-12",
-			"title": "B2-B3",
+			"title": "SVK-CZE",
 			"stime": "20:30",
 			"etime": "23:00",
 			"gender": "M",
@@ -1464,11 +1494,11 @@
 		},
 		{
 			"id": "WU2013-558",
-			"descEn": "Men, Match C2-C3",
-			"descIt": "Maschile, Gara C2-C3",
+			"descEn": "Men’s Tournament KAZ-UKR",
+			"descIt": "Torneo Maschile KAZ-UKR",
 			"venue": "4da1e4589935a09369aca96f",
 			"date": "2013-12-12",
-			"title": "C2-C3",
+			"title": "KAZ-UKR",
 			"stime": "20:00",
 			"etime": "22:30",
 			"gender": "M",
@@ -1476,11 +1506,11 @@
 		},
 		{
 			"id": "WU2013-557",
-			"descEn": "Men, Match A1-A4",
-			"descIt": "Maschile, Gara A1-A4",
+			"descEn": "Men’s Tournament SWE-ITA",
+			"descIt": "Torneo Maschile SWE-ITA",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-13",
-			"title": "A1-A4",
+			"title": "SWE-ITA",
 			"stime": "16:30",
 			"etime": "19:00",
 			"gender": "M",
@@ -1488,11 +1518,11 @@
 		},
 		{
 			"id": "WU2013-556",
-			"descEn": "Men, Match A2-A3",
-			"descIt": "Maschile, Gara A2-A3",
+			"descEn": "Men’s Tournament LAT-USA",
+			"descIt": "Torneo Maschile LAT-USA",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-13",
-			"title": "A2-A3",
+			"title": "LAT-USA",
 			"stime": "20:30",
 			"etime": "23:00",
 			"gender": "M",
@@ -1500,11 +1530,47 @@
 		},
 		{
 			"id": "WU2013-555",
-			"descEn": "Men, Match C1-C4",
-			"descIt": "Maschile, Gara C1-C4",
+			"descEn": "Men’s Tournament CAN-UKR",
+			"descIt": "Torneo Maschile CAN-UKR",
 			"venue": "4da1e4589935a09369aca96f",
 			"date": "2013-12-13",
-			"title": "C1-C4",
+			"title": "CAN-UKR",
+			"stime": "20:00",
+			"etime": "22:30",
+			"gender": "M",
+			"type": "official"
+		},
+		{
+			"id": "WU2013-409",
+			"descEn": "Men’s Tournament CZE-RUS",
+			"descIt": "Torneo Maschile CZE-RUS",
+			"venue": "4db722110cb6c940bfa26835",
+			"date": "2013-12-14",
+			"title": "CZE-RUS",
+			"stime": "16:30",
+			"etime": "19:00",
+			"gender": "M",
+			"type": "official"
+		},
+		{
+			"id": "WU2013-408",
+			"descEn": "Men’s Tournament GBR-SVK",
+			"descIt": "Torneo Maschile GBR-SVK",
+			"venue": "4db722110cb6c940bfa26835",
+			"date": "2013-12-14",
+			"title": "GBR-SVK",
+			"stime": "20:30",
+			"etime": "23:00",
+			"gender": "M",
+			"type": "official"
+		},
+		{
+			"id": "WU2013-407",
+			"descEn": "Men’s Tournament KAZ-JPN",
+			"descIt": "Torneo Maschile KAZ-JPN",
+			"venue": "4da1e4589935a09369aca96f",
+			"date": "2013-12-14",
+			"title": "KAZ-JPN",
 			"stime": "20:00",
 			"etime": "22:30",
 			"gender": "M",
@@ -1512,11 +1578,11 @@
 		},
 		{
 			"id": "WU2013-554",
-			"descEn": "Men, Match A1-A2",
-			"descIt": "Maschile, Gara A1-A2",
+			"descEn": "Men’s Tournament ITA-USA",
+			"descIt": "Torneo Maschile ITA-USA",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-15",
-			"title": "A1-A2",
+			"title": "ITA-USA",
 			"stime": "16:30",
 			"etime": "19:00",
 			"gender": "M",
@@ -1524,11 +1590,11 @@
 		},
 		{
 			"id": "WU2013-553",
-			"descEn": "Men, Match A3-A4",
-			"descIt": "Maschile, Gara A3-A4",
+			"descEn": "Men’s Tournament SWE-LAT",
+			"descIt": "Torneo Maschile SWE-LAT",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-15",
-			"title": "A3-A4",
+			"title": "SWE-LAT",
 			"stime": "20:30",
 			"etime": "23:00",
 			"gender": "M",
@@ -1536,11 +1602,11 @@
 		},
 		{
 			"id": "WU2013-552",
-			"descEn": "Men, Match C1-C2",
-			"descIt": "Maschile, Gara C1-C2",
+			"descEn": "Men’s Tournament CAN-KAZ",
+			"descIt": "Torneo Maschile CAN-KAZ",
 			"venue": "4da1e4589935a09369aca96f",
 			"date": "2013-12-15",
-			"title": "C1-C2",
+			"title": "CAN-KAZ",
 			"stime": "20:00",
 			"etime": "22:30",
 			"gender": "M",
@@ -1548,11 +1614,11 @@
 		},
 		{
 			"id": "WU2013-551",
-			"descEn": "Men, Match B1-B2",
-			"descIt": "Maschile, Gara B1-B2",
+			"descEn": "Men’s Tournament RUS-SVK",
+			"descIt": "Torneo Maschile RUS-SVK",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-16",
-			"title": "B1-B2",
+			"title": "RUS-SVK",
 			"stime": "16:30",
 			"etime": "19:00",
 			"gender": "M",
@@ -1560,11 +1626,11 @@
 		},
 		{
 			"id": "WU2013-550",
-			"descEn": "Men, Match B3-B4",
-			"descIt": "Maschile, Gara B3-B4",
+			"descEn": "Men’s Tournament CZE-GBR",
+			"descIt": "Torneo Maschile CZE-GBR",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-16",
-			"title": "B3-B4",
+			"title": "CZE-GBR",
 			"stime": "20:30",
 			"etime": "23:00",
 			"gender": "M",
@@ -1572,11 +1638,11 @@
 		},
 		{
 			"id": "WU2013-549",
-			"descEn": "Men, Match C3-C4",
-			"descIt": "Maschile, Gara C3-C4",
+			"descEn": "Men’s Tournament UKR-JPN",
+			"descIt": "Torneo Maschile UKR-JPN",
 			"venue": "4da1e4589935a09369aca96f",
 			"date": "2013-12-16",
-			"title": "C3-C4",
+			"title": "UKR-JPN",
 			"stime": "20:00",
 			"etime": "22:30",
 			"gender": "M",
@@ -1584,8 +1650,8 @@
 		},
 		{
 			"id": "WU2013-548",
-			"descEn": "Men, Match D9-D12",
-			"descIt": "Maschile, Gara D9-D12",
+			"descEn": "Men’s Tournament - Match: D9-D12",
+			"descIt": "Torneo Maschile D9-D12",
 			"venue": "4da1e4589935a09369aca96f",
 			"date": "2013-12-17",
 			"title": "D9-D12",
@@ -1596,8 +1662,8 @@
 		},
 		{
 			"id": "WU2013-547",
-			"descEn": "Men, Match D10-D11",
-			"descIt": "Maschile, Gara D10-D11",
+			"descEn": "Men’s Tournament - Match: D10-D11",
+			"descIt": "Torneo Maschile D10-D11",
 			"venue": "4da1e4589935a09369aca96f",
 			"date": "2013-12-17",
 			"title": "D10-D11",
@@ -1608,7 +1674,7 @@
 		},
 		{
 			"id": "WU2013-546",
-			"descEn": "Men, Quarterfinals 1",
+			"descEn": "Men’s Tournament Quarterfinals 1",
 			"descIt": "Maschile, Quarti di Finale 1",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-18",
@@ -1620,7 +1686,7 @@
 		},
 		{
 			"id": "WU2013-545",
-			"descEn": "Men, Quarterfinals 2",
+			"descEn": "Men’s Tournament Quarterfinals 2",
 			"descIt": "Maschile, Quarti di Finale 2",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-18",
@@ -1632,7 +1698,7 @@
 		},
 		{
 			"id": "WU2013-544",
-			"descEn": "Men, Quarterfinals 3",
+			"descEn": "Men’s Tournament Quarterfinals 3",
 			"descIt": "Maschile, Quarti di Finale 3",
 			"venue": "4da1e4589935a09369aca96f",
 			"date": "2013-12-18",
@@ -1644,7 +1710,7 @@
 		},
 		{
 			"id": "WU2013-543",
-			"descEn": "Men, Quarterfinals 4",
+			"descEn": "Men’s Tournament Quarterfinals 4",
 			"descIt": "Maschile, Quarti di Finale 4",
 			"venue": "4da1e4589935a09369aca96f",
 			"date": "2013-12-18",
@@ -1656,7 +1722,7 @@
 		},
 		{
 			"id": "WU2013-542",
-			"descEn": "Men, LQF1-LQF4",
+			"descEn": "Men’s Tournament - Match: LQF1-LQF4",
 			"descIt": "Maschile, LQF1-LQF4",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-19",
@@ -1668,7 +1734,7 @@
 		},
 		{
 			"id": "WU2013-541",
-			"descEn": "Men, LQF2-LQF3",
+			"descEn": "Men’s Tournament - Match: LQF2-LQF3",
 			"descIt": "Maschile, LQF2-LQF3",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-19",
@@ -1680,7 +1746,7 @@
 		},
 		{
 			"id": "WU2013-540",
-			"descEn": "Men, WD9/12-D10/11",
+			"descEn": "Men’s Tournament - Match: WD9/12-D10/11",
 			"descIt": "Maschile, WD9/12-D10/11",
 			"venue": "4da1e4589935a09369aca96f",
 			"date": "2013-12-19",
@@ -1692,7 +1758,7 @@
 		},
 		{
 			"id": "WU2013-539",
-			"descEn": "Men, LD9/12-D10/11",
+			"descEn": "Men’s Tournament - Match: LD9/12-D10/11",
 			"descIt": "Maschile, LD9/12-D10/11",
 			"venue": "4da1e4589935a09369aca96f",
 			"date": "2013-12-19",
@@ -1704,7 +1770,7 @@
 		},
 		{
 			"id": "WU2013-538",
-			"descEn": "Men, SemiFinal 1",
+			"descEn": "Men’s Tournament Semifinal 1",
 			"descIt": "Maschile, Semifinale 1",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-20",
@@ -1716,7 +1782,7 @@
 		},
 		{
 			"id": "WU2013-409",
-			"descEn": "Men, SemiFinal 2",
+			"descEn": "Men’s Tournament Semifinal 2",
 			"descIt": "Maschile, Semifinale 2",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-20",
@@ -1728,7 +1794,7 @@
 		},
 		{
 			"id": "WU2013-537",
-			"descEn": "Men, WLQF1/4-LQF2/3",
+			"descEn": "Men’s Tournament - Match: WLQF1/4-LQF2/3",
 			"descIt": "Maschile, WLQF1/4-LQF2/3",
 			"venue": "4da1e4589935a09369aca96f",
 			"date": "2013-12-20",
@@ -1740,7 +1806,7 @@
 		},
 		{
 			"id": "WU2013-536",
-			"descEn": "Men, LLQF1/4-LQF2/3",
+			"descEn": "Men’s Tournament - Match: LLQF1/4-LQF2/3",
 			"descIt": "Maschile, LLQF1/4-LQF2/3",
 			"venue": "4da1e4589935a09369aca96f",
 			"date": "2013-12-20",
@@ -1752,8 +1818,8 @@
 		},
 		{
 			"id": "WU2013-535",
-			"descEn": "Men, Bronze Medal",
-			"descIt": "Maschile, Medaglia di bronzo",
+			"descEn": "Men’s Tournament - Bronze Medal Final",
+			"descIt": "Torneo Maschile - Finale 3°-4° posto",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-21",
 			"title": "Bronze",
@@ -1764,23 +1830,24 @@
 		},
 		{
 			"id": "WU2013-534",
-			"descEn": "Men, Gold Medal",
-			"descIt": "Maschile, Medaglia d'oro",
+			"descEn": "Men’s Tournament - Gold Medal Final",
+			"descIt": "Torneo Maschile - Finale 1°-2° posto",
 			"venue": "4db722110cb6c940bfa26835",
 			"date": "2013-12-21",
 			"title": "Gold",
 			"stime": "14:30",
 			"etime": "17:00",
 			"gender": "M",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"IceHockeyWomen": [{
 			"id": "WU2013-533",
-			"descEn": "Women, Match A1-A3",
-			"descIt": "Femminile, Gara A1-A3",
+			"descEn": "Ladies’ Tournament GBR-JPN",
+			"descIt": "Torneo Femminile GBR-JPN",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-10",
-			"title": "A1-A3",
+			"title": "GBR-JPN",
 			"stime": "12:00",
 			"etime": "14:30",
 			"gender": "W",
@@ -1788,11 +1855,11 @@
 		},
 		{
 			"id": "WU2013-532",
-			"descEn": "Women, Match A6-A5",
-			"descIt": "Femminile, Gara A6-A5",
+			"descEn": "Ladies’ Tournament RUS-USA",
+			"descIt": "Torneo Femminile RUS-USA",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-10",
-			"title": "A6-A5",
+			"title": "RUS-USA",
 			"stime": "16:00",
 			"etime": "18:30",
 			"gender": "W",
@@ -1800,11 +1867,11 @@
 		},
 		{
 			"id": "WU2013-531",
-			"descEn": "Women, Match A2-A4",
-			"descIt": "Femminile, Gara A2-A4",
+			"descEn": "Ladies’ Tournament ESP-CAN",
+			"descIt": "Torneo Femminile ESP-CAN",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-10",
-			"title": "A2-A4",
+			"title": "ESP-CAN",
 			"stime": "20:00",
 			"etime": "22:30",
 			"gender": "W",
@@ -1812,11 +1879,11 @@
 		},
 		{
 			"id": "WU2013-530",
-			"descEn": "Women, Match A1-A6",
-			"descIt": "Femminile, Gara A1-A6",
+			"descEn": "Ladies’ Tournament GBR-USA",
+			"descIt": "Torneo Femminile GBR-USA",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-12",
-			"title": "A1-A6",
+			"title": "GBR-USA",
 			"stime": "12:00",
 			"etime": "14:30",
 			"gender": "W",
@@ -1824,11 +1891,11 @@
 		},
 		{
 			"id": "WU2013-529",
-			"descEn": "Women, Match A4-A5",
-			"descIt": "Femminile, Gara A4-A5",
+			"descEn": "Ladies’ Tournament CAN-RUS",
+			"descIt": "Torneo Femminile CAN-RUS",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-12",
-			"title": "A4-A5",
+			"title": "CAN-RUS",
 			"stime": "16:00",
 			"etime": "18:30",
 			"gender": "W",
@@ -1836,11 +1903,11 @@
 		},
 		{
 			"id": "WU2013-528",
-			"descEn": "Women, Match A2-A3",
-			"descIt": "Femminile, Gara A2-A3",
+			"descEn": "Ladies’ Tournament ESP-JPN",
+			"descIt": "Torneo Femminile ESP-JPN",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-12",
-			"title": "A2-A3",
+			"title": "ESP-JPN",
 			"stime": "20:00",
 			"etime": "22:30",
 			"gender": "W",
@@ -1848,11 +1915,11 @@
 		},
 		{
 			"id": "WU2013-527",
-			"descEn": "Women, Match A2-A5",
-			"descIt": "Femminile, Gara A2-A5",
+			"descEn": "Ladies’ Tournament ESP-RUS",
+			"descIt": "Torneo Femminile ESP-RUS",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-13",
-			"title": "A2-A5",
+			"title": "ESP-RUS",
 			"stime": "12:00",
 			"etime": "14:30",
 			"gender": "W",
@@ -1860,11 +1927,11 @@
 		},
 		{
 			"id": "WU2013-526",
-			"descEn": "Women, Match A4-A1",
-			"descIt": "Femminile, Gara A4-A1",
+			"descEn": "Ladies’ Tournament CAN-GBR",
+			"descIt": "Torneo Femminile CAN-GBR",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-13",
-			"title": "A4-A1",
+			"title": "CAN-GBR",
 			"stime": "16:00",
 			"etime": "18:30",
 			"gender": "W",
@@ -1872,11 +1939,11 @@
 		},
 		{
 			"id": "WU2013-525",
-			"descEn": "Women, Match A6-A3",
-			"descIt": "Femminile, Gara A6-A3",
+			"descEn": "Ladies’ Tournament USA-JPN",
+			"descIt": "Torneo Femminile USA-JPN",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-13",
-			"title": "A6-A3",
+			"title": "USA-JPN",
 			"stime": "20:00",
 			"etime": "22:30",
 			"gender": "W",
@@ -1884,11 +1951,11 @@
 		},
 		{
 			"id": "WU2013-524",
-			"descEn": "Women, Match A1-A2",
-			"descIt": "Femminile, Gara A1-A2",
+			"descEn": "Ladies’ Tournament GBR-ESP",
+			"descIt": "Torneo Femminile GBR-ESP",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-15",
-			"title": "A1-A2",
+			"title": "GBR-ESP",
 			"stime": "12:00",
 			"etime": "14:30",
 			"gender": "W",
@@ -1896,11 +1963,11 @@
 		},
 		{
 			"id": "WU2013-523",
-			"descEn": "Women, Match A3-A5",
-			"descIt": "Femminile, Gara A3-A5",
+			"descEn": "Ladies’ Tournament JPN-RUS",
+			"descIt": "Torneo Femminile JPN-RUS",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-15",
-			"title": "A3-A5",
+			"title": "JPN-RUS",
 			"stime": "16:00",
 			"etime": "18:30",
 			"gender": "W",
@@ -1908,8 +1975,8 @@
 		},
 		{
 			"id": "WU2013-522",
-			"descEn": "Women, Match A4-A6",
-			"descIt": "Femminile, Gara A4-A6",
+			"descEn": "Ladies’ Tournament CAN-USA",
+			"descIt": "Torneo Femminile CAN-USA",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-15",
 			"title": "A4-A6",
@@ -1920,11 +1987,11 @@
 		},
 		{
 			"id": "WU2013-521",
-			"descEn": "Women, Match A5-A1",
-			"descIt": "Femminile, Gara A5-A1",
+			"descEn": "Ladies’ Tournament RUS-GBR",
+			"descIt": "Torneo Femminile RUS-GBR",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-16",
-			"title": "A5-A1",
+			"title": "RUS-GBR",
 			"stime": "12:00",
 			"etime": "14:30",
 			"gender": "W",
@@ -1932,11 +1999,11 @@
 		},
 		{
 			"id": "WU2013-520",
-			"descEn": "Women, Match A3-A4",
-			"descIt": "Femminile, Gara A3-A4",
+			"descEn": "Ladies’ Tournament JPN-CAN",
+			"descIt": "Torneo Femminile JPN-CAN",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-16",
-			"title": "A3-A4",
+			"title": "JPN-CAN",
 			"stime": "16:00",
 			"etime": "18:30",
 			"gender": "W",
@@ -1944,11 +2011,11 @@
 		},
 		{
 			"id": "WU2013-519",
-			"descEn": "Women, Match A6-A2",
-			"descIt": "Femminile, Gara A6-A2",
+			"descEn": "Ladies’ Tournament USA-ESP",
+			"descIt": "Torneo Femminile USA-ESP",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-16",
-			"title": "A6-A2",
+			"title": "USA-ESP",
 			"stime": "20:00",
 			"etime": "22:30",
 			"gender": "W",
@@ -1956,8 +2023,8 @@
 		},
 		{
 			"id": "WU2013-408",
-			"descEn": "Women Play-offs, SemiFinal-1 (R2-R3)",
-			"descIt": "Play-offs Femminile, Semifinale-1 (R2-R3)",
+			"descEn": "Ladies’ Tournament - Semifinal 1 (R2-R3)",
+			"descIt": "Torneo Femminile - Semifinale 1 (R2-R3)",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-18",
 			"title": "SemiFinal-1 (R2-R3)",
@@ -1968,8 +2035,8 @@
 		},
 		{
 			"id": "WU2013-518",
-			"descEn": "Women Play-offs, SemiFinal-2(R1-R4)",
-			"descIt": "Play-offs Femminile, Semifinale-2 (R1-R4)",
+			"descEn": "Ladies’ Tournament - Semifinal 2(R1-R4)",
+			"descIt": "Torneo Femminile - Semifinale 2 (R1-R4)",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-18",
 			"title": "SemiFinal-2(R1-R4)",
@@ -1980,8 +2047,8 @@
 		},
 		{
 			"id": "WU2013-517",
-			"descEn": "Women Play-offs, 5th place (R5-R6)",
-			"descIt": "Play-offs Femminile, 5° posto (R5-R6)",
+			"descEn": "Ladies’ Tournament - 5th place (R5-R6)",
+			"descIt": "Torneo Femminile - 5° posto (R5-R6)",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-19",
 			"title": "5th place (R5-R6)",
@@ -1992,8 +2059,8 @@
 		},
 		{
 			"id": "WU2013-516",
-			"descEn": "Women Play-offs, Bronze Medal",
-			"descIt": "Play-offs Femminile, Medaglia di bronzo",
+			"descEn": "Ladies’ Tournament - Bronze Medal",
+			"descIt": "Torneo Femminile - Medaglia di bronzo",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-20",
 			"title": "BronzeMedal",
@@ -2004,22 +2071,23 @@
 		},
 		{
 			"id": "WU2013-515",
-			"descEn": "Women Play-offs, Gold Medal",
-			"descIt": "Play-offs Femminile, Medaglia d'oro",
+			"descEn": "Ladies’ Tournament - Gold Medal Final",
+			"descIt": "Torneo Femminile - Finale 1°-2° posto",
 			"venue": "4edfc9b86da1030287e62f78",
 			"date": "2013-12-20",
 			"title": "GoldMedal",
 			"stime": "20:00",
 			"etime": "22:30",
 			"gender": "W",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}]
 	},
 	"Nordic Combined": {
 		"Individual G NH/10km": [{
 			"id": "WU2013-514",
-			"descEn": "Individual Gundersen NH HS 106, Training",
-			"descIt": "Individuale Gundersen Salto HS 106, Prove",
+			"descEn": "Training - Ski-jumping NC - HS 106 - Individual Gundersen",
+			"descIt": "Allenamento - Salto CN - HS 106 - Individual Gundersen",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-12",
 			"title": "Training 10 Km",
@@ -2030,8 +2098,8 @@
 		},
 		{
 			"id": "WU2013-513",
-			"descEn": "Individual Gundersen 10 km, Training",
-			"descIt": "Individuale Gundersen 10 Km, Prove",
+			"descEn": "Training - Individual Gundersen NC - 10 km",
+			"descIt": "Allenamento - Gundersen Individuale CN - 10 Km",
 			"venue": "4d204e1a756e8cfa69246b54",
 			"date": "2013-12-12",
 			"title": "Training Gundersen HS 106",
@@ -2042,80 +2110,34 @@
 		},
 		{
 			"id": "WU2013-512",
-			"descEn": "Individual Gundersen NH HS 106",
-			"descIt": "Individuale Gundersen Salto HS 106",
+			"descEn": "Ski-jumping NC - HS 106 - Individual Gundersen",
+			"descIt": "Salto CN - HS106 - Gundersen Individuale",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-13",
 			"title": "Race HS 106",
 			"stime": "10:00",
 			"etime": null,
 			"gender": "M",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		},
 		{
 			"id": "WU2013-511",
-			"descEn": "Individual Gundersen 10 km",
-			"descIt": "Individuale Gundersen 10 Km",
+			"descEn": "10 km NC - Individual Gundersen",
+			"descIt": "10 km CN - Individuale Gundersen",
 			"venue": "4d204e1a756e8cfa69246b54",
 			"date": "2013-12-13",
 			"title": "Race Gundersen 10 Km",
 			"stime": "17:00",
 			"etime": null,
 			"gender": "M",
-			"type": "official"
-		}],
-		"Team G NH/3x5km": [{
-			"id": "WU2013-510",
-			"descEn": "Team NH HS 106, Training",
-			"descIt": "Salto a Squade HS 106, Prove",
-			"venue": "4f118570e4b0960dfed07310",
-			"date": "2013-12-17",
-			"title": "Training HS 106",
-			"stime": "09:30",
-			"etime": null,
-			"gender": "M",
-			"type": "training"
-		},
-		{
-			"id": "WU2013-509",
-			"descEn": "Team Gundersen 3x5 Km, Training",
-			"descIt": "3x5 Km a Squade, Prove",
-			"venue": "4d204e1a756e8cfa69246b54",
-			"date": "2013-12-17",
-			"title": "Training 3x5 Km",
-			"stime": "17:00",
-			"etime": null,
-			"gender": "M",
-			"type": "training"
-		},
-		{
-			"id": "WU2013-508",
-			"descEn": "Team NH HS 106",
-			"descIt": "Salto a Squade HS 106",
-			"venue": "4f118570e4b0960dfed07310",
-			"date": "2013-12-18",
-			"title": "Race HS 106",
-			"stime": "10:00",
-			"etime": null,
-			"gender": "M",
-			"type": "official"
-		},
-		{
-			"id": "WU2013-507",
-			"descEn": "Team Gundersen 3x5 Km",
-			"descIt": "3x5 Km a Squade",
-			"venue": "4d204e1a756e8cfa69246b54",
-			"date": "2013-12-18",
-			"title": "Race 3x5 Km",
-			"stime": "14:00",
-			"etime": null,
-			"gender": "M",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"Individual Mass Start 10km/NH": [{
 			"id": "WU2013-506",
-			"descEn": "Mass Start NH HS 106, Training",
-			"descIt": "Partenza di Gruppo Salto HS 106, Prove",
+			"descEn": "Training - Ski-jumping NC - HS 106 - Mass Start",
+			"descIt": "Allenamento - Salto CN - HS 106 - Mass Start",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-15",
 			"title": "Training HS 106",
@@ -2126,8 +2148,8 @@
 		},
 		{
 			"id": "WU2013-505",
-			"descEn": "Mass Start 10 Km Training",
-			"descIt": "Partenza di Gruppo 10 Km, Prove",
+			"descEn": "Training - Mass Start 10 Km",
+			"descIt": "Allenamento - Mass Start 10 Km",
 			"venue": "4d204e1a756e8cfa69246b54",
 			"date": "2013-12-15",
 			"title": "Training 10 Km",
@@ -2138,34 +2160,86 @@
 		},
 		{
 			"id": "WU2013-504",
-			"descEn": "Mass Start 10 Km",
-			"descIt": "Partenza di Gruppo 10 Km",
+			"descEn": "10 km CN - Mass Start",
+			"descIt": "10 km CN - Mass Start",
 			"venue": "4d204e1a756e8cfa69246b54",
 			"date": "2013-12-16",
 			"title": "Race 10 Km",
 			"stime": "14:15",
 			"etime": null,
 			"gender": "M",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		},
 		{
 			"id": "WU2013-503",
-			"descEn": "Mass Start NH HS 106",
-			"descIt": "Partenza di Gruppo Salto HS 106",
+			"descEn": "Ski-jumping NC - HS 106 - Mass Start",
+			"descIt": "Salto CN - HS106 - Mass Start",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-16",
 			"title": "Race HS 106",
 			"stime": "18:00",
 			"etime": null,
 			"gender": "M",
-			"type": "official"
+			"type": "official",
+      "model": true
+		}],
+		"Team G NH/3x5km": [{
+			"id": "WU2013-510",
+			"descEn": "Training - Ski-jumping NC -Team event - HS 106",
+			"descIt": "Allenamento - Salto CN - Gara a Squadre - HS 106",
+			"venue": "4f118570e4b0960dfed07310",
+			"date": "2013-12-17",
+			"title": "Training HS 106",
+			"stime": "09:30",
+			"etime": null,
+			"gender": "M",
+			"type": "training"
+		},
+		{
+			"id": "WU2013-509",
+			"descEn": "Training - Team NC - 3 x 5 km Gundersen",
+			"descIt": "Allenamento - Gara a squadre CN - 3 x 5 km Gundersen",
+			"venue": "4d204e1a756e8cfa69246b54",
+			"date": "2013-12-17",
+			"title": "Training 3x5 Km",
+			"stime": "17:00",
+			"etime": null,
+			"gender": "M",
+			"type": "training"
+		},
+		{
+			"id": "WU2013-508",
+			"descEn": "Ski-jumping NC -Team event - HS 106",
+			"descIt": "Salto CN - Gara a Squadre - HS 106",
+			"venue": "4f118570e4b0960dfed07310",
+			"date": "2013-12-18",
+			"title": "Race HS 106",
+			"stime": "10:00",
+			"etime": null,
+			"gender": "M",
+			"type": "official",
+      "medal": true
+		},
+		{
+			"id": "WU2013-507",
+			"descEn": "Team NC - 3 x 5 km Gundersen",
+			"descIt": "Gara a squadre CN - 3 x 5 km Gundersen",
+			"venue": "4d204e1a756e8cfa69246b54",
+			"date": "2013-12-18",
+			"title": "Race 3x5 Km",
+			"stime": "14:00",
+			"etime": null,
+			"gender": "M",
+			"type": "official",
+      "medal": true
 		}]
 	},
 	"Short Track Speed Skating": {
 		"500 mt Men": [{
 			"id": "WU2013-502",
-			"descEn": "500 mt Training W/M ",
-			"descIt": "500 mt, Allenamenti",
+			"descEn": "Training - Men and Ladies",
+			"descIt": "Allenamento - Maschile e Femminile",
 			"venue": "4d24ceb214f2b1f7ee8371be",
 			"date": "2013-12-19",
 			"title": "Training W/M",
@@ -2176,20 +2250,21 @@
 		},
 		{
 			"id": "WU2013-501",
-			"descEn": "500 mt W/M ",
-			"descIt": "500 mt",
+			"descEn": "500 mt Men and Ladies",
+			"descIt": "500 mt Maschile e Femminile",
 			"venue": "4d24ceb214f2b1f7ee8371be",
 			"date": "2013-12-19",
 			"title": "Race W/M",
 			"stime": "14:00",
 			"etime": null,
 			"gender": "A",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"1000 mt Men": [{
 			"id": "WU2013-500",
-			"descEn": "1000 mt Training W/M ",
-			"descIt": "1000 mt, Allenamenti",
+			"descEn": "Training - 1000 m - Men and Ladies",
+			"descIt": "Allenamento - 1000 m - Maschile e Femminile",
 			"venue": "4d24ceb214f2b1f7ee8371be",
 			"date": "2013-12-20",
 			"title": "Training W/M",
@@ -2200,20 +2275,21 @@
 		},
 		{
 			"id": "WU2013-499",
-			"descEn": "1000 mt W/M",
-			"descIt": "1000 mt",
+			"descEn": "1000 m - Men and Ladies",
+			"descIt": "1000 m - Maschile e Femminile",
 			"venue": "4d24ceb214f2b1f7ee8371be",
 			"date": "2013-12-20",
 			"title": "Race W/M",
 			"stime": "14:00",
 			"etime": null,
 			"gender": "A",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"1500 mt Men": [{
 			"id": "WU2013-498",
-			"descEn": "1500 mt Training W/M",
-			"descIt": "1500 mt, Allenamenti",
+			"descEn": "Training - 1500 m - Men and Ladies",
+			"descIt": "Allenamento - 1500 m - Maschile e Femminile",
 			"venue": "4d24ceb214f2b1f7ee8371be",
 			"date": "2013-12-18",
 			"title": "Training W/M",
@@ -2224,20 +2300,21 @@
 		},
 		{
 			"id": "WU2013-497",
-			"descEn": "1500 mt W/M",
-			"descIt": "1500 mt",
+			"descEn": "1500 m - Men and Ladies",
+			"descIt": "1500 m - Maschile e Femminile",
 			"venue": "4d24ceb214f2b1f7ee8371be",
 			"date": "2013-12-18",
-			"title": "Race W/M",
+			"title": "Race M/W",
 			"stime": "14:00",
 			"etime": null,
 			"gender": "A",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"5000 mt Relay Men": [{
 			"id": "WU2013-496",
-			"descEn": "Men's 5000 mt Relay Heats",
-			"descIt": "Staffetta 5000 mt Maschile, Batterie",
+			"descEn": "Heats - 5000 mt Relay - Men",
+			"descIt": "Batterie - Staffetta 5000 mt - Maschile",
 			"venue": "4d24ceb214f2b1f7ee8371be",
 			"date": "2013-12-18",
 			"title": "Relay M",
@@ -2248,8 +2325,8 @@
 		},
 		{
 			"id": "WU2013-495",
-			"descEn": "Men's 5000 mt Relay SemiFinal",
-			"descIt": "Staffetta 5000 mt Maschile, Semifinale",
+			"descEn": "Semifinals - 5000 m Relay - Men",
+			"descIt": "Semifinali - Staffetta 5000 m - Maschile",
 			"venue": "4d24ceb214f2b1f7ee8371be",
 			"date": "2013-12-19",
 			"title": "Relay M SF",
@@ -2260,7 +2337,7 @@
 		},
 		{
 			"id": "WU2013-494",
-			"descEn": "Men's 5000 mt Relay Final",
+			"descEn": "5000 m Relay - Men",
 			"descIt": "Staffetta 5000 mt Maschile, Finale",
 			"venue": "4d24ceb214f2b1f7ee8371be",
 			"date": "2013-12-20",
@@ -2268,7 +2345,8 @@
 			"stime": "18:30",
 			"etime": null,
 			"gender": "M",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"3000 mt Relay Women": [{
 			"id": "WU2013-493",
@@ -2304,14 +2382,15 @@
 			"stime": "18:30",
 			"etime": null,
 			"gender": "W",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}]
 	},
 	"Ski Jumping": {
 		"Individual NH Men": [{
 			"id": "WU2013-490",
-			"descEn": "Men's Normal Hill Individual HS 106 Training",
-			"descIt": "Salto maschile HS 106, Allenamento",
+			"descEn": "Training NH Individual HS 106 Men",
+			"descIt": "Allenamento - Salto speciale individuale - HS106 - Maschile",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-12",
 			"title": "Training",
@@ -2322,8 +2401,8 @@
 		},
 		{
 			"id": "WU2013-489",
-			"descEn": "Men's Normal Hill Individual HS 106 Training",
-			"descIt": "Salto maschile HS 106, Allenamento",
+			"descEn": "Training NH Individual HS 106 Men",
+			"descIt": "Allenamento - Salto speciale individuale - HS106 - Maschile",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-13",
 			"title": "Training",
@@ -2334,8 +2413,8 @@
 		},
 		{
 			"id": "WU2013-488",
-			"descEn": "Men's Normal Hill Individual HS 106 Trial",
-			"descIt": "Salto maschile HS 106, Prova",
+			"descEn": "Training NH Individual HS 106 Men",
+			"descIt": "Allenamento - Salto speciale individuale - HS106 - Maschile",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-14",
 			"title": "Trial",
@@ -2346,20 +2425,21 @@
 		},
 		{
 			"id": "WU2013-487",
-			"descEn": "Men's Normal Hill Individual HS 106",
-			"descIt": "Salto maschile HS 106",
+			"descEn": "NH Individual - HS 106 - Men",
+			"descIt": "Salto speciale individuale - HS 106 - Maschile",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-14",
 			"title": "Race",
 			"stime": "18:00",
 			"etime": null,
 			"gender": "M",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"Individual LH Men": [{
 			"id": "WU2013-486",
-			"descEn": "Men's Large Hill Individual HS 134 Training",
-			"descIt": "Salto maschile HS 134, Allenamenti",
+			"descEn": "Training - LH - HS 134 - Men",
+			"descIt": "Allenamento - Salto speciale - HS 134 - Maschile",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-19",
 			"title": "Training",
@@ -2370,8 +2450,8 @@
 		},
 		{
 			"id": "WU2013-485",
-			"descEn": "Men's Large Hill Individual HS 134, Trial",
-			"descIt": "Salto maschile HS 134, Prove",
+			"descEn": "Trial Round - LH Individual - HS 134 - Men",
+			"descIt": "Trial Round - Salto speciale Individuale - HS 134 - Maschile",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-20",
 			"title": "Trial",
@@ -2382,20 +2462,21 @@
 		},
 		{
 			"id": "WU2013-484",
-			"descEn": "Men's Large Hill Individual HS 134",
-			"descIt": "Salto maschile HS 134",
+			"descEn": "LH Individual - HS 134 - Men",
+			"descIt": "Salto speciale individuale - HS 134 - Maschile",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-20",
 			"title": "Race",
 			"stime": "18:00",
 			"etime": null,
 			"gender": "M",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"Team NH Men": [{
 			"id": "WU2013-483",
-			"descEn": "Men Team Normal Hill HS 106, Training",
-			"descIt": "Salto maschile a squadre HS 106, Allenamenti",
+			"descEn": "Training - NH Team - HS 106 - Men",
+			"descIt": "Allenamento - Salto speciale - Gara a squadre - HS 106 - Maschile",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-17",
 			"title": "Training",
@@ -2406,8 +2487,8 @@
 		},
 		{
 			"id": "WU2013-482",
-			"descEn": "Men Team Normal Hill HS 106, Trial",
-			"descIt": "Salto maschile a squadre HS 106, Prove",
+			"descEn": "Trial Round - NH Team - HS 106 - Men",
+			"descIt": "Trial Round - Salto Speciale - Gara a squadre - HS 106 - Maschile",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-18",
 			"title": "Trial",
@@ -2418,20 +2499,21 @@
 		},
 		{
 			"id": "WU2013-481",
-			"descEn": "Men Team Normal Hill HS 106",
-			"descIt": "Salto maschile a squadre HS 106",
+			"descEn": "NH Team - HS 106 - Men",
+			"descIt": "Salto Speciale - Gara a squadre - HS 106 - Maschile",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-18",
 			"title": "Race",
 			"stime": "18:00",
 			"etime": null,
 			"gender": "M",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"IndividualNHWomen": [{
 			"id": "WU2013-480",
-			"descEn": "Ladies' Normal Hill Individual HS 106 Training",
-			"descIt": "Salto femminile HS 106, Allenamento",
+			"descEn": "Training - NH Individual - HS 106 - Ladies",
+			"descIt": "Allenamento - Salto speciale individuale - HS106 - Femminile",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-12",
 			"title": "Training",
@@ -2442,8 +2524,8 @@
 		},
 		{
 			"id": "WU2013-479",
-			"descEn": "Ladies' Normal Hill Individual HS 106 Training",
-			"descIt": "Salto femminile HS 106, Allenamento",
+			"descEn": "Training - NH Individual - HS 106 - Ladies",
+			"descIt": "Allenamento - Salto speciale individuale - HS106 - Femminile",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-13",
 			"title": "Training",
@@ -2454,8 +2536,8 @@
 		},
 		{
 			"id": "WU2013-478",
-			"descEn": "Ladies' Normal Hill Individual HS 106 Trial",
-			"descIt": "Salto femminile HS 106, Prove",
+			"descEn": "Training - NH Individual - HS 106 - Ladies",
+			"descIt": "Allenamento - Salto speciale individuale - HS106 - Femminile",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-14",
 			"title": "Trial",
@@ -2466,20 +2548,21 @@
 		},
 		{
 			"id": "WU2013-477",
-			"descEn": "Ladies' Normal Hill Individual HS 106",
-			"descIt": "Salto femminile HS 106",
+			"descEn": "NH Individual - HS 106 - Ladies",
+			"descIt": "Salto speciale individuale - HS 106 - Femminile",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-14",
 			"title": "Race",
 			"stime": "18:00",
 			"etime": null,
 			"gender": "M",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"MixedRelay1W+1M": [{
 			"id": "WU2013-476",
-			"descEn": "Mixed Relay  HS 106, Training",
-			"descIt": "Staffetta mista HS 106, Allenamenti",
+			"descEn": "Training - NH Mixed Team - HS 106",
+			"descIt": "Allenamento - Salto speciale - Gara a squadre Mista - HS 106",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-16",
 			"title": "Training",
@@ -2490,8 +2573,8 @@
 		},
 		{
 			"id": "WU2013-475",
-			"descEn": "Mixed Relay  HS 106, Trial",
-			"descIt": "Staffetta mista HS 106, Prove",
+			"descEn": "Trial Round - NH Mixed Team - HS 106",
+			"descIt": "Trial Round - Salto Speciale - Gara a squadre mista - HS 106",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-17",
 			"title": "Trial",
@@ -2502,23 +2585,24 @@
 		},
 		{
 			"id": "WU2013-474",
-			"descEn": "Mixed Relay  HS 106",
-			"descIt": "Staffetta mista HS 106",
+			"descEn": "NH Mixed Team - HS 106",
+			"descIt": "Salto Speciale - Gara a squadre mista - HS 106",
 			"venue": "4f118570e4b0960dfed07310",
 			"date": "2013-12-17",
 			"title": "Race",
 			"stime": "12:00",
 			"etime": null,
 			"gender": "A",
-			"type": "official"
+			"type": "official",
+      "model": true
 		}]
 	},
 	"Snowboarding": {
 		"Parallel Giant Slalom": [{
 			"id": "WU2013-473",
-			"descEn": "Parallel Giant Slalom Training W/M",
-			"descIt": "Slalom Gigante Parallelo, Allenamento",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Training - Parallel Giant Slalom - Men and Ladies",
+			"descIt": "Allenamento - Slalom Gigante Parallelo - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-18",
 			"title": "Training W/M",
 			"stime": "9:00",
@@ -2528,9 +2612,9 @@
 		},
 		{
 			"id": "WU2013-472",
-			"descEn": "Parallel Giant Slalom Inspection W/M",
-			"descIt": "Slalom Gigante Parallelo, Ispezione",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Course Inspection - Parallel Giant Slalom",
+			"descIt": "Ricognizione pista - Slalom Gigante Parallelo",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-19",
 			"title": "Inspection W/M",
 			"stime": "9:00",
@@ -2540,9 +2624,9 @@
 		},
 		{
 			"id": "WU2013-471",
-			"descEn": "Parallel Giant Slalom Qualification W/M",
-			"descIt": "Slalom Gigante Parallelo, Qualificazioni",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Qualification - Parallel Giant Slalom - Men and Ladies",
+			"descIt": "Qualificazioni - Slalom Gigante Parallelo - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-19",
 			"title": "Qualification W/M",
 			"stime": "09:45",
@@ -2552,9 +2636,9 @@
 		},
 		{
 			"id": "WU2013-470",
-			"descEn": "Parallel Giant Slalom Inspection W/M",
-			"descIt": "Slalom Gigante Parallelo, Ispezione",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Course Inspection - Parallel Giant Slalom - Men and Ladies",
+			"descIt": "Ricognizione Pista - Slalom Gigante Parallelo - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-19",
 			"title": "Inspection W/M",
 			"stime": "13:00",
@@ -2566,19 +2650,20 @@
 			"id": "WU2013-469",
 			"descEn": "Parallel Giant Slalom Finals W/M",
 			"descIt": "Slalom Gigante Parallelo, Finali",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-19",
 			"title": "Race W/M",
 			"stime": "13:30",
 			"etime": "15:30",
 			"gender": "A",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"Half-Pipe": [{
 			"id": "WU2013-468",
-			"descEn": "Half-Pipe Training W/M",
-			"descIt": "Half-Pipe, Allenamenti",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Training - Half-Pipe - Men and Ladies",
+			"descIt": "Allenamento - Half-Pipe - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-15",
 			"title": "Training W/M",
 			"stime": "09:00",
@@ -2588,9 +2673,9 @@
 		},
 		{
 			"id": "WU2013-467",
-			"descEn": "Half-Pipe Training W/M",
-			"descIt": "Half-Pipe, Allenamenti",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Training - Half-Pipe - Men and Ladies",
+			"descIt": "Allenamento - Half-Pipe - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-16",
 			"title": "Training W/M",
 			"stime": "8:30",
@@ -2602,7 +2687,7 @@
 			"id": "WU2013-466",
 			"descEn": "Half-Pipe Qualification W/M",
 			"descIt": "Half-Pipe, Qualificazioni",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-16",
 			"title": "Qualification W/M",
 			"stime": "09:30",
@@ -2612,9 +2697,9 @@
 		},
 		{
 			"id": "WU2013-465",
-			"descEn": "Half-Pipe Training W/M",
-			"descIt": "Half-Pipe, Allenamenti",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Training - Half-Pipe - Men and Ladies",
+			"descIt": "Allenamento - Half-Pipe - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-17",
 			"title": "Training SF W/M",
 			"stime": "08:30",
@@ -2624,9 +2709,9 @@
 		},
 		{
 			"id": "WU2013-464",
-			"descEn": "Half-Pipe SemiFinals W/M",
-			"descIt": "Half-Pipe, Semifinali",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Semifinals - Half-Pipe - Men and Ladies",
+			"descIt": "Semifinali - Half-Pipe - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-17",
 			"title": "SF W/M",
 			"stime": "09:00",
@@ -2636,9 +2721,9 @@
 		},
 		{
 			"id": "WU2013-463",
-			"descEn": "Half-Pipe Training W/M",
-			"descIt": "Half-Pipe, Allenamenti",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Training - Half-Pipe - Men and Ladies",
+			"descIt": "Allenamento - Half-Pipe - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-17",
 			"title": "Training F W/M",
 			"stime": "10:30",
@@ -2648,21 +2733,22 @@
 		},
 		{
 			"id": "WU2013-462",
-			"descEn": "Half-Pipe Finals W/M",
-			"descIt": "Half-Pipe, Finali",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Finals - Half-Pipe - Men and Ladies",
+			"descIt": "Finali - Half-Pipe - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-17",
 			"title": "Race W/M",
 			"stime": "11:00",
 			"etime": "12:00",
 			"gender": "A",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"Snowboard Cross": [{
 			"id": "WU2013-461",
-			"descEn": "Cross Inspection W/M",
-			"descIt": "Cross, Ispezione",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Course Inspection - Snowboard Cross",
+			"descIt": "Ricognizione Pista - Snowboard Cross",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-10",
 			"title": "Inspection",
 			"stime": "10:00",
@@ -2672,9 +2758,9 @@
 		},
 		{
 			"id": "WU2013-460",
-			"descEn": "Cross Training W/M",
-			"descIt": "Cross, Allenamenti",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Training - Snowboard Cross",
+			"descIt": "Allenamento - Snowboard Cross",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-10",
 			"title": "Training W/M",
 			"stime": "10:30",
@@ -2684,9 +2770,9 @@
 		},
 		{
 			"id": "WU2013-459",
-			"descEn": "Cross Inspection W/M",
-			"descIt": "Cross, Ispezione",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Training - Snowboard Cross",
+			"descIt": "Allenamento - Snowboard Cross",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-11",
 			"title": "Inspection W/M",
 			"stime": "9:00",
@@ -2695,22 +2781,10 @@
 			"type": "inspection"
 		},
 		{
-			"id": "WU2013-458",
-			"descEn": "Cross Training W/M",
-			"descIt": "Cross, Allenamenti",
-			"venue": "521c9c437e489fbfb386a9b9",
-			"date": "2013-12-11",
-			"title": "Training W/M",
-			"stime": "9:30",
-			"etime": "10:30",
-			"gender": "A",
-			"type": "training"
-		},
-		{
 			"id": "WU2013-457",
-			"descEn": "Cross Qualification W/M",
-			"descIt": "Cross, Qualificazioni",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Snowboard Cross Qualifications - Men and Ladies",
+			"descIt": "Qualificazioni Snowboard Cross - Maschili e Femminili",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-11",
 			"title": "Qualification W/M",
 			"stime": "10:45",
@@ -2720,9 +2794,9 @@
 		},
 		{
 			"id": "WU2013-456",
-			"descEn": "Cross Inspection W/M",
-			"descIt": "Cross, Ispezione",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Snowboard Cross Inspection - Men and Ladies",
+			"descIt": "Snowboard Cross Ricognizione - Maschili e Femminili",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-12",
 			"title": "Inspection W/M",
 			"stime": "9:00",
@@ -2732,9 +2806,9 @@
 		},
 		{
 			"id": "WU2013-455",
-			"descEn": "Cross Training W/M",
-			"descIt": "Cross, Allenamenti",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Training - Snowboard Cross",
+			"descIt": "Allenamento - Snowboard Cross",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-12",
 			"title": "Training W/M",
 			"stime": "9:30",
@@ -2744,21 +2818,22 @@
 		},
 		{
 			"id": "WU2013-454",
-			"descEn": "Cross Finals W/M",
-			"descIt": "Cross, Finali",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Snowboard Cross Finals - Men and Ladies",
+			"descIt": "Finali Snowboard Cross - Maschili e Femminili",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-12",
 			"title": "Race W/M",
 			"stime": "10:30",
 			"etime": "12:00",
 			"gender": "A",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"Slope Style": [{
 			"id": "WU2013-453",
-			"descEn": "SlopeStyle Training W/M",
-			"descIt": "SlopeStyle, Allenamento",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Training - Slope Style - Men and Ladies",
+			"descIt": "Allenamento - Slope Style - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-18",
 			"title": "Training W/M",
 			"stime": "14:30",
@@ -2768,9 +2843,9 @@
 		},
 		{
 			"id": "WU2013-452",
-			"descEn": "SlopeStyle Training W/M",
-			"descIt": "SlopeStyle, Allenamento",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Training - Slope Style - Men and Ladies",
+			"descIt": "Allenamento - Slope Style - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-19",
 			"title": "Training W/M",
 			"stime": "14:30",
@@ -2780,9 +2855,9 @@
 		},
 		{
 			"id": "WU2013-451",
-			"descEn": "SlopeStyle Training W/M",
-			"descIt": "SlopeStyle, Allenamento",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Training - Slope Style - Men and Ladies",
+			"descIt": "Allenamento - Slope Style - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-20",
 			"title": "Training W/M",
 			"stime": "9:00",
@@ -2792,9 +2867,9 @@
 		},
 		{
 			"id": "WU2013-450",
-			"descEn": "SlopeStyle Qualification W/M",
-			"descIt": "SlopeStyle, Qualificazioni",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Qualifications - Slope Style - Men and Ladies",
+			"descIt": "Qualificazioni - Slope Style - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-20",
 			"title": "Qualification W/M",
 			"stime": "10:00",
@@ -2804,9 +2879,9 @@
 		},
 		{
 			"id": "WU2013-449",
-			"descEn": "SlopeStyle Training W/M",
-			"descIt": "SlopeStyle, Allenamento",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Training - Slope Style - Men and Ladies",
+			"descIt": "Allenamento - Slope Style - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-21",
 			"title": "Training W/M",
 			"stime": "08:30",
@@ -2816,9 +2891,9 @@
 		},
 		{
 			"id": "WU2013-448",
-			"descEn": "SlopeStyle SemiFinals W/M",
-			"descIt": "SlopeStyle, Semifinali",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Semifinals - Slope Style - Men and Ladies",
+			"descIt": "Semifinali - Slope Style - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-21",
 			"title": "SF W/M",
 			"stime": "09:30",
@@ -2828,9 +2903,9 @@
 		},
 		{
 			"id": "WU2013-447",
-			"descEn": "SlopeStyle Training W/M",
-			"descIt": "SlopeStyle, Allenamento",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Training - Slope Style - Men and Ladies",
+			"descIt": "Allenamento - Slope Style - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-21",
 			"title": "Training W/M",
 			"stime": "10:45",
@@ -2840,22 +2915,23 @@
 		},
 		{
 			"id": "WU2013-446",
-			"descEn": "SlopeStyle Finals W/M",
-			"descIt": "Finale SlopeStyle",
-			"venue": "521c9c437e489fbfb386a9b9",
+			"descEn": "Final Slope Style - Men and Ladies",
+			"descIt": "Finale Slope Style - Maschile e Femminile",
+			"venue": "521c82b47e489fbfb3794b0d",
 			"date": "2013-12-21",
 			"title": "Race W/M",
 			"stime": "11:30",
 			"etime": "12:30",
 			"gender": "A",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}]
 	},
-	"Speed Skating": {
+  "Speed Skating": {
 		"Speed Skating": [{
 			"id": "WU2013-445",
-			"descEn": "Training W/M",
-			"descIt": "Allenamento",
+			"descEn": "Training - Men and Ladies",
+			"descIt": "Allenamento - Maschile e Femminile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-11",
 			"title": "Training W/M",
@@ -2866,8 +2942,8 @@
 		},
 		{
 			"id": "WU2013-444",
-			"descEn": "Training and Trial W/M",
-			"descIt": "Allenamento e Prove",
+			"descEn": "Training and Trial Starts - Men and Ladies",
+			"descIt": "Allenamento e Prove partenza - Maschili e Femminili",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-11",
 			"title": "Training Trial W/M",
@@ -2890,8 +2966,8 @@
 		},
 		{
 			"id": "WU2013-442",
-			"descEn": "Training W/M",
-			"descIt": "Allenamento",
+			"descEn": "Training - Men and Ladies",
+			"descIt": "Allenamento - Maschile e Femminile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-12",
 			"title": "Training W/M",
@@ -2902,8 +2978,8 @@
 		},
 		{
 			"id": "WU2013-441",
-			"descEn": "Trial W/M",
-			"descIt": "Prove",
+			"descEn": "Training - Men and Ladies",
+			"descIt": "Allenamento - Maschile e Femminile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-12",
 			"title": "Training Trial W/M",
@@ -2913,9 +2989,21 @@
 			"type": "training"
 		},
 		{
+			"id": "WU2013-390",
+			"descEn": "Training - Men and Ladies",
+			"descIt": "Allenamento - Maschile e Femminile",
+			"venue": "4bf58dd8d48988d187941735",
+			"date": "2013-12-14",
+			"title": "Training Trial W/M",
+			"stime": "16:30",
+			"etime": "18:00",
+			"gender": "A",
+			"type": "training"
+		},
+		{
 			"id": "WU2013-440",
-			"descEn": "Training W/M",
-			"descIt": "Allenamento",
+			"descEn": "Training - Men and Ladies",
+			"descIt": "Allenamento - Maschile e Femminile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-16",
 			"title": "Training W/M",
@@ -2926,8 +3014,8 @@
 		},
 		{
 			"id": "WU2013-439",
-			"descEn": "Training W/M",
-			"descIt": "Allenamento",
+			"descEn": "Training - Men and Ladies",
+			"descIt": "Allenamento - Maschile e Femminile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-16",
 			"title": "Training W/M",
@@ -2937,9 +3025,45 @@
 			"type": "training"
 		},
 		{
+			"id": "WU2013-391",
+			"descEn": "Training - Men and Ladies",
+			"descIt": "Allenamento - Maschile e Femminile",
+			"venue": "4bf58dd8d48988d187941735",
+			"date": "2013-12-17",
+			"title": "Training Trial W/M",
+			"stime": "16:30",
+			"etime": "18:00",
+			"gender": "A",
+			"type": "training"
+		},
+		{
+			"id": "WU2013-392",
+			"descEn": "Training - Men and Ladies",
+			"descIt": "Allenamento - Maschile e Femminile",
+			"venue": "4bf58dd8d48988d187941735",
+			"date": "2013-12-18",
+			"title": "Training Trial W/M",
+			"stime": "09:00",
+			"etime": "11:00",
+			"gender": "A",
+			"type": "training"
+		},
+		{
+			"id": "WU2013-393",
+			"descEn": "Training - Men and Ladies",
+			"descIt": "Allenamento - Maschile e Femminile",
+			"venue": "4bf58dd8d48988d187941735",
+			"date": "2013-12-18",
+			"title": "Training Trial W/M",
+			"stime": "16:30",
+			"etime": "18:00",
+			"gender": "A",
+			"type": "training"
+		},
+		{
 			"id": "WU2013-438",
-			"descEn": "Training Team Pursuite W/M",
-			"descIt": "Inseguimento a squadre, Allenamento",
+			"descEn": "Training - Team Pursuit - Men and Ladies",
+			"descIt": "Allenamento - Inseguimento a squadre - Maschile e Femminile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-19",
 			"title": "Training Team Pursuite W/M",
@@ -2950,8 +3074,8 @@
 		}],
 		"500 mt Men": [{
 			"id": "WU2013-437",
-			"descEn": "500 mt Men, Training",
-			"descIt": "500 mt Maschile, sessione di prove",
+			"descEn": "Training - 500 m - Men",
+			"descIt": "Allenamento - 500 m - maschile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-14",
 			"title": "Training",
@@ -2961,8 +3085,8 @@
 		},
 		{
 			"id": "WU2013-436",
-			"descEn": "500 mt Men",
-			"descIt": "500 mt Maschile",
+			"descEn": "Qualification 500 m - Men",
+			"descIt": "Qualificazione 500 m - Maschile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-14",
 			"title": "Race",
@@ -2972,30 +3096,20 @@
 		},
 		{
 			"id": "WU2013-435",
-			"descEn": "500 mt Men",
-			"descIt": "500 mt Maschile",
+			"descEn": "Final 500 mt Men",
+			"descIt": "Finale 500 mt Maschile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-14",
 			"title": "Race",
 			"stime": "15:30",
 			"etime": null,
-			"type": "official"
-		},
-		{
-			"id": "WU2013-434",
-			"descEn": "500 mt Men, Training",
-			"descIt": "500 mt Maschile, sessione di prove",
-			"venue": "4bf58dd8d48988d187941735",
-			"date": "2013-12-14",
-			"title": "Training",
-			"stime": "16:30",
-			"etime": "18:00",
-			"type": "training"
+			"type": "official",
+      "medal": true
 		}],
 		"1000 mt Men": [{
 			"id": "WU2013-433",
-			"descEn": "1000 mt Men, Training",
-			"descIt": "1000 mt Maschile, sessione di prove",
+			"descEn": "Training - 1000 m - Men",
+			"descIt": "Allenamento - 1000 m - Maschile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-17",
 			"title": "Training",
@@ -3012,7 +3126,8 @@
 			"title": "Race",
 			"stime": "12:00",
 			"etime": null,
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"1500 mt Men": [{
 			"id": "WU2013-431",
@@ -3023,7 +3138,8 @@
 			"title": "Race",
 			"stime": "13:30",
 			"etime": null,
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"5000 mt Men": [{
 			"id": "WU2013-430",
@@ -3034,18 +3150,8 @@
 			"title": "Race",
 			"stime": "14:30",
 			"etime": null,
-			"type": "official"
-		},
-		{
-			"id": "WU2013-429",
-			"descEn": "5000 mt Men, Training",
-			"descIt": "5000 mt Maschile, sessione di prove",
-			"venue": "4bf58dd8d48988d187941735",
-			"date": "2013-12-13",
-			"title": "Training",
-			"stime": "16:30",
-			"etime": "18:00",
-			"type": "training"
+			"type": "official",
+      "medal": true
 		}],
 		"10000 mt Men": [{
 			"id": "WU2013-428",
@@ -3056,29 +3162,19 @@
 			"title": "Race",
 			"stime": "14:00",
 			"etime": null,
-			"type": "official"
-		},
-		{
-			"id": "WU2013-427",
-			"descEn": "10000 mt Men, Training",
-			"descIt": "10000 mt Maschile, sessione di prove",
-			"venue": "4bf58dd8d48988d187941735",
-			"date": "2013-12-18",
-			"title": "Training",
-			"stime": "16:30",
-			"etime": "18:00",
-			"type": "trainig"
+			"type": "official",
+      "medal": true
 		}],
 		"Team Pursuit Men": [{
 			"id": "WU2013-426",
-			"descEn": "Team Pursuit Men, Training Trial",
-			"descIt": "Inseguimento a squadre Maschile, sessione di prove",
+			"descEn": "Qualification - Team Pursuit - Men",
+			"descIt": "Qualificazioni - Inseguimento a squadre - Maschile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-19",
 			"title": "Training Trial",
 			"stime": "14:00",
 			"etime": null,
-			"type": "training trial"
+			"type": "official"
 		},
 		{
 			"id": "WU2013-425",
@@ -3089,12 +3185,13 @@
 			"title": "Race",
 			"stime": "16:30",
 			"etime": null,
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"500 mt Women": [{
 			"id": "WU2013-424",
-			"descEn": "500 mt Women, Training",
-			"descIt": "500 mt Femminile, sessione di prove",
+			"descEn": "Training - 500 m - Ladies",
+			"descIt": "Allenamento - 500 m - Femminile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-15",
 			"title": "Training",
@@ -3104,8 +3201,8 @@
 		},
 		{
 			"id": "WU2013-423",
-			"descEn": "500 mt Women",
-			"descIt": "500 mt Femminile",
+			"descEn": "Qualification 500 m - Ladies",
+			"descIt": "Qualificazione 500 m - Femminile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-15",
 			"title": "Training",
@@ -3115,41 +3212,32 @@
 		},
 		{
 			"id": "WU2013-422",
-			"descEn": "500 mt Women",
+			"descEn": "500 mt Ladies",
 			"descIt": "500 mt Femminile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-15",
 			"title": "Race",
 			"stime": "15:30",
 			"etime": null,
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"1000 mt Women": [{
-			"id": "WU2013-421",
-			"descEn": "1000 mt Women, Training",
-			"descIt": "1000 mt Femminile, sessione di prove",
-			"venue": "4bf58dd8d48988d187941735",
-			"date": "2013-12-18",
-			"title": "Training",
-			"stime": "9:00",
-			"etime": "11:00",
-			"type": "training"
-		},
-		{
 			"id": "WU2013-420",
-			"descEn": "1000 mt Women",
+			"descEn": "1000 mt Ledies",
 			"descIt": "1000 mt Femminile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-18",
 			"title": "Race",
 			"stime": "12:00",
 			"etime": "14:00",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"1500 mt Women": [{
 			"id": "WU2013-419",
-			"descEn": "1500 mt Women, Training",
-			"descIt": "1500 mt Femminile, sessione di prove",
+			"descEn": "Training - 1500 m - Ladies",
+			"descIt": "Allenamento - 1500 m - Femminile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-13",
 			"title": "Training",
@@ -3159,53 +3247,44 @@
 		},
 		{
 			"id": "WU2013-418",
-			"descEn": "1500 mt Women",
+			"descEn": "1500 mt Ledies",
 			"descIt": "1500 mt Femminile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-13",
 			"title": "Race",
 			"stime": "12:00",
 			"etime": "14:00",
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}],
 		"5000 mt Women": [{
 			"id": "WU2013-417",
-			"descEn": "5000 mt Women",
+			"descEn": "5000 mt Ladies",
 			"descIt": "5000 mt Femminile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-17",
 			"title": "Race",
 			"stime": "14:30",
 			"etime": "16:30",
-			"type": "official"
-		},
-		{
-			"id": "WU2013-416",
-			"descEn": "5000 mt Women, Training",
-			"descIt": "5000 mt Femminile, sessione di prove",
-			"venue": "4bf58dd8d48988d187941735",
-			"date": "2013-12-17",
-			"title": "Training",
-			"stime": "16:30",
-			"etime": "18:00",
-			"type": "trainig"
+			"type": "official",
+      "medal": true
 		}],
-		"10000 mt Women": [],
-		"Team Pursuit Women": [{
-			"id": "WU2013-415",
-			"descEn": "Team Pursuit, Training",
-			"descIt": "Inseguimento a squadre, sessione di prove",
+		"3000 mt Women": [{
+			"id": "WU2013-394",
+			"descEn": "3000 m - Ladies",
+			"descIt": "3000 m - Femminile",
 			"venue": "4bf58dd8d48988d187941735",
-			"date": "2013-12-19",
-			"title": "Training",
-			"stime": "10.00",
-			"etime": "12:00",
-			"type": "trainig"
-		},
-		{
+			"date": "2013-12-14",
+			"title": "Race",
+			"stime": "13:30",
+			"etime": "15:30",
+			"type": "official",
+      "medal": true
+		}],
+		"Team Pursuit Women": [{
 			"id": "WU2013-413",
-			"descEn": "Team Pursuit Women, Training Trial",
-			"descIt": "Inseguimento a squadre Femminile, sessione di prove",
+			"descEn": "Qualification - Team Pursuit - Ladies",
+			"descIt": "Qualificazioni - Inseguimento a squadre - Femminile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-19",
 			"title": "Training Trial",
@@ -3215,14 +3294,131 @@
 		},
 		{
 			"id": "WU2013-412",
-			"descEn": "Team Pursuit Women, Final",
-			"descIt": "Finale Inseguimento a squadre Femminile",
+			"descEn": "Team Pursuit - Ladies",
+			"descIt": "Inseguimento a Squadre - Femminile",
 			"venue": "4bf58dd8d48988d187941735",
 			"date": "2013-12-19",
 			"title": "Race",
 			"stime": "16:00",
 			"etime": null,
-			"type": "official"
+			"type": "official",
+      "medal": true
 		}]
-	}
+	},
+	"Figure & Syncronized Skating": {
+		"Races": [{
+			"id": "WU2013-380",
+			"date": "2013-12-11",
+			"title": "Men Short",
+			"stime": "10:00",
+			"etime": null,
+			"gender": "M",
+			"type": "free",
+			"venue": "4d24ceb214f2b1f7ee8371be",
+			"descEn": "Men Short Program",
+			"descIt": "Short Individuale Maschile",
+			"medal": true
+		},
+		{
+			"id": "WU2013-379",
+			"date": "2013-12-12",
+			"title": "Free Skiing W/M",
+			"stime": "16:45",
+			"etime": null,
+			"gender": "A",
+			"type": "free",
+			"venue": "4d24ceb214f2b1f7ee8371be",
+			"descEn": "Pairs Short Program",
+			"descIt": "Short Programma a Coppie",
+			"medal": true
+		},
+		{
+			"id": "WU2013-378",
+			"date": "2013-12-12",
+			"title": "Men Free Skating",
+			"stime": "18:15",
+			"etime": null,
+			"gender": "A",
+			"type": "free",
+			"venue": "4d24ceb214f2b1f7ee8371be",
+			"descEn": "Men Free Skating",
+			"descIt": "Free Skating Individuale Maschile",
+			"medal": true
+		},
+		{
+			"id": "WU2013-377",
+			"date": "2013-12-13",
+			"title": "Ice Dance Short",
+			"stime": "16:45",
+			"etime": null,
+			"gender": "A",
+			"type": "free",
+			"venue": "4d24ceb214f2b1f7ee8371be",
+			"descEn": "Ice Dance Short Dance",
+			"descIt": "Danza su Ghiaccio - Short",
+			"medal": true
+		},
+		{
+			"id": "WU2013-376",
+			"date": "2013-12-13",
+			"title": "Pairs Free Skating",
+			"stime": "20:25",
+			"etime": null,
+			"gender": "A",
+			"type": "free",
+			"venue": "4d24ceb214f2b1f7ee8371be",
+			"descEn": "Pairs Free Skating",
+			"descIt": "Free Skating Programma a Coppie",
+			"medal": true
+		},
+		{
+			"id": "WU2013-375",
+			"date": "2013-12-14",
+			"title": "Ladies Short Program",
+			"stime": "14:05",
+			"etime": null,
+			"gender": "A",
+			"type": "free",
+			"venue": "4d24ceb214f2b1f7ee8371be",
+			"descEn": "Ladies Short Program",
+			"descIt": "Short Individuale Femminile"
+		},
+		{
+			"id": "WU2013-374",
+			"date": "2013-12-14",
+			"title": "Ice Dance Free Dance",
+			"stime": "19:15",
+			"etime": null,
+			"gender": "A",
+			"type": "free",
+			"venue": "4d24ceb214f2b1f7ee8371be",
+			"descEn": "Ice Dance Free Dance",
+			"descIt": "Danza sul Ghiaccio - Danza Libera"
+		},
+		{
+			"id": "WU2013-373",
+			"date": "2013-12-15",
+			"title": "Ladies Free Skating",
+			"stime": "14:00",
+			"etime": null,
+			"gender": "A",
+			"type": "free",
+			"venue": "4d24ceb214f2b1f7ee8371be",
+			"descEn": "Ladies Free Skating",
+			"descIt": "Free Skating Individuale Feminile",
+			"medal": true
+		},
+		{
+			"id": "WU2013-372",
+			"date": "2013-12-15",
+			"title": "Figure Skating Exhibition",
+			"stime": "19:00",
+			"etime": null,
+			"gender": "A",
+			"type": "free",
+			"venue": "4d24ceb214f2b1f7ee8371be",
+			"descEn": "Figure Skating Exhibition",
+			"descIt": "Esibizione finale"
+		}]
+	}  
 }

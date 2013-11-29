@@ -25,7 +25,7 @@ public class TestPoiServiceDataFlow extends TestCase {
 		params.put("csv", "APT_Trento_Censimento_POI.csv");
 		DataFlowTestHelper helper = new DataFlowTestHelper();
 		Map<String, Object> out = helper.executeDataFlow("it.sayservice.ext.universiadi2013", "GetPoiFromCsv", new GetPoiFromCsvDataFlow(), params);
-		//System.out.println(out);
+		System.out.println(out);
 	}
 	
 	public void testNewsFlow() throws ServiceException, EntityNotFoundException, PersistenceException {

@@ -326,8 +326,22 @@ public class ScriptBody {
 		String lng = fields[LONGITUDE];
 		if(isEmpty(lat) || isEmpty(lng))
 			throw new NumberFormatException("empty value");
-		double latitude = Double.parseDouble(lat.trim().replace("'", "").replace(",", "."));
-		double longitude = Double.parseDouble(lng.trim().replace("'", "").replace(",", "."));
+		lat = lat.trim().replace("'", "").replace(",", ".");
+		lng = lng.trim().replace("'", "").replace(",", ".");
+		
+		//45.829278,10.447204
+		//46.496029,11.874107
+		
+		double latitude = Double.parseDouble(lat);
+		double longitude = Double.parseDouble(lng);
+		
+		//45.829278,10.447204
+		//46.523674,11.890243
+		if((latitude < 45.829278) || (latitude > 46.523674) || (longitude < 10.447204) || (longitude > 11.890243))
+			if(log.isWarnEnabled()) {
+				log.warn("posizione non conforme:" + fields[NAME_IT] + "(" + latitude + "," + longitude + ")");
+			}
+			
 		Coordinate coordinate = Coordinate.newBuilder()
 		.setLatitude(latitude)
 		.setLongitude(longitude)
@@ -805,6 +819,9 @@ public class ScriptBody {
 		}
 		address.setLang(lang);
 		
+		if (locationNode.get("lat") == null) {
+			System.err.println();
+		}
 		double latitude = locationNode.get("lat").asDouble();
 		double longitude = locationNode.get("lng").asDouble();
 		Coordinate coordinate = Coordinate.newBuilder()
@@ -1130,9 +1147,16 @@ public class ScriptBody {
 		return event;
 	}
 	
+	public List<Message> getCompetitionSchedule(String json, String descDiscipline) throws Exception {
+		Map<String, String> mapDescDiscipline = new HashMap<String, String>();
+		StringReader reader = new StringReader(descDiscipline);
+		BufferedReader bufferedReader = new BufferedReader(reader);
+		String line;
+		while((line = bufferedReader.readLine()) != null) {
+			String[] tokens = line.split("=");
+			mapDescDiscipline.put(tokens[0], tokens[1]);
+		}
 
-
-	public List<Message> getCompetitionSchedule(String json) throws Exception {
 		List<Message> result = new ArrayList<Message>();
 		ObjectMapper m = new ObjectMapper();
 		JsonNode rootNode = m.readValue(json, JsonNode.class);
@@ -1148,7 +1172,7 @@ public class ScriptBody {
 				Iterator<JsonNode> events = discipline.getElements();
 				while(events.hasNext()) {
 					try {
-						Event event = getCompetitionEvent(events.next(), category);
+						Event event = getCompetitionEvent(events.next(), category, mapDescDiscipline);
 						if(event != null)
 							result.add(event);
 					} catch (Exception e) {
@@ -1160,7 +1184,7 @@ public class ScriptBody {
 		return result;
 	}
 	
-	private Event getCompetitionEvent(JsonNode node, String category) {
+	private Event getCompetitionEvent(JsonNode node, String category, Map<String, String> mapDescDiscipline) {
 		String id = node.get("id").asText();
 		String title = node.get("id").asText();
 		if(id == null) {
@@ -1173,18 +1197,21 @@ public class ScriptBody {
 		String date = node.get("date").asText();
 		String stime = node.get("stime").asText();
 		String etime = node.get("etime").asText();
-		String descIt = node.get("descIt").asText();
-		String descEn = node.get("descEn").asText();
+		String nameIt = node.get("descIt").asText();
+		String nameEn = node.get("descEn").asText();
 		String venue = node.get("venue").asText();
+		JsonNode medal = node.get("medal"); 
 		
 		Event.Builder builder = Event.newBuilder();
 		builder.setId(id);
 		
-		KeyValue titleIt = getValue("IT", descIt);
-		KeyValue titleEn = getValue("EN", descEn);
+		KeyValue titleIt = getValue("IT", nameIt);
+		KeyValue titleEn = getValue("EN", nameEn);
 		builder.addTitle(titleIt);
 		builder.addTitle(titleEn);
 
+		String descIt = mapDescDiscipline.get(category+"IT");
+		String descEn = mapDescDiscipline.get(category+"EN");
 		KeyValue shordDescIt = getValue("IT", descIt);
 		KeyValue shordDescEn = getValue("EN", descEn);
 		builder.addShortDesc(shordDescIt);
@@ -1194,6 +1221,9 @@ public class ScriptBody {
 		
 		builder.setStartDate(date + "T" + stime);
 		builder.setEndDate(date + "T" + etime);
+		
+		if(medal != null) 
+			builder.addTags("medal");
 		
 		if(!isEmpty(venue))
 			builder.setPoiId(venue);

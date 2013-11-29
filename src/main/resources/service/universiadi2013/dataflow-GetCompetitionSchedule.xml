@@ -5,6 +5,7 @@
 	<output/>
 
 	<variable name="datiJson" type="java.lang.String" />
+	<variable name="descDiscipline" type="java.lang.String" />
 	
 	<httpConnector name="newsJSON" method="GET" encoding="utf-8" />
 	
@@ -16,11 +17,20 @@
 		</properties>
 	</connect>
 	
+	<loadresource outputVar="datiJson" resourceType="string">
+		<resource>"service/universiadi2013/events.json"</resource>
+	</loadresource>
+	
+	<loadresource outputVar="descDiscipline" resourceType="string">
+		<resource>"service/universiadi2013/scheduledesc.txt"</resource>
+	</loadresource>
+	
 	<script outputVar="output" writeAction="update">
 	  <className>it.sayservice.services.universiadi2013.script.ScriptBody</className>
 	  <method>getCompetitionSchedule</method>
 	  <variables>
 	    <value>datiJson</value>
+	    <value>descDiscipline</value>
 	  </variables>
 	</script>
 	
