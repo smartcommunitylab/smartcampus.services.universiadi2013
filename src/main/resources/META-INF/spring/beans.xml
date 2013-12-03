@@ -129,6 +129,8 @@
                     </entry>
                     <entry key="GetCompetitionSchedule">
                         <util:list>
+                            <map>
+                            </map>
                         </util:list>
                     </entry>
                 </map>
